@@ -4,6 +4,14 @@ import shutil
 from pathlib import Path
 
 
+def copy_input(src: Path, dst_dir: Path) -> None:
+    dst = dst_dir / src.name
+    if src.is_dir():
+        shutil.copytree(src, dst)
+    else:
+        shutil.copy2(src, dst)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--context", required=True)
@@ -11,13 +19,13 @@ def main():
     parser.add_argument("--inputs", nargs="+", required=True)
     args = parser.parse_args()
 
-    ctx = json.load(open(args.context, encoding="utf-8"))
+    with open(args.context, encoding="utf-8") as f:
+        ctx = json.load(f)
     work_id = ctx["work_id"]
 
     base = Path("works") / work_id
     stage_dir = base / args.stage
 
-    # clean previous stage folder (retry behavior)
     if stage_dir.exists():
         shutil.rmtree(stage_dir)
     stage_dir.mkdir(parents=True, exist_ok=True)
@@ -25,9 +33,8 @@ def main():
     for inp in args.inputs:
         p = Path(inp)
         if p.exists():
-            shutil.copy(p, stage_dir / p.name)
+            copy_input(p, stage_dir)
 
-    # status file
     status_path = base / "status.json"
     status = {}
     if status_path.exists():
@@ -39,7 +46,6 @@ def main():
     base.mkdir(parents=True, exist_ok=True)
     status_path.write_text(json.dumps(status, indent=2), encoding="utf-8")
 
-    # active pointer
     Path("works/active_run.json").write_text(json.dumps(ctx, indent=2), encoding="utf-8")
 
     print("Persisted stage:", args.stage)
