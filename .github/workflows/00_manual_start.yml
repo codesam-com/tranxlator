@@ -1,4 +1,4 @@
-name: 00_manual_start
+name: start
 
 on:
   workflow_dispatch:
@@ -18,23 +18,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Select URL from queue
-        run: |
-          python scripts/start_run.py --queue inputs/video_urls.txt --output run_context.json
+      - name: Select URL
+        run: python scripts/start_run.py --queue inputs/video_urls.txt --output run_context.json
 
-      - name: Persist stage
+      - name: Stage check
+        id: check
         run: |
-          python scripts/persist_stage.py \
-            --context run_context.json \
-            --stage 00_manual_start \
-            --run-id ${{ github.run_id }} \
-            --attempt ${{ github.run_attempt }} \
-            --inputs run_context.json
+          python scripts/stage_control.py --context run_context.json --stage start --mode check > out.txt
+          echo "result=$(cat out.txt)" >> $GITHUB_OUTPUT
 
-      - name: Commit results
+      - name: Persist
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage start --inputs run_context.json
+
+      - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add audit
-          git commit -m "run ${{ github.run_id }} stage 00_manual_start" || echo "no changes"
+          git add works
+          git commit -m "start" || echo "no changes"
           git push
