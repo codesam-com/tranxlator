@@ -18,49 +18,39 @@ def detect_html_payload(path: Path) -> bool:
     return b"<html" in head or b"<!doctype html" in head
 
 
+def sanitize(name: str) -> str:
+    return "".join(c for c in name if c.isalnum() or c in ("-","_"," ")).strip().replace(" ","_")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--context", required=True)
-    parser.add_argument("--output-prefix", default="source_audio")
     args = parser.parse_args()
 
-    with open(args.context, "r", encoding="utf-8") as f:
-        context = json.load(f)
-
+    context = json.load(open(args.context, encoding="utf-8"))
     url = context["resolved_url"]
     source_type = context["source_type"]
-    print(f"URL: {url}")
-    print(f"SOURCE_TYPE: {source_type}")
-
-    output_prefix = Path(args.output_prefix)
 
     if source_type == "gdrive":
-        try:
-            run(["gdown", url, "-O", str(output_prefix)])
-        except subprocess.CalledProcessError:
-            run(["gdown", "--fuzzy", url, "-O", str(output_prefix)])
-        candidates = [output_prefix]
+        run(["gdown", url])
+        files = list(Path(".").glob("*"))
     else:
-        run([
-            "yt-dlp",
-            "-x",
-            "--audio-format",
-            "wav",
-            "-o",
-            f"{output_prefix}.%(ext)s",
-            url,
-        ])
-        candidates = sorted(Path(".").glob(f"{output_prefix.name}*"))
+        run(["yt-dlp","-x","--audio-format","wav","-o","%(title)s.%(ext)s",url])
+        files = list(Path(".").glob("*.wav"))
 
-    existing = [p for p in candidates if p.exists()]
-    if not existing:
-        raise SystemExit("No downloaded payload found")
+    media = max(files, key=lambda p: p.stat().st_mtime)
 
-    payload = existing[0]
-    print(f"Downloaded payload: {payload}")
+    if detect_html_payload(media):
+        raise SystemExit("Downloaded HTML instead of media")
 
-    if detect_html_payload(payload):
-        raise SystemExit(f"Downloaded payload is HTML instead of media: {payload}")
+    name = sanitize(media.stem)
+    context["video_name"] = name
+    context["work_id"] = f"{name}_{context['url_hash']}"
+
+    with open(args.context, "w", encoding="utf-8") as f:
+        json.dump(context, f, indent=2, ensure_ascii=False)
+
+    print("Detected video name:", name)
 
 
 if __name__ == "__main__":
