@@ -2,17 +2,13 @@
 name: transcribe
 
 on:
-  workflow_run:
-    workflows: ["start"]
-    types:
-      - completed
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   transcribe:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
