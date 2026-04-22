@@ -19,7 +19,7 @@ def detect_html_payload(path: Path) -> bool:
 
 
 def sanitize(name: str) -> str:
-    return "".join(c for c in name if c.isalnum() or c in ("-","_"," ")).strip().replace(" ","_")
+    return "".join(c for c in name if c.isalnum() or c in ("-", "_", " ")).strip().replace(" ", "_")
 
 
 def main() -> None:
@@ -27,16 +27,22 @@ def main() -> None:
     parser.add_argument("--context", required=True)
     args = parser.parse_args()
 
-    context = json.load(open(args.context, encoding="utf-8"))
+    with open(args.context, encoding="utf-8") as f:
+        context = json.load(f)
+
     url = context["resolved_url"]
     source_type = context["source_type"]
 
     if source_type == "gdrive":
+        before = {p.name for p in Path(".").iterdir()}
         run(["gdown", url])
-        files = list(Path(".").glob("*"))
+        files = [p for p in Path(".").iterdir() if p.name not in before and p.is_file()]
     else:
-        run(["yt-dlp","-x","--audio-format","wav","-o","%(title)s.%(ext)s",url])
+        run(["yt-dlp", "-x", "--audio-format", "wav", "-o", "%(title)s.%(ext)s", url])
         files = list(Path(".").glob("*.wav"))
+
+    if not files:
+        raise SystemExit("No downloaded payload found")
 
     media = max(files, key=lambda p: p.stat().st_mtime)
 
@@ -50,7 +56,11 @@ def main() -> None:
     with open(args.context, "w", encoding="utf-8") as f:
         json.dump(context, f, indent=2, ensure_ascii=False)
 
+    with open("download_meta.json", "w", encoding="utf-8") as f:
+        json.dump({"media_path": str(media), "video_name": name}, f, indent=2, ensure_ascii=False)
+
     print("Detected video name:", name)
+    print("Media path:", media)
 
 
 if __name__ == "__main__":
