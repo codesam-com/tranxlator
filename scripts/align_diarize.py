@@ -2,6 +2,7 @@ import json
 import os
 
 import whisperx
+from whisperx.diarize import DiarizationPipeline
 
 
 def main():
@@ -11,7 +12,8 @@ def main():
     audio = whisperx.load_audio("audio.wav")
 
     print("Loading raw transcript...")
-    result = json.load(open("transcript_raw.json", "r", encoding="utf-8"))
+    with open("transcript_raw.json", "r", encoding="utf-8") as f:
+        result = json.load(f)
 
     print("Aligning transcript...")
     model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
@@ -22,11 +24,12 @@ def main():
 
     print("Running diarization...")
     hf_token = os.environ.get("HF_TOKEN")
-    diarize_model = whisperx.DiarizationPipeline(use_auth_token=hf_token, device=device)
+    diarize_model = DiarizationPipeline(use_auth_token=hf_token, device=device)
     diarize_segments = diarize_model(audio)
 
+    diarization_rows = diarize_segments.to_dict(orient="records")
     with open("diarization.json", "w", encoding="utf-8") as f:
-        json.dump([str(x) for x in diarize_segments], f, indent=2)
+        json.dump(diarization_rows, f, indent=2, ensure_ascii=False)
 
     print("Assigning speakers...")
     final = whisperx.assign_word_speakers(diarize_segments, aligned)
