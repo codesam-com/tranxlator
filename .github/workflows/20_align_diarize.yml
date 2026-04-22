@@ -1,0 +1,61 @@
+name: 20_align_diarize
+
+on:
+  workflow_run:
+    workflows: ["10_transcribe"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  align_diarize:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          pip install whisperx pyannote.audio
+
+      - name: Load context
+        run: |
+          cat audit/active_run.json > run_context.json
+
+      - name: Recover previous outputs
+        run: |
+          cp $(jq -r '."10_transcribe".path' audit/videos/*/latest.json)/audio.wav audio.wav
+          cp $(jq -r '."10_transcribe".path' audit/videos/*/latest.json)/transcript_raw.json transcript_raw.json
+
+      - name: Align + diarize
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python scripts/align_diarize.py
+
+      - name: Persist stage
+        run: |
+          python scripts/persist_stage.py \
+            --context run_context.json \
+            --stage 20_align_diarize \
+            --run-id ${{ github.run_id }} \
+            --attempt ${{ github.run_attempt }} \
+            --inputs transcript_aligned.json transcript_speakers.json diarization.json
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add audit
+          git commit -m "run ${{ github.run_id }} stage 20_align_diarize" || echo "no changes"
+          git push
