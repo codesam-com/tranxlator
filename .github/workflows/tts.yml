@@ -1,0 +1,56 @@
+name: tts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg jq
+
+      - run: cat works/active_run.json > run_context.json
+
+      - name: Stage check
+        id: check
+        run: |
+          python scripts/stage_control.py --context run_context.json --stage tts --mode check > out.txt
+          echo "result=$(cat out.txt)" >> $GITHUB_OUTPUT
+
+      - name: Recover inputs
+        if: steps.check.outputs.result == 'RUN'
+        run: |
+          WORK=$(jq -r '.work_id' run_context.json)
+          cp works/$WORK/transcribe/audio.wav audio.wav
+          cp works/$WORK/diarize/diarization.json diarization.json
+
+      - name: Prepare speaker references
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/prepare_tts_refs.py
+
+      - name: Persist
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage tts --inputs tts_refs_manifest.json tts_refs
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add works
+          git commit -m "tts prepare" || echo "no changes"
+          git push
