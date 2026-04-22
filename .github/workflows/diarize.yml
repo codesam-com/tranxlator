@@ -26,7 +26,7 @@ jobs:
       - name: Install deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y ffmpeg jq
           pip install whisperx pyannote.audio
 
       - run: cat works/active_run.json > run_context.json
@@ -42,7 +42,7 @@ jobs:
         run: |
           WORK=$(jq -r '.work_id' run_context.json)
           cp works/$WORK/transcribe/audio.wav audio.wav
-          cp works/$WORK/transcribe/transcript_raw.json transcript_raw.json
+          cp works/$WORK/transcribe/transcript_aligned.json transcript_aligned.json
 
       - name: Run diarization
         if: steps.check.outputs.result == 'RUN'
@@ -52,7 +52,7 @@ jobs:
 
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_aligned.json transcript_speakers.json diarization.json
+        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_speakers.json diarization.json
 
       - name: Commit
         run: |
