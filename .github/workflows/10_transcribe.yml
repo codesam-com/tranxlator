@@ -23,7 +23,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install whisperx yt-dlp gdown
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install whisperx yt-dlp gdown
 
       - run: cat works/active_run.json > run_context.json
 
@@ -40,7 +44,7 @@ jobs:
       - name: Normalize
         if: steps.check.outputs.result == 'RUN'
         run: |
-          INPUT=$(ls *.wav | head -n 1)
+          INPUT=$(jq -r '.media_path' download_meta.json)
           ffmpeg -y -i "$INPUT" -ac 1 -ar 16000 audio.wav
 
       - name: Transcribe
