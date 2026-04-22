@@ -22,12 +22,12 @@ jobs:
       - name: Install system deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq
+          sudo apt-get install -y ffmpeg jq file
 
       - name: Install python deps
         run: |
           pip install --upgrade pip
-          pip install faster-whisper whisperx yt-dlp
+          pip install faster-whisper whisperx yt-dlp gdown
 
       - name: Download artifact from previous workflow
         uses: actions/github-script@v7
@@ -49,31 +49,51 @@ jobs:
         run: unzip run-context.zip -d run-context
 
       - name: Download audio
+        shell: bash
         run: |
+          set -euo pipefail
           URL=$(jq -r '.resolved_url' run-context/run_context.json)
+          SOURCE_TYPE=$(jq -r '.source_type' run-context/run_context.json)
           echo "URL: $URL"
-          yt-dlp -x --audio-format wav -o audio.%(ext)s "$URL" || echo "yt-dlp failed"
+          echo "SOURCE_TYPE: $SOURCE_TYPE"
 
-      - name: Fallback gdrive download
-        run: |
-          URL=$(jq -r '.resolved_url' run-context/run_context.json)
-          if [ ! -f audio.wav ]; then
-            wget -O audio.wav "$URL"
+          if [ "$SOURCE_TYPE" = "gdrive" ]; then
+            gdown "$URL" -O source_audio || gdown --fuzzy "$URL" -O source_audio
+          else
+            yt-dlp -x --audio-format wav -o source_audio.%(ext)s "$URL"
           fi
+
+      - name: Inspect downloaded payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          ls -lah
+          file source_audio* || true
+
+      - name: Normalize audio to mono 16k WAV
+        shell: bash
+        run: |
+          set -euo pipefail
+          INPUT=$(ls source_audio* | head -n 1)
+          ffmpeg -y -i "$INPUT" -ac 1 -ar 16000 audio.wav
+          file audio.wav
+          ffmpeg -i audio.wav -hide_banner
 
       - name: Run WhisperX
         run: |
           python - << 'EOF'
-import whisperx
 import json
+import whisperx
 
-model = whisperx.load_model("large-v3", device="cpu")
-result = model.transcribe("audio.wav")
+print('Loading WhisperX model large-v3 on CPU (int8)...')
+model = whisperx.load_model('large-v3', device='cpu', compute_type='int8')
+result = model.transcribe('audio.wav')
 
-with open("transcript_raw.json", "w") as f:
-    json.dump(result, f, indent=2)
+with open('transcript_raw.json', 'w', encoding='utf-8') as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)
 
-print("done")
+print('Detected language:', result.get('language'))
+print('Segments:', len(result.get('segments', [])))
 EOF
 
       - name: Upload artifacts
@@ -83,3 +103,4 @@ EOF
           path: |
             transcript_raw.json
             audio.wav
+            run-context/run_context.json
