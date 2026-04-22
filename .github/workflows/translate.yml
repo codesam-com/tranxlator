@@ -1,6 +1,10 @@
 name: translate
 
 on:
+  workflow_run:
+    workflows: ["diarize"]
+    types:
+      - completed
   workflow_dispatch:
 # on:
 #  workflow_run:
