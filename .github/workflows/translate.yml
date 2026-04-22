@@ -46,7 +46,13 @@ jobs:
 
       - name: Run translate
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/translate.py
+        run: |
+          LANG=$(jq -r '.language' metrics_transcribe.json)
+          if [ "$LANG" = "en" ]; then
+            python scripts/translate_en_es.py
+          else
+            python scripts/translate.py
+          fi
 
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
