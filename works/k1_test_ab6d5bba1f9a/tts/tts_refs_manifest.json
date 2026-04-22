@@ -1,0 +1,24 @@
+{
+  "SPEAKER_01": {
+    "clips": [
+      "tts_refs/SPEAKER_01/clip_01.wav",
+      "tts_refs/SPEAKER_01/clip_02.wav",
+      "tts_refs/SPEAKER_01/clip_03.wav",
+      "tts_refs/SPEAKER_01/clip_04.wav",
+      "tts_refs/SPEAKER_01/clip_05.wav"
+    ],
+    "selected_seconds": 15.947,
+    "clip_count": 5
+  },
+  "SPEAKER_00": {
+    "clips": [
+      "tts_refs/SPEAKER_00/clip_01.wav",
+      "tts_refs/SPEAKER_00/clip_02.wav",
+      "tts_refs/SPEAKER_00/clip_03.wav",
+      "tts_refs/SPEAKER_00/clip_04.wav",
+      "tts_refs/SPEAKER_00/clip_05.wav"
+    ],
+    "selected_seconds": 22.494,
+    "clip_count": 5
+  }
+}
