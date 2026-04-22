@@ -1,0 +1,61 @@
+name: translate
+
+on:
+  workflow_run:
+    workflows: ["diarize"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+          pip install transformers sentencepiece torch
+
+      - run: cat works/active_run.json > run_context.json
+
+      - name: Stage check
+        id: check
+        run: |
+          python scripts/stage_control.py --context run_context.json --stage translate --mode check > out.txt
+          echo "result=$(cat out.txt)" >> $GITHUB_OUTPUT
+
+      - name: Recover inputs
+        if: steps.check.outputs.result == 'RUN'
+        run: |
+          WORK=$(jq -r '.work_id' run_context.json)
+          cp works/$WORK/diarize/transcript_speakers.json transcript_speakers.json
+          cp works/$WORK/transcribe/metrics_transcribe.json metrics_transcribe.json
+
+      - name: Run translate
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/translate.py
+
+      - name: Persist
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage translate --inputs translated_segments.json translated_es.srt speaker_srts_es_manifest.json speaker_srts_es
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add works
+          git commit -m "translate" || echo "no changes"
+          git push
