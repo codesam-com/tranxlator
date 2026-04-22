@@ -56,7 +56,7 @@ jobs:
 
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_speakers.json diarization.json original.srt speaker_srts_manifest.json
+        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_speakers.json diarization.json original.srt speaker_srts_manifest.json speaker_srts
 
       - name: Commit
         run: |
