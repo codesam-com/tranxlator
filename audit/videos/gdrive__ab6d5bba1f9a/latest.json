@@ -3,5 +3,10 @@
     "run_id": "24754817553",
     "attempt": "1",
     "path": "audit/videos/gdrive__ab6d5bba1f9a/00_manual_start/run-24754817553-attempt-1"
+  },
+  "10_transcribe": {
+    "run_id": "24754823863",
+    "attempt": "1",
+    "path": "audit/videos/gdrive__ab6d5bba1f9a/10_transcribe/run-24754823863-attempt-1"
   }
 }
