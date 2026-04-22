@@ -1,17 +1,13 @@
 name: diarize
 
 on:
-  workflow_run:
-    workflows: ["transcribe"]
-    types:
-      - completed
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   diarize:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
