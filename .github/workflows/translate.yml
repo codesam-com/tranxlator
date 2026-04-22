@@ -54,14 +54,65 @@ jobs:
             python scripts/translate.py
           fi
 
-      - name: Persist
+      - name: Persist translate
         if: steps.check.outputs.result == 'RUN'
         run: python scripts/persist_stage.py --context run_context.json --stage translate --inputs translated_segments.json translated_es.srt speaker_srts_es_manifest.json speaker_srts_es
 
-      - name: Commit
+      - name: Commit translate
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add works
           git commit -m "translate" || echo "no changes"
+          git push
+
+  summarize:
+    needs: translate
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Load context
+        run: |
+          git pull --rebase
+          cat works/active_run.json > run_context.json
+
+      - name: Stage check
+        id: check
+        run: |
+          python scripts/stage_control.py --context run_context.json --stage summarize --mode check > out.txt
+          echo "result=$(cat out.txt)" >> $GITHUB_OUTPUT
+
+      - name: Recover inputs
+        if: steps.check.outputs.result == 'RUN'
+        run: |
+          WORK=$(jq -r '.work_id' run_context.json)
+          cp works/$WORK/translate/translated_segments.json translated_segments.json
+
+      - name: Run summarize
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/summarize.py
+
+      - name: Persist summarize
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage summarize --inputs summary_es.md tags.json
+
+      - name: Commit summarize
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add works
+          git commit -m "summarize" || echo "no changes"
           git push
