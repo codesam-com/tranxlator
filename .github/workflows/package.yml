@@ -36,14 +36,22 @@ jobs:
         if: steps.check.outputs.result == 'RUN'
         run: python scripts/package_results.py
 
-      - name: Persist
+      - name: Upload artifact
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage package --inputs *.zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-${{ github.run_id }}
+          path: "*.zip"
+          retention-days: 7
+
+      - name: Persist metadata
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage package --inputs package_artifact.json
 
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add works *.zip
-          git commit -m "package" || echo "no changes"
+          git add works
+          git commit -m "package metadata" || echo "no changes"
           git push
