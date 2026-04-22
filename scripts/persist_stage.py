@@ -1,6 +1,5 @@
 import argparse
 import json
-import os
 import shutil
 from pathlib import Path
 
@@ -9,54 +8,41 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--context", required=True)
     parser.add_argument("--stage", required=True)
-    parser.add_argument("--run-id", required=True)
-    parser.add_argument("--attempt", default="1")
     parser.add_argument("--inputs", nargs="+", required=True)
     args = parser.parse_args()
 
-    with open(args.context, "r", encoding="utf-8") as f:
-        ctx = json.load(f)
+    ctx = json.load(open(args.context, encoding="utf-8"))
+    work_id = ctx["work_id"]
 
-    video_key = ctx["video_key"]
+    base = Path("works") / work_id
+    stage_dir = base / args.stage
 
-    base = Path("audit/videos") / video_key / args.stage / f"run-{args.run_id}-attempt-{args.attempt}"
-    base.mkdir(parents=True, exist_ok=True)
+    # clean previous stage folder (retry behavior)
+    if stage_dir.exists():
+        shutil.rmtree(stage_dir)
+    stage_dir.mkdir(parents=True, exist_ok=True)
 
     for inp in args.inputs:
         p = Path(inp)
         if p.exists():
-            shutil.copy(p, base / p.name)
+            shutil.copy(p, stage_dir / p.name)
 
-    # write/update source.json
-    source_path = Path("audit/videos") / video_key / "source.json"
-    if not source_path.exists():
-        source_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(source_path, "w", encoding="utf-8") as f:
-            json.dump(ctx, f, indent=2, ensure_ascii=False)
+    # status file
+    status_path = base / "status.json"
+    status = {}
+    if status_path.exists():
+        status = json.loads(status_path.read_text(encoding="utf-8"))
 
-    # update latest.json
-    latest_path = Path("audit/videos") / video_key / "latest.json"
-    latest = {}
-    if latest_path.exists():
-        latest = json.loads(latest_path.read_text(encoding="utf-8"))
+    status["last_completed"] = args.stage
+    status["last_failed"] = None
 
-    latest[args.stage] = {
-        "run_id": args.run_id,
-        "attempt": args.attempt,
-        "path": str(base),
-    }
+    base.mkdir(parents=True, exist_ok=True)
+    status_path.write_text(json.dumps(status, indent=2), encoding="utf-8")
 
-    with open(latest_path, "w", encoding="utf-8") as f:
-        json.dump(latest, f, indent=2, ensure_ascii=False)
-
-    # global active run pointer
-    active_path = Path("audit/active_run.json")
-    active_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(active_path, "w", encoding="utf-8") as f:
-        json.dump(ctx, f, indent=2, ensure_ascii=False)
+    # active pointer
+    Path("works/active_run.json").write_text(json.dumps(ctx, indent=2), encoding="utf-8")
 
     print("Persisted stage:", args.stage)
-    print("Output dir:", base)
 
 
 if __name__ == "__main__":
