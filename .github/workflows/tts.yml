@@ -23,6 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq
+          pip install pydub git+https://github.com/myshell-ai/MeloTTS.git
 
       - run: cat works/active_run.json > run_context.json
 
@@ -36,21 +37,20 @@ jobs:
         if: steps.check.outputs.result == 'RUN'
         run: |
           WORK=$(jq -r '.work_id' run_context.json)
-          cp works/$WORK/transcribe/audio.wav audio.wav
-          cp works/$WORK/diarize/diarization.json diarization.json
+          cp works/$WORK/translate/translated_segments.json translated_segments.json
 
-      - name: Prepare speaker references
+      - name: Synthesize generic Spanish audio
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/prepare_tts_refs.py
+        run: python scripts/synthesize_tts_generic.py
 
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage tts --inputs tts_refs_manifest.json tts_refs
+        run: python scripts/persist_stage.py --context run_context.json --stage tts --inputs tts_outputs
 
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add works
-          git commit -m "tts prepare" || echo "no changes"
+          git commit -m "tts synth" || echo "no changes"
           git push
