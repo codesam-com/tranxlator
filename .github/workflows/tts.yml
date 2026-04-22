@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq
-          pip install pydub git+https://github.com/myshell-ai/MeloTTS.git
+          pip install pydub huggingface_hub piper-tts
 
       - run: cat works/active_run.json > run_context.json
 
@@ -39,7 +39,7 @@ jobs:
           WORK=$(jq -r '.work_id' run_context.json)
           cp works/$WORK/translate/translated_segments.json translated_segments.json
 
-      - name: Synthesize generic Spanish audio
+      - name: Synthesize Spanish audio (Piper)
         if: steps.check.outputs.result == 'RUN'
         run: python scripts/synthesize_tts_generic.py
 
@@ -52,5 +52,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add works
-          git commit -m "tts synth" || echo "no changes"
+          git commit -m "tts synth (piper)" || echo "no changes"
           git push
