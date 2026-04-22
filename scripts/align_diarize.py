@@ -5,6 +5,17 @@ import whisperx
 from whisperx.diarize import DiarizationPipeline
 
 
+def _to_serializable_rows(diarize_df):
+    rows = []
+    for row in diarize_df.to_dict(orient="records"):
+        segment = row.pop("segment", None)
+        if segment is not None:
+            row["start"] = float(segment.start)
+            row["end"] = float(segment.end)
+        rows.append(row)
+    return rows
+
+
 def main():
     device = "cpu"
 
@@ -18,10 +29,9 @@ def main():
     print("Running diarization...")
     hf_token = os.environ.get("HF_TOKEN")
     diarize_model = DiarizationPipeline(token=hf_token, device=device)
-
     diarize_df = diarize_model(audio)
 
-    diarization_rows = diarize_df.to_dict(orient="records")
+    diarization_rows = _to_serializable_rows(diarize_df)
     with open("diarization.json", "w", encoding="utf-8") as f:
         json.dump(diarization_rows, f, indent=2, ensure_ascii=False)
 
