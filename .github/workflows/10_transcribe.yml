@@ -60,7 +60,7 @@ jobs:
           if [ "$SOURCE_TYPE" = "gdrive" ]; then
             gdown "$URL" -O source_audio || gdown --fuzzy "$URL" -O source_audio
           else
-            yt-dlp -x --audio-format wav -o source_audio.%(ext)s "$URL"
+            yt-dlp -x --audio-format wav -o 'source_audio.%(ext)s' "$URL"
           fi
 
       - name: Inspect downloaded payload
@@ -82,19 +82,19 @@ jobs:
       - name: Run WhisperX
         run: |
           python - << 'EOF'
-          import json
-          import whisperx
-          
-          print('Loading WhisperX model large-v3 on CPU (int8)...')
-          model = whisperx.load_model('large-v3', device='cpu', compute_type='int8')
-          result = model.transcribe('audio.wav')
-          
-          with open('transcript_raw.json', 'w', encoding='utf-8') as f:
-              json.dump(result, f, indent=2, ensure_ascii=False)
-          
-          print('Detected language:', result.get('language'))
-          print('Segments:', len(result.get('segments', [])))
-          EOF
+import json
+import whisperx
+
+print('Loading WhisperX model large-v3 on CPU (int8)...')
+model = whisperx.load_model('large-v3', device='cpu', compute_type='int8')
+result = model.transcribe('audio.wav')
+
+with open('transcript_raw.json', 'w', encoding='utf-8') as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)
+
+print('Detected language:', result.get('language'))
+print('Segments:', len(result.get('segments', [])))
+EOF
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
