@@ -27,7 +27,7 @@ jobs:
       - name: Install deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y ffmpeg jq
           pip install whisperx yt-dlp gdown
 
       - run: cat works/active_run.json > run_context.json
@@ -54,7 +54,11 @@ jobs:
 
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage transcribe --inputs audio.wav transcript_raw.json
+        run: |
+          python scripts/persist_stage.py \
+            --context run_context.json \
+            --stage transcribe \
+            --inputs audio.wav transcript_raw.json transcript_aligned.json transcript_raw.txt metrics_transcribe.json
 
       - name: Commit
         run: |
