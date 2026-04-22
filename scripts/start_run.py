@@ -27,9 +27,8 @@ def normalize_gdrive(url: str) -> str:
     return url
 
 
-def build_video_key(original_url: str, source_type: str) -> str:
-    digest = hashlib.sha256(original_url.encode("utf-8")).hexdigest()[:12]
-    return f"{source_type}__{digest}"
+def build_url_hash(original_url: str) -> str:
+    return hashlib.sha256(original_url.encode("utf-8")).hexdigest()[:12]
 
 
 def main():
@@ -47,13 +46,15 @@ def main():
     url = lines[0]
     source = detect_source(url)
     resolved = normalize_gdrive(url) if source == "gdrive" else url
-    video_key = build_video_key(url, source)
+    url_hash = build_url_hash(url)
 
     context = {
         "original_url": url,
         "resolved_url": resolved,
         "source_type": source,
-        "video_key": video_key,
+        "url_hash": url_hash,
+        "video_name": None,
+        "work_id": f"pending_{url_hash}",
     }
 
     with open(args.output, "w", encoding="utf-8") as f:
@@ -61,7 +62,7 @@ def main():
 
     print("Selected URL:", url)
     print("Resolved URL:", resolved)
-    print("Video key:", video_key)
+    print("URL hash:", url_hash)
 
 
 if __name__ == "__main__":
