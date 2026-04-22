@@ -1,0 +1,65 @@
+# moved from 10_transcribe.yml
+name: transcribe
+
+on:
+  workflow_run:
+    workflows: ["start"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install whisperx yt-dlp gdown
+
+      - run: cat works/active_run.json > run_context.json
+
+      - name: Stage check
+        id: check
+        run: |
+          python scripts/stage_control.py --context run_context.json --stage transcribe --mode check > out.txt
+          echo "result=$(cat out.txt)" >> $GITHUB_OUTPUT
+
+      - name: Download
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/download_audio.py --context run_context.json
+
+      - name: Normalize
+        if: steps.check.outputs.result == 'RUN'
+        run: |
+          INPUT=$(jq -r '.media_path' download_meta.json)
+          ffmpeg -y -i "$INPUT" -ac 1 -ar 16000 audio.wav
+
+      - name: Transcribe
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/transcribe.py
+
+      - name: Persist
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage transcribe --inputs audio.wav transcript_raw.json
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add works
+          git commit -m "transcribe" || echo "no changes"
+          git push
