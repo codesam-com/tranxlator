@@ -50,9 +50,13 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python scripts/align_diarize.py
 
+      - name: Export SRTs
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/export_srts.py
+
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_speakers.json diarization.json
+        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_speakers.json diarization.json original.srt speaker_srts_manifest.json
 
       - name: Commit
         run: |
