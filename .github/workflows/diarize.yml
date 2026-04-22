@@ -1,0 +1,63 @@
+name: diarize
+
+on:
+  workflow_run:
+    workflows: ["transcribe"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  diarize:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install whisperx pyannote.audio
+
+      - run: cat works/active_run.json > run_context.json
+
+      - name: Stage check
+        id: check
+        run: |
+          python scripts/stage_control.py --context run_context.json --stage diarize --mode check > out.txt
+          echo "result=$(cat out.txt)" >> $GITHUB_OUTPUT
+
+      - name: Recover inputs
+        if: steps.check.outputs.result == 'RUN'
+        run: |
+          WORK=$(jq -r '.work_id' run_context.json)
+          cp works/$WORK/transcribe/audio.wav audio.wav
+          cp works/$WORK/transcribe/transcript_raw.json transcript_raw.json
+
+      - name: Run diarization
+        if: steps.check.outputs.result == 'RUN'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/align_diarize.py
+
+      - name: Persist
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/persist_stage.py --context run_context.json --stage diarize --inputs transcript_aligned.json transcript_speakers.json diarization.json
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add works
+          git commit -m "diarize" || echo "no changes"
+          git push
