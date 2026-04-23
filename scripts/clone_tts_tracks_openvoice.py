@@ -1,5 +1,4 @@
 import json
-import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -9,10 +8,6 @@ from huggingface_hub import snapshot_download
 
 def run(cmd):
     subprocess.run(cmd, check=True)
-
-
-def concat_refs(clips, output_path: Path):
-    run(["ffmpeg", "-y", "-i", f"concat:{'|'.join(clips)}", "-ac", "1", "-ar", "22050", str(output_path)])
 
 
 def ensure_openvoice_assets(cache_dir: Path):
@@ -42,6 +37,11 @@ def main():
             "import torch\n"
             "from openvoice import se_extractor\n"
             "from openvoice.api import ToneColorConverter\n"
+            "_orig_load = torch.hub.load\n"
+            "def _trusted_load(repo_or_dir, model, *args, **kwargs):\n"
+            "    kwargs.setdefault('trust_repo', True)\n"
+            "    return _orig_load(repo_or_dir, model, *args, **kwargs)\n"
+            "torch.hub.load = _trusted_load\n"
             "converter_dir, source_audio, target_audio, output_audio = sys.argv[1:5]\n"
             "device='cpu'\n"
             "converter = ToneColorConverter(str(Path(converter_dir)/'config.json'), device=device)\n"
@@ -57,16 +57,13 @@ def main():
             if speaker not in refs_manifest:
                 continue
             ref_mix = td / f"{speaker}_ref.wav"
-            # safer concat through ffmpeg concat demuxer list
             list_file = td / f"{speaker}_refs.txt"
             list_file.write_text("\n".join([f"file '{Path(c).resolve()}'" for c in refs_manifest[speaker]["clips"]]), encoding="utf-8")
             run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file), "-ac", "1", "-ar", "22050", str(ref_mix)])
 
             src_track = Path(meta["track"])
             out_track = out_dir / f"{speaker}.wav"
-            run([
-                "python", str(helper), str(converter_dir), str(src_track), str(ref_mix), str(out_track)
-            ])
+            run(["python", str(helper), str(converter_dir), str(src_track), str(ref_mix), str(out_track)])
             cloned_manifest[speaker] = {
                 "source_track": str(src_track),
                 "cloned_track": str(out_track),
