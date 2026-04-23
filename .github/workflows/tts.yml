@@ -26,7 +26,10 @@ jobs:
             ffmpeg jq pkg-config python3-dev \
             libavformat-dev libavcodec-dev libavdevice-dev \
             libavutil-dev libswscale-dev libswresample-dev libavfilter-dev
-          pip install pydub huggingface_hub piper-tts git+https://github.com/myshell-ai/OpenVoice.git
+          pip install --upgrade pip setuptools wheel "Cython<3"
+          pip install --no-build-isolation "av==10.0.0"
+          pip install pydub huggingface_hub piper-tts
+          pip install --no-build-isolation git+https://github.com/myshell-ai/OpenVoice.git
 
       - run: cat works/active_run.json > run_context.json
 
