@@ -44,7 +44,12 @@ jobs:
         run: |
           WORK=$(jq -r '.work_id' run_context.json)
           cp works/$WORK/translate/translated_segments.json translated_segments.json
-          cp works/$WORK/tts/tts_refs_manifest.json tts_refs_manifest.json || true
+          cp works/$WORK/transcribe/audio.wav audio.wav
+          cp works/$WORK/diarize/diarization.json diarization.json
+
+      - name: Prepare speaker references
+        if: steps.check.outputs.result == 'RUN'
+        run: python scripts/prepare_tts_refs.py
 
       - name: Synthesize Spanish audio (Piper)
         if: steps.check.outputs.result == 'RUN'
@@ -56,7 +61,7 @@ jobs:
 
       - name: Persist
         if: steps.check.outputs.result == 'RUN'
-        run: python scripts/persist_stage.py --context run_context.json --stage tts --inputs tts_outputs
+        run: python scripts/persist_stage.py --context run_context.json --stage tts --inputs tts_refs_manifest.json tts_refs tts_outputs
 
       - name: Commit
         run: |
