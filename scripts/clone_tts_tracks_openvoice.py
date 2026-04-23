@@ -5,6 +5,8 @@ from pathlib import Path
 
 from huggingface_hub import snapshot_download
 
+FADE_MS = 50
+
 
 def run(cmd):
     subprocess.run(cmd, check=True)
@@ -17,6 +19,16 @@ def ensure_openvoice_assets(cache_dir: Path):
         allow_patterns=["converter/*"],
     ))
     return repo_dir / "converter"
+
+
+def postprocess_track(src_track: Path, out_track: Path):
+    fade_seconds = FADE_MS / 1000.0
+    filter_chain = (
+        f"loudnorm=I=-16:LRA=7:TP=-1.5,"
+        f"afade=t=in:ss=0:d={fade_seconds},"
+        f"afade=t=out:st=0:d={fade_seconds}:curve=tri"
+    )
+    run(["ffmpeg", "-y", "-i", str(src_track), "-af", filter_chain, str(out_track)])
 
 
 def main():
@@ -62,12 +74,19 @@ def main():
             run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file), "-ac", "1", "-ar", "22050", str(ref_mix)])
 
             src_track = Path(meta["track"])
-            out_track = out_dir / f"{speaker}.wav"
-            run(["python", str(helper), str(converter_dir), str(src_track), str(ref_mix), str(out_track)])
+            raw_clone = out_dir / f"{speaker}.raw.wav"
+            final_clone = out_dir / f"{speaker}.wav"
+            run(["python", str(helper), str(converter_dir), str(src_track), str(ref_mix), str(raw_clone)])
+            postprocess_track(raw_clone, final_clone)
             cloned_manifest[speaker] = {
                 "source_track": str(src_track),
-                "cloned_track": str(out_track),
+                "cloned_track": str(final_clone),
+                "raw_cloned_track": str(raw_clone),
                 "clone_mode": "openvoice_v2_tone_color",
+                "postprocess": {
+                    "loudnorm": {"I": -16, "LRA": 7, "TP": -1.5},
+                    "fade_ms": FADE_MS,
+                },
             }
 
     (out_dir / "openvoice_manifest.json").write_text(json.dumps(cloned_manifest, indent=2, ensure_ascii=False), encoding="utf-8")
