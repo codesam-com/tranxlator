@@ -1,0 +1,9510 @@
+{
+  "segments": [
+    {
+      "start": 15.326,
+      "end": 19.168,
+      "text": " Okay, I'm sorry to bother you, but your father and I just had a huge fight.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 15.326,
+          "end": 15.546,
+          "score": 0.51
+        },
+        {
+          "word": "I'm",
+          "start": 15.566,
+          "end": 15.686,
+          "score": 0.86
+        },
+        {
+          "word": "sorry",
+          "start": 15.726,
+          "end": 15.926,
+          "score": 0.919
+        },
+        {
+          "word": "to",
+          "start": 15.966,
+          "end": 16.046,
+          "score": 0.784
+        },
+        {
+          "word": "bother",
+          "start": 16.066,
+          "end": 16.387,
+          "score": 0.902
+        },
+        {
+          "word": "you,",
+          "start": 16.407,
+          "end": 16.647,
+          "score": 0.932
+        },
+        {
+          "word": "but",
+          "start": 17.387,
+          "end": 17.547,
+          "score": 0.839
+        },
+        {
+          "word": "your",
+          "start": 17.567,
+          "end": 17.707,
+          "score": 0.685
+        },
+        {
+          "word": "father",
+          "start": 17.727,
+          "end": 17.947,
+          "score": 0.943
+        },
+        {
+          "word": "and",
+          "start": 17.967,
+          "end": 18.047,
+          "score": 0.796
+        },
+        {
+          "word": "I",
+          "start": 18.087,
+          "end": 18.167,
+          "score": 0.783
+        },
+        {
+          "word": "just",
+          "start": 18.187,
+          "end": 18.307,
+          "score": 0.747
+        },
+        {
+          "word": "had",
+          "start": 18.327,
+          "end": 18.387,
+          "score": 0.023
+        },
+        {
+          "word": "a",
+          "start": 18.407,
+          "end": 18.427,
+          "score": 0.785
+        },
+        {
+          "word": "huge",
+          "start": 18.528,
+          "end": 18.788,
+          "score": 0.852
+        },
+        {
+          "word": "fight.",
+          "start": 18.868,
+          "end": 19.168,
+          "score": 0.887
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 20.088,
+      "end": 20.729,
+      "text": "That man.",
+      "words": [
+        {
+          "word": "That",
+          "start": 20.088,
+          "end": 20.629,
+          "score": 0.608
+        },
+        {
+          "word": "man.",
+          "start": 20.649,
+          "end": 20.729,
+          "score": 0.255
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 21.849,
+      "end": 23.29,
+      "text": "Anyway, you know how your dad is.",
+      "words": [
+        {
+          "word": "Anyway,",
+          "start": 21.849,
+          "end": 22.149,
+          "score": 0.901
+        },
+        {
+          "word": "you",
+          "start": 22.249,
+          "end": 22.369,
+          "score": 0.731
+        },
+        {
+          "word": "know",
+          "start": 22.409,
+          "end": 22.509,
+          "score": 0.918
+        },
+        {
+          "word": "how",
+          "start": 22.569,
+          "end": 22.67,
+          "score": 0.811
+        },
+        {
+          "word": "your",
+          "start": 22.71,
+          "end": 22.83,
+          "score": 0.869
+        },
+        {
+          "word": "dad",
+          "start": 22.87,
+          "end": 23.07,
+          "score": 0.649
+        },
+        {
+          "word": "is.",
+          "start": 23.17,
+          "end": 23.29,
+          "score": 0.73
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 24.13,
+      "end": 25.631,
+      "text": "I'm really sorry to bother you.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 24.13,
+          "end": 24.25,
+          "score": 0.836
+        },
+        {
+          "word": "really",
+          "start": 24.41,
+          "end": 24.67,
+          "score": 0.898
+        },
+        {
+          "word": "sorry",
+          "start": 24.731,
+          "end": 24.991,
+          "score": 0.719
+        },
+        {
+          "word": "to",
+          "start": 25.011,
+          "end": 25.111,
+          "score": 0.788
+        },
+        {
+          "word": "bother",
+          "start": 25.131,
+          "end": 25.411,
+          "score": 0.891
+        },
+        {
+          "word": "you.",
+          "start": 25.451,
+          "end": 25.631,
+          "score": 0.944
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 25.771,
+      "end": 27.292,
+      "text": "I can't sleep in there with him right now.",
+      "words": [
+        {
+          "word": "I",
+          "start": 25.771,
+          "end": 25.831,
+          "score": 0.992
+        },
+        {
+          "word": "can't",
+          "start": 25.911,
+          "end": 26.191,
+          "score": 0.743
+        },
+        {
+          "word": "sleep",
+          "start": 26.251,
+          "end": 26.451,
+          "score": 0.983
+        },
+        {
+          "word": "in",
+          "start": 26.511,
+          "end": 26.551,
+          "score": 0.969
+        },
+        {
+          "word": "there",
+          "start": 26.571,
+          "end": 26.691,
+          "score": 0.757
+        },
+        {
+          "word": "with",
+          "start": 26.711,
+          "end": 26.811,
+          "score": 0.882
+        },
+        {
+          "word": "him",
+          "start": 26.832,
+          "end": 26.932,
+          "score": 0.481
+        },
+        {
+          "word": "right",
+          "start": 26.952,
+          "end": 27.092,
+          "score": 0.627
+        },
+        {
+          "word": "now.",
+          "start": 27.112,
+          "end": 27.292,
+          "score": 0.929
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 27.652,
+      "end": 28.973,
+      "text": "It's just, it's too much.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 27.652,
+          "end": 27.792,
+          "score": 0.85
+        },
+        {
+          "word": "just,",
+          "start": 27.872,
+          "end": 28.092,
+          "score": 0.834
+        },
+        {
+          "word": "it's",
+          "start": 28.272,
+          "end": 28.432,
+          "score": 0.767
+        },
+        {
+          "word": "too",
+          "start": 28.472,
+          "end": 28.632,
+          "score": 0.961
+        },
+        {
+          "word": "much.",
+          "start": 28.692,
+          "end": 28.973,
+          "score": 0.948
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 30.773,
+      "end": 31.554,
+      "text": "Your brother moved out.",
+      "words": [
+        {
+          "word": "Your",
+          "start": 30.773,
+          "end": 30.913,
+          "score": 0.771
+        },
+        {
+          "word": "brother",
+          "start": 30.933,
+          "end": 31.154,
+          "score": 0.876
+        },
+        {
+          "word": "moved",
+          "start": 31.174,
+          "end": 31.334,
+          "score": 0.474
+        },
+        {
+          "word": "out.",
+          "start": 31.394,
+          "end": 31.554,
+          "score": 0.768
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 31.894,
+      "end": 33.014,
+      "text": "I know you have an extra bunk.",
+      "words": [
+        {
+          "word": "I",
+          "start": 31.894,
+          "end": 31.954,
+          "score": 0.678
+        },
+        {
+          "word": "know",
+          "start": 31.974,
+          "end": 32.094,
+          "score": 0.872
+        },
+        {
+          "word": "you",
+          "start": 32.114,
+          "end": 32.234,
+          "score": 0.981
+        },
+        {
+          "word": "have",
+          "start": 32.254,
+          "end": 32.374,
+          "score": 0.806
+        },
+        {
+          "word": "an",
+          "start": 32.394,
+          "end": 32.454,
+          "score": 0.726
+        },
+        {
+          "word": "extra",
+          "start": 32.494,
+          "end": 32.734,
+          "score": 0.92
+        },
+        {
+          "word": "bunk.",
+          "start": 32.754,
+          "end": 33.014,
+          "score": 0.782
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 33.515,
+      "end": 34.575,
+      "text": "I promise I won't bother you.",
+      "words": [
+        {
+          "word": "I",
+          "start": 33.515,
+          "end": 33.595,
+          "score": 0.83
+        },
+        {
+          "word": "promise",
+          "start": 33.635,
+          "end": 33.915,
+          "score": 0.777
+        },
+        {
+          "word": "I",
+          "start": 33.955,
+          "end": 33.995,
+          "score": 0.637
+        },
+        {
+          "word": "won't",
+          "start": 34.035,
+          "end": 34.175,
+          "score": 0.92
+        },
+        {
+          "word": "bother",
+          "start": 34.215,
+          "end": 34.435,
+          "score": 0.944
+        },
+        {
+          "word": "you.",
+          "start": 34.455,
+          "end": 34.575,
+          "score": 0.884
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 34.595,
+      "end": 35.776,
+      "text": "I just need to sleep in here tonight.",
+      "words": [
+        {
+          "word": "I",
+          "start": 34.595,
+          "end": 34.695,
+          "score": 0.643
+        },
+        {
+          "word": "just",
+          "start": 34.715,
+          "end": 34.835,
+          "score": 0.758
+        },
+        {
+          "word": "need",
+          "start": 34.875,
+          "end": 35.015,
+          "score": 0.885
+        },
+        {
+          "word": "to",
+          "start": 35.035,
+          "end": 35.075,
+          "score": 0.974
+        },
+        {
+          "word": "sleep",
+          "start": 35.115,
+          "end": 35.296,
+          "score": 0.949
+        },
+        {
+          "word": "in",
+          "start": 35.336,
+          "end": 35.396,
+          "score": 0.801
+        },
+        {
+          "word": "here",
+          "start": 35.416,
+          "end": 35.536,
+          "score": 0.743
+        },
+        {
+          "word": "tonight.",
+          "start": 35.556,
+          "end": 35.776,
+          "score": 0.804
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 35.816,
+      "end": 36.316,
+      "text": "Is that okay?",
+      "words": [
+        {
+          "word": "Is",
+          "start": 35.816,
+          "end": 35.856,
+          "score": 0.832
+        },
+        {
+          "word": "that",
+          "start": 35.876,
+          "end": 35.956,
+          "score": 0.647
+        },
+        {
+          "word": "okay?",
+          "start": 36.016,
+          "end": 36.316,
+          "score": 0.755
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 38.037,
+      "end": 38.277,
+      "text": "Alright.",
+      "words": [
+        {
+          "word": "Alright.",
+          "start": 38.037,
+          "end": 38.277,
+          "score": 0.377
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 38.857,
+      "end": 39.057,
+      "text": "Okay.",
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 38.857,
+          "end": 39.057,
+          "score": 0.494
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 39.558,
+      "end": 39.818,
+      "text": "Thanks.",
+      "words": [
+        {
+          "word": "Thanks.",
+          "start": 39.558,
+          "end": 39.818,
+          "score": 0.948
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 39.878,
+      "end": 41.398,
+      "text": "Now, I need to get some sleep.",
+      "words": [
+        {
+          "word": "Now,",
+          "start": 39.878,
+          "end": 40.058,
+          "score": 0.831
+        },
+        {
+          "word": "I",
+          "start": 40.238,
+          "end": 40.318,
+          "score": 0.914
+        },
+        {
+          "word": "need",
+          "start": 40.398,
+          "end": 40.598,
+          "score": 0.851
+        },
+        {
+          "word": "to",
+          "start": 40.618,
+          "end": 40.678,
+          "score": 0.745
+        },
+        {
+          "word": "get",
+          "start": 40.718,
+          "end": 40.838,
+          "score": 0.949
+        },
+        {
+          "word": "some",
+          "start": 40.878,
+          "end": 41.078,
+          "score": 0.671
+        },
+        {
+          "word": "sleep.",
+          "start": 41.138,
+          "end": 41.398,
+          "score": 0.917
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 41.438,
+      "end": 42.479,
+      "text": "I have a big day tomorrow.",
+      "words": [
+        {
+          "word": "I",
+          "start": 41.438,
+          "end": 41.499,
+          "score": 0.653
+        },
+        {
+          "word": "have",
+          "start": 41.519,
+          "end": 41.639,
+          "score": 0.741
+        },
+        {
+          "word": "a",
+          "start": 41.659,
+          "end": 41.699,
+          "score": 0.499
+        },
+        {
+          "word": "big",
+          "start": 41.759,
+          "end": 41.919,
+          "score": 0.937
+        },
+        {
+          "word": "day",
+          "start": 41.939,
+          "end": 42.079,
+          "score": 0.745
+        },
+        {
+          "word": "tomorrow.",
+          "start": 42.119,
+          "end": 42.479,
+          "score": 0.913
+        }
+      ],
+      "avg_logprob": -0.04968941504629249
+    },
+    {
+      "start": 61.648,
+      "end": 85.967,
+      "text": " doing go to sleep oh my god are you doing what I think you're doing okay you need to sleep because I need to sleep all right like I know you're a horny young man but this is not the time it's highly inappropriate",
+      "words": [
+        {
+          "word": "doing",
+          "start": 61.648,
+          "end": 61.928,
+          "score": 0.873
+        },
+        {
+          "word": "go",
+          "start": 63.97,
+          "end": 64.05,
+          "score": 0.996
+        },
+        {
+          "word": "to",
+          "start": 64.09,
+          "end": 64.17,
+          "score": 0.673
+        },
+        {
+          "word": "sleep",
+          "start": 64.21,
+          "end": 64.55,
+          "score": 0.666
+        },
+        {
+          "word": "oh",
+          "start": 72.196,
+          "end": 72.256,
+          "score": 0.494
+        },
+        {
+          "word": "my",
+          "start": 72.276,
+          "end": 72.376,
+          "score": 0.521
+        },
+        {
+          "word": "god",
+          "start": 72.396,
+          "end": 72.617,
+          "score": 0.507
+        },
+        {
+          "word": "are",
+          "start": 72.737,
+          "end": 72.817,
+          "score": 0.87
+        },
+        {
+          "word": "you",
+          "start": 72.857,
+          "end": 72.977,
+          "score": 0.998
+        },
+        {
+          "word": "doing",
+          "start": 73.017,
+          "end": 73.197,
+          "score": 0.807
+        },
+        {
+          "word": "what",
+          "start": 73.217,
+          "end": 73.317,
+          "score": 0.93
+        },
+        {
+          "word": "I",
+          "start": 73.357,
+          "end": 73.437,
+          "score": 0.747
+        },
+        {
+          "word": "think",
+          "start": 73.457,
+          "end": 73.617,
+          "score": 0.769
+        },
+        {
+          "word": "you're",
+          "start": 73.637,
+          "end": 73.797,
+          "score": 0.914
+        },
+        {
+          "word": "doing",
+          "start": 73.817,
+          "end": 74.058,
+          "score": 0.792
+        },
+        {
+          "word": "okay",
+          "start": 74.078,
+          "end": 77.901,
+          "score": 0.761
+        },
+        {
+          "word": "you",
+          "start": 78.241,
+          "end": 78.441,
+          "score": 0.68
+        },
+        {
+          "word": "need",
+          "start": 78.481,
+          "end": 78.641,
+          "score": 0.885
+        },
+        {
+          "word": "to",
+          "start": 78.681,
+          "end": 78.721,
+          "score": 0.985
+        },
+        {
+          "word": "sleep",
+          "start": 78.781,
+          "end": 79.102,
+          "score": 0.839
+        },
+        {
+          "word": "because",
+          "start": 79.522,
+          "end": 79.742,
+          "score": 0.826
+        },
+        {
+          "word": "I",
+          "start": 79.982,
+          "end": 80.062,
+          "score": 0.892
+        },
+        {
+          "word": "need",
+          "start": 80.102,
+          "end": 80.262,
+          "score": 0.856
+        },
+        {
+          "word": "to",
+          "start": 80.302,
+          "end": 80.363,
+          "score": 0.754
+        },
+        {
+          "word": "sleep",
+          "start": 80.423,
+          "end": 80.703,
+          "score": 0.831
+        },
+        {
+          "word": "all",
+          "start": 80.823,
+          "end": 80.923,
+          "score": 0.975
+        },
+        {
+          "word": "right",
+          "start": 80.963,
+          "end": 81.203,
+          "score": 0.723
+        },
+        {
+          "word": "like",
+          "start": 81.263,
+          "end": 81.403,
+          "score": 0.658
+        },
+        {
+          "word": "I",
+          "start": 81.483,
+          "end": 81.543,
+          "score": 0.94
+        },
+        {
+          "word": "know",
+          "start": 81.603,
+          "end": 81.764,
+          "score": 0.866
+        },
+        {
+          "word": "you're",
+          "start": 81.804,
+          "end": 81.984,
+          "score": 0.83
+        },
+        {
+          "word": "a",
+          "start": 82.004,
+          "end": 82.044,
+          "score": 0.497
+        },
+        {
+          "word": "horny",
+          "start": 82.084,
+          "end": 82.404,
+          "score": 0.823
+        },
+        {
+          "word": "young",
+          "start": 82.424,
+          "end": 82.604,
+          "score": 0.79
+        },
+        {
+          "word": "man",
+          "start": 82.624,
+          "end": 82.884,
+          "score": 0.764
+        },
+        {
+          "word": "but",
+          "start": 83.605,
+          "end": 83.825,
+          "score": 0.871
+        },
+        {
+          "word": "this",
+          "start": 83.905,
+          "end": 84.045,
+          "score": 0.988
+        },
+        {
+          "word": "is",
+          "start": 84.105,
+          "end": 84.206,
+          "score": 0.662
+        },
+        {
+          "word": "not",
+          "start": 84.246,
+          "end": 84.386,
+          "score": 0.785
+        },
+        {
+          "word": "the",
+          "start": 84.426,
+          "end": 84.506,
+          "score": 0.938
+        },
+        {
+          "word": "time",
+          "start": 84.546,
+          "end": 84.786,
+          "score": 0.826
+        },
+        {
+          "word": "it's",
+          "start": 84.846,
+          "end": 84.986,
+          "score": 0.748
+        },
+        {
+          "word": "highly",
+          "start": 85.066,
+          "end": 85.366,
+          "score": 0.925
+        },
+        {
+          "word": "inappropriate",
+          "start": 85.406,
+          "end": 85.967,
+          "score": 0.922
+        }
+      ],
+      "avg_logprob": -0.08245594404181655
+    },
+    {
+      "start": 93.149,
+      "end": 93.769,
+      "text": " Oh my god.",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 93.149,
+          "end": 93.229,
+          "score": 0.874
+        },
+        {
+          "word": "my",
+          "start": 93.269,
+          "end": 93.409,
+          "score": 0.878
+        },
+        {
+          "word": "god.",
+          "start": 93.429,
+          "end": 93.769,
+          "score": 0.872
+        }
+      ],
+      "avg_logprob": -0.13762807362788432
+    },
+    {
+      "start": 93.789,
+      "end": 96.67,
+      "text": "Alright, look.",
+      "words": [
+        {
+          "word": "Alright,",
+          "start": 93.789,
+          "end": 95.87,
+          "score": 0.664
+        },
+        {
+          "word": "look.",
+          "start": 96.45,
+          "end": 96.67,
+          "score": 0.9
+        }
+      ],
+      "avg_logprob": -0.13762807362788432
+    },
+    {
+      "start": 104.432,
+      "end": 110.673,
+      "text": "Look, I know I'm just your stepmom, but I need you to behave yourself right now.",
+      "words": [
+        {
+          "word": "Look,",
+          "start": 104.432,
+          "end": 104.612,
+          "score": 0.431
+        },
+        {
+          "word": "I",
+          "start": 104.792,
+          "end": 104.852,
+          "score": 0.682
+        },
+        {
+          "word": "know",
+          "start": 104.892,
+          "end": 105.012,
+          "score": 0.866
+        },
+        {
+          "word": "I'm",
+          "start": 105.032,
+          "end": 105.152,
+          "score": 0.711
+        },
+        {
+          "word": "just",
+          "start": 105.192,
+          "end": 105.352,
+          "score": 0.892
+        },
+        {
+          "word": "your",
+          "start": 105.392,
+          "end": 105.532,
+          "score": 0.917
+        },
+        {
+          "word": "stepmom,",
+          "start": 105.572,
+          "end": 106.072,
+          "score": 0.85
+        },
+        {
+          "word": "but",
+          "start": 107.493,
+          "end": 107.713,
+          "score": 0.85
+        },
+        {
+          "word": "I",
+          "start": 108.593,
+          "end": 108.673,
+          "score": 0.752
+        },
+        {
+          "word": "need",
+          "start": 108.733,
+          "end": 108.953,
+          "score": 0.817
+        },
+        {
+          "word": "you",
+          "start": 108.973,
+          "end": 109.173,
+          "score": 0.791
+        },
+        {
+          "word": "to",
+          "start": 109.193,
+          "end": 109.233,
+          "score": 0.0
+        },
+        {
+          "word": "behave",
+          "start": 109.553,
+          "end": 109.853,
+          "score": 0.834
+        },
+        {
+          "word": "yourself",
+          "start": 109.873,
+          "end": 110.253,
+          "score": 0.863
+        },
+        {
+          "word": "right",
+          "start": 110.293,
+          "end": 110.453,
+          "score": 0.872
+        },
+        {
+          "word": "now.",
+          "start": 110.493,
+          "end": 110.673,
+          "score": 0.915
+        }
+      ],
+      "avg_logprob": -0.13762807362788432
+    },
+    {
+      "start": 110.693,
+      "end": 112.594,
+      "text": "This is so inappropriate, alright?",
+      "words": [
+        {
+          "word": "This",
+          "start": 110.693,
+          "end": 110.954,
+          "score": 0.714
+        },
+        {
+          "word": "is",
+          "start": 111.034,
+          "end": 111.114,
+          "score": 0.849
+        },
+        {
+          "word": "so",
+          "start": 111.234,
+          "end": 111.414,
+          "score": 0.91
+        },
+        {
+          "word": "inappropriate,",
+          "start": 111.474,
+          "end": 112.114,
+          "score": 0.905
+        },
+        {
+          "word": "alright?",
+          "start": 112.214,
+          "end": 112.594,
+          "score": 0.441
+        }
+      ],
+      "avg_logprob": -0.13762807362788432
+    },
+    {
+      "start": 115.567,
+      "end": 117.349,
+      "text": " Okay, look, I know what it's like to be your age.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 115.567,
+          "end": 115.787,
+          "score": 0.558
+        },
+        {
+          "word": "look,",
+          "start": 115.807,
+          "end": 115.987,
+          "score": 0.624
+        },
+        {
+          "word": "I",
+          "start": 116.168,
+          "end": 116.208,
+          "score": 0.998
+        },
+        {
+          "word": "know",
+          "start": 116.248,
+          "end": 116.348,
+          "score": 0.836
+        },
+        {
+          "word": "what",
+          "start": 116.368,
+          "end": 116.448,
+          "score": 0.862
+        },
+        {
+          "word": "it's",
+          "start": 116.468,
+          "end": 116.568,
+          "score": 0.805
+        },
+        {
+          "word": "like",
+          "start": 116.588,
+          "end": 116.748,
+          "score": 0.86
+        },
+        {
+          "word": "to",
+          "start": 116.768,
+          "end": 116.808,
+          "score": 0.976
+        },
+        {
+          "word": "be",
+          "start": 116.848,
+          "end": 116.928,
+          "score": 0.909
+        },
+        {
+          "word": "your",
+          "start": 116.948,
+          "end": 117.088,
+          "score": 0.737
+        },
+        {
+          "word": "age.",
+          "start": 117.168,
+          "end": 117.349,
+          "score": 0.945
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 117.989,
+      "end": 119.25,
+      "text": "I know you're just going to jerk off.",
+      "words": [
+        {
+          "word": "I",
+          "start": 117.989,
+          "end": 118.049,
+          "score": 0.705
+        },
+        {
+          "word": "know",
+          "start": 118.089,
+          "end": 118.189,
+          "score": 0.872
+        },
+        {
+          "word": "you're",
+          "start": 118.229,
+          "end": 118.369,
+          "score": 0.985
+        },
+        {
+          "word": "just",
+          "start": 118.409,
+          "end": 118.51,
+          "score": 0.881
+        },
+        {
+          "word": "going",
+          "start": 118.53,
+          "end": 118.65,
+          "score": 0.866
+        },
+        {
+          "word": "to",
+          "start": 118.69,
+          "end": 118.73,
+          "score": 0.995
+        },
+        {
+          "word": "jerk",
+          "start": 118.77,
+          "end": 119.01,
+          "score": 0.909
+        },
+        {
+          "word": "off.",
+          "start": 119.13,
+          "end": 119.25,
+          "score": 0.843
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 119.57,
+      "end": 122.773,
+      "text": "I can't believe I'm saying this.",
+      "words": [
+        {
+          "word": "I",
+          "start": 119.57,
+          "end": 119.671,
+          "score": 0.815
+        },
+        {
+          "word": "can't",
+          "start": 121.072,
+          "end": 121.192,
+          "score": 0.181
+        },
+        {
+          "word": "believe",
+          "start": 121.212,
+          "end": 121.352,
+          "score": 0.136
+        },
+        {
+          "word": "I'm",
+          "start": 121.372,
+          "end": 121.492,
+          "score": 0.249
+        },
+        {
+          "word": "saying",
+          "start": 121.532,
+          "end": 121.732,
+          "score": 0.949
+        },
+        {
+          "word": "this.",
+          "start": 121.772,
+          "end": 122.773,
+          "score": 0.707
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 124.715,
+      "end": 127.277,
+      "text": "I will help you if you will just go to sleep.",
+      "words": [
+        {
+          "word": "I",
+          "start": 124.715,
+          "end": 124.755,
+          "score": 0.998
+        },
+        {
+          "word": "will",
+          "start": 124.795,
+          "end": 124.955,
+          "score": 0.808
+        },
+        {
+          "word": "help",
+          "start": 125.015,
+          "end": 125.255,
+          "score": 0.734
+        },
+        {
+          "word": "you",
+          "start": 125.335,
+          "end": 125.556,
+          "score": 0.86
+        },
+        {
+          "word": "if",
+          "start": 126.116,
+          "end": 126.176,
+          "score": 0.999
+        },
+        {
+          "word": "you",
+          "start": 126.216,
+          "end": 126.316,
+          "score": 0.828
+        },
+        {
+          "word": "will",
+          "start": 126.336,
+          "end": 126.496,
+          "score": 0.867
+        },
+        {
+          "word": "just",
+          "start": 126.516,
+          "end": 126.636,
+          "score": 0.79
+        },
+        {
+          "word": "go",
+          "start": 126.697,
+          "end": 126.797,
+          "score": 0.868
+        },
+        {
+          "word": "to",
+          "start": 126.837,
+          "end": 126.917,
+          "score": 0.553
+        },
+        {
+          "word": "sleep.",
+          "start": 126.997,
+          "end": 127.277,
+          "score": 0.887
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 128.258,
+      "end": 128.798,
+      "text": "How's that sound?",
+      "words": [
+        {
+          "word": "How's",
+          "start": 128.258,
+          "end": 128.398,
+          "score": 0.82
+        },
+        {
+          "word": "that",
+          "start": 128.438,
+          "end": 128.558,
+          "score": 0.983
+        },
+        {
+          "word": "sound?",
+          "start": 128.598,
+          "end": 128.798,
+          "score": 0.872
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 128.958,
+      "end": 129.199,
+      "text": "Deal?",
+      "words": [
+        {
+          "word": "Deal?",
+          "start": 128.958,
+          "end": 129.199,
+          "score": 0.887
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 130.019,
+      "end": 131.401,
+      "text": "You can't tell your father, though.",
+      "words": [
+        {
+          "word": "You",
+          "start": 130.019,
+          "end": 130.159,
+          "score": 0.625
+        },
+        {
+          "word": "can't",
+          "start": 130.22,
+          "end": 130.44,
+          "score": 0.801
+        },
+        {
+          "word": "tell",
+          "start": 130.48,
+          "end": 130.64,
+          "score": 0.859
+        },
+        {
+          "word": "your",
+          "start": 130.68,
+          "end": 130.82,
+          "score": 0.759
+        },
+        {
+          "word": "father,",
+          "start": 130.86,
+          "end": 131.16,
+          "score": 0.856
+        },
+        {
+          "word": "though.",
+          "start": 131.18,
+          "end": 131.401,
+          "score": 0.865
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 131.701,
+      "end": 132.341,
+      "text": "Do you understand?",
+      "words": [
+        {
+          "word": "Do",
+          "start": 131.701,
+          "end": 131.761,
+          "score": 0.844
+        },
+        {
+          "word": "you",
+          "start": 131.781,
+          "end": 131.841,
+          "score": 0.93
+        },
+        {
+          "word": "understand?",
+          "start": 131.861,
+          "end": 132.341,
+          "score": 0.804
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 134.623,
+      "end": 134.924,
+      "text": "All right.",
+      "words": [
+        {
+          "word": "All",
+          "start": 134.623,
+          "end": 134.743,
+          "score": 0.846
+        },
+        {
+          "word": "right.",
+          "start": 134.783,
+          "end": 134.924,
+          "score": 0.93
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 136.145,
+      "end": 136.425,
+      "text": "All right.",
+      "words": [
+        {
+          "word": "All",
+          "start": 136.145,
+          "end": 136.245,
+          "score": 0.833
+        },
+        {
+          "word": "right.",
+          "start": 136.285,
+          "end": 136.425,
+          "score": 0.926
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 136.885,
+      "end": 137.686,
+      "text": "So you want to jerk off?",
+      "words": [
+        {
+          "word": "So",
+          "start": 136.885,
+          "end": 136.985,
+          "score": 0.968
+        },
+        {
+          "word": "you",
+          "start": 137.025,
+          "end": 137.085,
+          "score": 0.991
+        },
+        {
+          "word": "want",
+          "start": 137.105,
+          "end": 137.205,
+          "score": 0.844
+        },
+        {
+          "word": "to",
+          "start": 137.226,
+          "end": 137.286,
+          "score": 0.356
+        },
+        {
+          "word": "jerk",
+          "start": 137.306,
+          "end": 137.486,
+          "score": 0.993
+        },
+        {
+          "word": "off?",
+          "start": 137.566,
+          "end": 137.686,
+          "score": 0.961
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 138.667,
+      "end": 139.908,
+      "text": "Then show me how you jerk off.",
+      "words": [
+        {
+          "word": "Then",
+          "start": 138.667,
+          "end": 138.827,
+          "score": 0.932
+        },
+        {
+          "word": "show",
+          "start": 138.867,
+          "end": 139.027,
+          "score": 0.808
+        },
+        {
+          "word": "me",
+          "start": 139.067,
+          "end": 139.147,
+          "score": 0.687
+        },
+        {
+          "word": "how",
+          "start": 139.187,
+          "end": 139.267,
+          "score": 0.833
+        },
+        {
+          "word": "you",
+          "start": 139.307,
+          "end": 139.407,
+          "score": 0.866
+        },
+        {
+          "word": "jerk",
+          "start": 139.427,
+          "end": 139.668,
+          "score": 0.924
+        },
+        {
+          "word": "off.",
+          "start": 139.768,
+          "end": 139.908,
+          "score": 0.978
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 142.01,
+      "end": 142.43,
+      "text": "Pull it out.",
+      "words": [
+        {
+          "word": "Pull",
+          "start": 142.01,
+          "end": 142.17,
+          "score": 0.586
+        },
+        {
+          "word": "it",
+          "start": 142.21,
+          "end": 142.27,
+          "score": 0.35
+        },
+        {
+          "word": "out.",
+          "start": 142.31,
+          "end": 142.43,
+          "score": 0.966
+        }
+      ],
+      "avg_logprob": -0.04705997038146724
+    },
+    {
+      "start": 145.122,
+      "end": 145.822,
+      "text": " That's what I thought.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 145.122,
+          "end": 145.322,
+          "score": 0.159
+        },
+        {
+          "word": "what",
+          "start": 145.342,
+          "end": 145.422,
+          "score": 0.0
+        },
+        {
+          "word": "I",
+          "start": 145.442,
+          "end": 145.462,
+          "score": 0.0
+        },
+        {
+          "word": "thought.",
+          "start": 145.482,
+          "end": 145.822,
+          "score": 0.827
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 145.842,
+      "end": 148.604,
+      "text": "You have a pretty big cock, actually, don't you?",
+      "words": [
+        {
+          "word": "You",
+          "start": 145.842,
+          "end": 146.883,
+          "score": 0.564
+        },
+        {
+          "word": "have",
+          "start": 146.923,
+          "end": 147.043,
+          "score": 0.839
+        },
+        {
+          "word": "a",
+          "start": 147.063,
+          "end": 147.103,
+          "score": 0.495
+        },
+        {
+          "word": "pretty",
+          "start": 147.143,
+          "end": 147.323,
+          "score": 0.91
+        },
+        {
+          "word": "big",
+          "start": 147.363,
+          "end": 147.503,
+          "score": 0.686
+        },
+        {
+          "word": "cock,",
+          "start": 147.543,
+          "end": 147.823,
+          "score": 0.98
+        },
+        {
+          "word": "actually,",
+          "start": 147.883,
+          "end": 148.204,
+          "score": 0.9
+        },
+        {
+          "word": "don't",
+          "start": 148.244,
+          "end": 148.424,
+          "score": 0.718
+        },
+        {
+          "word": "you?",
+          "start": 148.444,
+          "end": 148.604,
+          "score": 0.831
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 150.445,
+      "end": 150.825,
+      "text": "Alright.",
+      "words": [
+        {
+          "word": "Alright.",
+          "start": 150.445,
+          "end": 150.825,
+          "score": 0.746
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 152.126,
+      "end": 152.526,
+      "text": "Stroke it.",
+      "words": [
+        {
+          "word": "Stroke",
+          "start": 152.126,
+          "end": 152.406,
+          "score": 0.848
+        },
+        {
+          "word": "it.",
+          "start": 152.446,
+          "end": 152.526,
+          "score": 0.83
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 154.407,
+      "end": 156.348,
+      "text": "Okay, I know you were stroking it harder than that.",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 154.407,
+          "end": 154.727,
+          "score": 0.559
+        },
+        {
+          "word": "I",
+          "start": 154.767,
+          "end": 154.827,
+          "score": 0.972
+        },
+        {
+          "word": "know",
+          "start": 154.887,
+          "end": 155.007,
+          "score": 0.963
+        },
+        {
+          "word": "you",
+          "start": 155.047,
+          "end": 155.147,
+          "score": 0.875
+        },
+        {
+          "word": "were",
+          "start": 155.187,
+          "end": 155.307,
+          "score": 0.726
+        },
+        {
+          "word": "stroking",
+          "start": 155.347,
+          "end": 155.648,
+          "score": 0.925
+        },
+        {
+          "word": "it",
+          "start": 155.688,
+          "end": 155.748,
+          "score": 0.74
+        },
+        {
+          "word": "harder",
+          "start": 155.788,
+          "end": 156.008,
+          "score": 0.872
+        },
+        {
+          "word": "than",
+          "start": 156.048,
+          "end": 156.148,
+          "score": 0.979
+        },
+        {
+          "word": "that.",
+          "start": 156.188,
+          "end": 156.348,
+          "score": 0.93
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 156.368,
+      "end": 157.028,
+      "text": "I could hear you.",
+      "words": [
+        {
+          "word": "I",
+          "start": 156.368,
+          "end": 156.408,
+          "score": 0.507
+        },
+        {
+          "word": "could",
+          "start": 156.448,
+          "end": 156.608,
+          "score": 0.816
+        },
+        {
+          "word": "hear",
+          "start": 156.648,
+          "end": 156.828,
+          "score": 0.817
+        },
+        {
+          "word": "you.",
+          "start": 156.868,
+          "end": 157.028,
+          "score": 0.911
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 158.369,
+      "end": 159.59,
+      "text": "Do it the way you usually do it.",
+      "words": [
+        {
+          "word": "Do",
+          "start": 158.369,
+          "end": 158.489,
+          "score": 0.994
+        },
+        {
+          "word": "it",
+          "start": 158.529,
+          "end": 158.589,
+          "score": 0.728
+        },
+        {
+          "word": "the",
+          "start": 158.629,
+          "end": 158.709,
+          "score": 0.984
+        },
+        {
+          "word": "way",
+          "start": 158.749,
+          "end": 158.869,
+          "score": 0.915
+        },
+        {
+          "word": "you",
+          "start": 158.889,
+          "end": 158.949,
+          "score": 0.319
+        },
+        {
+          "word": "usually",
+          "start": 159.029,
+          "end": 159.31,
+          "score": 0.838
+        },
+        {
+          "word": "do",
+          "start": 159.35,
+          "end": 159.47,
+          "score": 0.772
+        },
+        {
+          "word": "it.",
+          "start": 159.51,
+          "end": 159.59,
+          "score": 0.828
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 159.65,
+      "end": 159.97,
+      "text": "Show me.",
+      "words": [
+        {
+          "word": "Show",
+          "start": 159.65,
+          "end": 159.83,
+          "score": 0.938
+        },
+        {
+          "word": "me.",
+          "start": 159.85,
+          "end": 159.97,
+          "score": 0.762
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 163.692,
+      "end": 165.233,
+      "text": "Okay, you want me to do it for you?",
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 163.692,
+          "end": 164.292,
+          "score": 0.556
+        },
+        {
+          "word": "you",
+          "start": 164.332,
+          "end": 164.432,
+          "score": 0.865
+        },
+        {
+          "word": "want",
+          "start": 164.452,
+          "end": 164.552,
+          "score": 0.556
+        },
+        {
+          "word": "me",
+          "start": 164.572,
+          "end": 164.632,
+          "score": 0.65
+        },
+        {
+          "word": "to",
+          "start": 164.652,
+          "end": 164.692,
+          "score": 0.978
+        },
+        {
+          "word": "do",
+          "start": 164.732,
+          "end": 164.813,
+          "score": 0.93
+        },
+        {
+          "word": "it",
+          "start": 164.833,
+          "end": 164.873,
+          "score": 0.987
+        },
+        {
+          "word": "for",
+          "start": 164.933,
+          "end": 165.073,
+          "score": 0.849
+        },
+        {
+          "word": "you?",
+          "start": 165.113,
+          "end": 165.233,
+          "score": 0.977
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 166.734,
+      "end": 167.034,
+      "text": "Alright.",
+      "words": [
+        {
+          "word": "Alright.",
+          "start": 166.734,
+          "end": 167.034,
+          "score": 0.818
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 167.894,
+      "end": 168.214,
+      "text": "Fine.",
+      "words": [
+        {
+          "word": "Fine.",
+          "start": 167.894,
+          "end": 168.214,
+          "score": 0.913
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 171.976,
+      "end": 172.897,
+      "text": "You like that, don't you?",
+      "words": [
+        {
+          "word": "You",
+          "start": 171.976,
+          "end": 172.096,
+          "score": 0.896
+        },
+        {
+          "word": "like",
+          "start": 172.136,
+          "end": 172.257,
+          "score": 0.864
+        },
+        {
+          "word": "that,",
+          "start": 172.297,
+          "end": 172.457,
+          "score": 0.992
+        },
+        {
+          "word": "don't",
+          "start": 172.497,
+          "end": 172.697,
+          "score": 0.669
+        },
+        {
+          "word": "you?",
+          "start": 172.737,
+          "end": 172.897,
+          "score": 0.861
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 173.837,
+      "end": 174.858,
+      "text": "Just a horny young man.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 173.837,
+          "end": 173.997,
+          "score": 0.341
+        },
+        {
+          "word": "a",
+          "start": 174.017,
+          "end": 174.057,
+          "score": 0.504
+        },
+        {
+          "word": "horny",
+          "start": 174.117,
+          "end": 174.418,
+          "score": 0.778
+        },
+        {
+          "word": "young",
+          "start": 174.458,
+          "end": 174.638,
+          "score": 0.798
+        },
+        {
+          "word": "man.",
+          "start": 174.678,
+          "end": 174.858,
+          "score": 0.976
+        }
+      ],
+      "avg_logprob": -0.0764553144920704
+    },
+    {
+      "start": 177.343,
+      "end": 179.705,
+      "text": " I have to say, it's kind of hot.",
+      "words": [
+        {
+          "word": "I",
+          "start": 177.343,
+          "end": 177.443,
+          "score": 0.436
+        },
+        {
+          "word": "have",
+          "start": 177.463,
+          "end": 177.563,
+          "score": 0.435
+        },
+        {
+          "word": "to",
+          "start": 177.603,
+          "end": 177.683,
+          "score": 0.714
+        },
+        {
+          "word": "say,",
+          "start": 177.723,
+          "end": 178.024,
+          "score": 0.888
+        },
+        {
+          "word": "it's",
+          "start": 178.985,
+          "end": 179.105,
+          "score": 0.406
+        },
+        {
+          "word": "kind",
+          "start": 179.145,
+          "end": 179.305,
+          "score": 0.374
+        },
+        {
+          "word": "of",
+          "start": 179.325,
+          "end": 179.365,
+          "score": 0.008
+        },
+        {
+          "word": "hot.",
+          "start": 179.425,
+          "end": 179.705,
+          "score": 0.87
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 179.725,
+      "end": 183.088,
+      "text": "It's been a while since I've been with such a young man.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 179.725,
+          "end": 181.307,
+          "score": 0.494
+        },
+        {
+          "word": "been",
+          "start": 181.367,
+          "end": 181.507,
+          "score": 0.334
+        },
+        {
+          "word": "a",
+          "start": 181.547,
+          "end": 181.587,
+          "score": 0.754
+        },
+        {
+          "word": "while",
+          "start": 181.607,
+          "end": 181.807,
+          "score": 0.863
+        },
+        {
+          "word": "since",
+          "start": 181.827,
+          "end": 181.967,
+          "score": 0.447
+        },
+        {
+          "word": "I've",
+          "start": 181.987,
+          "end": 182.088,
+          "score": 0.192
+        },
+        {
+          "word": "been",
+          "start": 182.108,
+          "end": 182.228,
+          "score": 0.147
+        },
+        {
+          "word": "with",
+          "start": 182.248,
+          "end": 182.388,
+          "score": 0.812
+        },
+        {
+          "word": "such",
+          "start": 182.428,
+          "end": 182.568,
+          "score": 0.822
+        },
+        {
+          "word": "a",
+          "start": 182.608,
+          "end": 182.628,
+          "score": 0.877
+        },
+        {
+          "word": "young",
+          "start": 182.668,
+          "end": 182.828,
+          "score": 0.844
+        },
+        {
+          "word": "man.",
+          "start": 182.868,
+          "end": 183.088,
+          "score": 0.961
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 183.108,
+      "end": 186.251,
+      "text": "And your father's so old.",
+      "words": [
+        {
+          "word": "And",
+          "start": 183.108,
+          "end": 183.169,
+          "score": 0.0
+        },
+        {
+          "word": "your",
+          "start": 185.231,
+          "end": 185.371,
+          "score": 0.393
+        },
+        {
+          "word": "father's",
+          "start": 185.411,
+          "end": 185.731,
+          "score": 0.768
+        },
+        {
+          "word": "so",
+          "start": 185.771,
+          "end": 185.931,
+          "score": 0.928
+        },
+        {
+          "word": "old.",
+          "start": 186.091,
+          "end": 186.251,
+          "score": 0.846
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 186.732,
+      "end": 188.834,
+      "text": "I could be such a grump about everything.",
+      "words": [
+        {
+          "word": "I",
+          "start": 186.732,
+          "end": 186.792,
+          "score": 0.665
+        },
+        {
+          "word": "could",
+          "start": 186.812,
+          "end": 186.952,
+          "score": 0.745
+        },
+        {
+          "word": "be",
+          "start": 186.972,
+          "end": 187.072,
+          "score": 0.941
+        },
+        {
+          "word": "such",
+          "start": 187.132,
+          "end": 187.353,
+          "score": 0.788
+        },
+        {
+          "word": "a",
+          "start": 187.373,
+          "end": 187.433,
+          "score": 0.322
+        },
+        {
+          "word": "grump",
+          "start": 187.853,
+          "end": 188.173,
+          "score": 0.898
+        },
+        {
+          "word": "about",
+          "start": 188.233,
+          "end": 188.414,
+          "score": 0.885
+        },
+        {
+          "word": "everything.",
+          "start": 188.434,
+          "end": 188.834,
+          "score": 0.888
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 190.475,
+      "end": 191.276,
+      "text": "You want to see my tits?",
+      "words": [
+        {
+          "word": "You",
+          "start": 190.475,
+          "end": 190.576,
+          "score": 0.625
+        },
+        {
+          "word": "want",
+          "start": 190.596,
+          "end": 190.676,
+          "score": 0.978
+        },
+        {
+          "word": "to",
+          "start": 190.696,
+          "end": 190.756,
+          "score": 0.656
+        },
+        {
+          "word": "see",
+          "start": 190.776,
+          "end": 190.896,
+          "score": 0.766
+        },
+        {
+          "word": "my",
+          "start": 190.936,
+          "end": 191.016,
+          "score": 0.768
+        },
+        {
+          "word": "tits?",
+          "start": 191.056,
+          "end": 191.276,
+          "score": 0.836
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 191.316,
+      "end": 192.057,
+      "text": "Is that what you want to see?",
+      "words": [
+        {
+          "word": "Is",
+          "start": 191.316,
+          "end": 191.356,
+          "score": 0.495
+        },
+        {
+          "word": "that",
+          "start": 191.376,
+          "end": 191.476,
+          "score": 0.164
+        },
+        {
+          "word": "what",
+          "start": 191.496,
+          "end": 191.597,
+          "score": 0.523
+        },
+        {
+          "word": "you",
+          "start": 191.617,
+          "end": 191.697,
+          "score": 0.497
+        },
+        {
+          "word": "want",
+          "start": 191.717,
+          "end": 191.797,
+          "score": 0.883
+        },
+        {
+          "word": "to",
+          "start": 191.837,
+          "end": 191.897,
+          "score": 0.54
+        },
+        {
+          "word": "see?",
+          "start": 191.917,
+          "end": 192.057,
+          "score": 0.722
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 192.077,
+      "end": 193.478,
+      "text": "All right.",
+      "words": [
+        {
+          "word": "All",
+          "start": 192.077,
+          "end": 192.137,
+          "score": 0.003
+        },
+        {
+          "word": "right.",
+          "start": 193.258,
+          "end": 193.478,
+          "score": 0.634
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 194.76,
+      "end": 195.54,
+      "text": "I'm going to help you.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 194.76,
+          "end": 194.82,
+          "score": 0.102
+        },
+        {
+          "word": "going",
+          "start": 194.84,
+          "end": 195.0,
+          "score": 0.32
+        },
+        {
+          "word": "to",
+          "start": 195.02,
+          "end": 195.06,
+          "score": 0.044
+        },
+        {
+          "word": "help",
+          "start": 195.1,
+          "end": 195.3,
+          "score": 0.939
+        },
+        {
+          "word": "you.",
+          "start": 195.34,
+          "end": 195.54,
+          "score": 0.894
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 197.102,
+      "end": 197.582,
+      "text": "There you go.",
+      "words": [
+        {
+          "word": "There",
+          "start": 197.102,
+          "end": 197.242,
+          "score": 0.665
+        },
+        {
+          "word": "you",
+          "start": 197.262,
+          "end": 197.382,
+          "score": 0.203
+        },
+        {
+          "word": "go.",
+          "start": 197.422,
+          "end": 197.582,
+          "score": 0.991
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 197.602,
+      "end": 199.624,
+      "text": "I can feel you getting harder on my hand, can't you?",
+      "words": [
+        {
+          "word": "I",
+          "start": 197.602,
+          "end": 197.642,
+          "score": 0.658
+        },
+        {
+          "word": "can",
+          "start": 197.662,
+          "end": 197.802,
+          "score": 0.309
+        },
+        {
+          "word": "feel",
+          "start": 197.822,
+          "end": 197.963,
+          "score": 0.932
+        },
+        {
+          "word": "you",
+          "start": 197.983,
+          "end": 198.083,
+          "score": 0.845
+        },
+        {
+          "word": "getting",
+          "start": 198.103,
+          "end": 198.303,
+          "score": 0.875
+        },
+        {
+          "word": "harder",
+          "start": 198.363,
+          "end": 198.623,
+          "score": 0.831
+        },
+        {
+          "word": "on",
+          "start": 198.643,
+          "end": 198.703,
+          "score": 0.254
+        },
+        {
+          "word": "my",
+          "start": 198.743,
+          "end": 198.843,
+          "score": 0.92
+        },
+        {
+          "word": "hand,",
+          "start": 198.883,
+          "end": 199.144,
+          "score": 0.893
+        },
+        {
+          "word": "can't",
+          "start": 199.204,
+          "end": 199.404,
+          "score": 0.736
+        },
+        {
+          "word": "you?",
+          "start": 199.444,
+          "end": 199.624,
+          "score": 0.879
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 200.345,
+      "end": 201.326,
+      "text": "Like the way I'm stroking it?",
+      "words": [
+        {
+          "word": "Like",
+          "start": 200.345,
+          "end": 200.485,
+          "score": 0.83
+        },
+        {
+          "word": "the",
+          "start": 200.505,
+          "end": 200.585,
+          "score": 0.867
+        },
+        {
+          "word": "way",
+          "start": 200.605,
+          "end": 200.685,
+          "score": 0.506
+        },
+        {
+          "word": "I'm",
+          "start": 200.705,
+          "end": 200.825,
+          "score": 0.487
+        },
+        {
+          "word": "stroking",
+          "start": 200.865,
+          "end": 201.206,
+          "score": 0.895
+        },
+        {
+          "word": "it?",
+          "start": 201.266,
+          "end": 201.326,
+          "score": 0.94
+        }
+      ],
+      "avg_logprob": -0.11453177019492868
+    },
+    {
+      "start": 202.912,
+      "end": 204.112,
+      "text": " You like it more on the tip?",
+      "words": [
+        {
+          "word": "You",
+          "start": 202.912,
+          "end": 203.072,
+          "score": 0.511
+        },
+        {
+          "word": "like",
+          "start": 203.092,
+          "end": 203.232,
+          "score": 0.801
+        },
+        {
+          "word": "it",
+          "start": 203.292,
+          "end": 203.372,
+          "score": 0.741
+        },
+        {
+          "word": "more",
+          "start": 203.412,
+          "end": 203.532,
+          "score": 0.932
+        },
+        {
+          "word": "on",
+          "start": 203.592,
+          "end": 203.672,
+          "score": 0.698
+        },
+        {
+          "word": "the",
+          "start": 203.692,
+          "end": 203.772,
+          "score": 0.797
+        },
+        {
+          "word": "tip?",
+          "start": 203.832,
+          "end": 204.112,
+          "score": 0.86
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 204.973,
+      "end": 207.053,
+      "text": "Or you like it when I do the whole shaft like this?",
+      "words": [
+        {
+          "word": "Or",
+          "start": 204.973,
+          "end": 205.013,
+          "score": 0.001
+        },
+        {
+          "word": "you",
+          "start": 205.033,
+          "end": 205.153,
+          "score": 0.43
+        },
+        {
+          "word": "like",
+          "start": 205.173,
+          "end": 205.293,
+          "score": 0.837
+        },
+        {
+          "word": "it",
+          "start": 205.333,
+          "end": 205.373,
+          "score": 0.306
+        },
+        {
+          "word": "when",
+          "start": 205.393,
+          "end": 205.493,
+          "score": 0.174
+        },
+        {
+          "word": "I",
+          "start": 205.513,
+          "end": 205.573,
+          "score": 0.523
+        },
+        {
+          "word": "do",
+          "start": 205.593,
+          "end": 205.713,
+          "score": 0.508
+        },
+        {
+          "word": "the",
+          "start": 205.733,
+          "end": 205.813,
+          "score": 0.616
+        },
+        {
+          "word": "whole",
+          "start": 205.893,
+          "end": 206.133,
+          "score": 0.867
+        },
+        {
+          "word": "shaft",
+          "start": 206.193,
+          "end": 206.533,
+          "score": 0.843
+        },
+        {
+          "word": "like",
+          "start": 206.573,
+          "end": 206.733,
+          "score": 0.799
+        },
+        {
+          "word": "this?",
+          "start": 206.773,
+          "end": 207.053,
+          "score": 0.831
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 208.614,
+      "end": 209.734,
+      "text": "You like the tip, don't you?",
+      "words": [
+        {
+          "word": "You",
+          "start": 208.614,
+          "end": 208.714,
+          "score": 0.754
+        },
+        {
+          "word": "like",
+          "start": 208.734,
+          "end": 208.894,
+          "score": 0.753
+        },
+        {
+          "word": "the",
+          "start": 208.914,
+          "end": 208.994,
+          "score": 0.773
+        },
+        {
+          "word": "tip,",
+          "start": 209.054,
+          "end": 209.314,
+          "score": 0.969
+        },
+        {
+          "word": "don't",
+          "start": 209.334,
+          "end": 209.534,
+          "score": 0.752
+        },
+        {
+          "word": "you?",
+          "start": 209.594,
+          "end": 209.734,
+          "score": 0.963
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 212.275,
+      "end": 212.855,
+      "text": "That's right.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 212.275,
+          "end": 212.535,
+          "score": 0.73
+        },
+        {
+          "word": "right.",
+          "start": 212.595,
+          "end": 212.855,
+          "score": 0.872
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 212.875,
+      "end": 214.935,
+      "text": "I can feel you getting harder.",
+      "words": [
+        {
+          "word": "I",
+          "start": 212.875,
+          "end": 212.895,
+          "score": 0.0
+        },
+        {
+          "word": "can",
+          "start": 213.815,
+          "end": 213.995,
+          "score": 0.872
+        },
+        {
+          "word": "feel",
+          "start": 214.035,
+          "end": 214.275,
+          "score": 0.822
+        },
+        {
+          "word": "you",
+          "start": 214.295,
+          "end": 214.415,
+          "score": 0.909
+        },
+        {
+          "word": "getting",
+          "start": 214.435,
+          "end": 214.695,
+          "score": 0.864
+        },
+        {
+          "word": "harder.",
+          "start": 214.715,
+          "end": 214.935,
+          "score": 0.37
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 216.156,
+      "end": 217.856,
+      "text": "Hey, no touching.",
+      "words": [
+        {
+          "word": "Hey,",
+          "start": 216.156,
+          "end": 217.176,
+          "score": 0.508
+        },
+        {
+          "word": "no",
+          "start": 217.296,
+          "end": 217.456,
+          "score": 0.916
+        },
+        {
+          "word": "touching.",
+          "start": 217.496,
+          "end": 217.856,
+          "score": 0.823
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 217.996,
+      "end": 219.397,
+      "text": "You can look, but you can't touch.",
+      "words": [
+        {
+          "word": "You",
+          "start": 217.996,
+          "end": 218.116,
+          "score": 0.945
+        },
+        {
+          "word": "can",
+          "start": 218.136,
+          "end": 218.276,
+          "score": 0.956
+        },
+        {
+          "word": "look,",
+          "start": 218.316,
+          "end": 218.516,
+          "score": 0.908
+        },
+        {
+          "word": "but",
+          "start": 218.556,
+          "end": 218.677,
+          "score": 0.876
+        },
+        {
+          "word": "you",
+          "start": 218.717,
+          "end": 218.837,
+          "score": 0.888
+        },
+        {
+          "word": "can't",
+          "start": 218.857,
+          "end": 219.077,
+          "score": 0.713
+        },
+        {
+          "word": "touch.",
+          "start": 219.117,
+          "end": 219.397,
+          "score": 0.826
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 220.997,
+      "end": 221.557,
+      "text": "Understand?",
+      "words": [
+        {
+          "word": "Understand?",
+          "start": 220.997,
+          "end": 221.557,
+          "score": 0.795
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 221.577,
+      "end": 225.759,
+      "text": "I don't think you need to touch anyway, do you?",
+      "words": [
+        {
+          "word": "I",
+          "start": 221.577,
+          "end": 221.597,
+          "score": 0.001
+        },
+        {
+          "word": "don't",
+          "start": 224.098,
+          "end": 224.238,
+          "score": 0.668
+        },
+        {
+          "word": "think",
+          "start": 224.258,
+          "end": 224.358,
+          "score": 0.996
+        },
+        {
+          "word": "you",
+          "start": 224.378,
+          "end": 224.478,
+          "score": 0.922
+        },
+        {
+          "word": "need",
+          "start": 224.498,
+          "end": 224.638,
+          "score": 0.806
+        },
+        {
+          "word": "to",
+          "start": 224.658,
+          "end": 224.718,
+          "score": 0.724
+        },
+        {
+          "word": "touch",
+          "start": 224.778,
+          "end": 224.998,
+          "score": 0.833
+        },
+        {
+          "word": "anyway,",
+          "start": 225.078,
+          "end": 225.398,
+          "score": 0.857
+        },
+        {
+          "word": "do",
+          "start": 225.438,
+          "end": 225.538,
+          "score": 0.988
+        },
+        {
+          "word": "you?",
+          "start": 225.579,
+          "end": 225.759,
+          "score": 0.784
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 230.26,
+      "end": 230.72,
+      "text": "Oh, there you go.",
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 230.26,
+          "end": 230.36,
+          "score": 0.746
+        },
+        {
+          "word": "there",
+          "start": 230.4,
+          "end": 230.56,
+          "score": 0.727
+        },
+        {
+          "word": "you",
+          "start": 230.58,
+          "end": 230.64,
+          "score": 0.001
+        },
+        {
+          "word": "go.",
+          "start": 230.66,
+          "end": 230.72,
+          "score": 0.013
+        }
+      ],
+      "avg_logprob": -0.10364356054327427
+    },
+    {
+      "start": 233.497,
+      "end": 235.277,
+      "text": " Just like that.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 233.497,
+          "end": 233.657,
+          "score": 0.419
+        },
+        {
+          "word": "like",
+          "start": 233.717,
+          "end": 233.877,
+          "score": 0.968
+        },
+        {
+          "word": "that.",
+          "start": 233.977,
+          "end": 235.277,
+          "score": 0.645
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 237.058,
+      "end": 238.798,
+      "text": "I can feel you getting nice and hard.",
+      "words": [
+        {
+          "word": "I",
+          "start": 237.058,
+          "end": 237.118,
+          "score": 0.872
+        },
+        {
+          "word": "can",
+          "start": 237.138,
+          "end": 237.298,
+          "score": 0.469
+        },
+        {
+          "word": "feel",
+          "start": 237.338,
+          "end": 237.498,
+          "score": 0.401
+        },
+        {
+          "word": "you",
+          "start": 237.518,
+          "end": 237.618,
+          "score": 0.614
+        },
+        {
+          "word": "getting",
+          "start": 237.638,
+          "end": 237.858,
+          "score": 0.675
+        },
+        {
+          "word": "nice",
+          "start": 237.938,
+          "end": 238.218,
+          "score": 0.908
+        },
+        {
+          "word": "and",
+          "start": 238.298,
+          "end": 238.418,
+          "score": 0.351
+        },
+        {
+          "word": "hard.",
+          "start": 238.478,
+          "end": 238.798,
+          "score": 0.855
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 238.978,
+      "end": 240.179,
+      "text": "You want to help me stroke it?",
+      "words": [
+        {
+          "word": "You",
+          "start": 238.978,
+          "end": 239.038,
+          "score": 0.417
+        },
+        {
+          "word": "want",
+          "start": 239.058,
+          "end": 239.198,
+          "score": 0.421
+        },
+        {
+          "word": "to",
+          "start": 239.218,
+          "end": 239.258,
+          "score": 0.272
+        },
+        {
+          "word": "help",
+          "start": 239.318,
+          "end": 239.459,
+          "score": 0.941
+        },
+        {
+          "word": "me",
+          "start": 239.479,
+          "end": 239.579,
+          "score": 0.878
+        },
+        {
+          "word": "stroke",
+          "start": 239.639,
+          "end": 239.959,
+          "score": 0.789
+        },
+        {
+          "word": "it?",
+          "start": 240.059,
+          "end": 240.179,
+          "score": 0.915
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 241.219,
+      "end": 241.519,
+      "text": "Help me.",
+      "words": [
+        {
+          "word": "Help",
+          "start": 241.219,
+          "end": 241.379,
+          "score": 0.776
+        },
+        {
+          "word": "me.",
+          "start": 241.399,
+          "end": 241.519,
+          "score": 0.721
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 241.539,
+      "end": 242.579,
+      "text": "I want to see how you do it.",
+      "words": [
+        {
+          "word": "I",
+          "start": 241.539,
+          "end": 241.579,
+          "score": 0.471
+        },
+        {
+          "word": "want",
+          "start": 241.619,
+          "end": 241.719,
+          "score": 0.713
+        },
+        {
+          "word": "to",
+          "start": 241.759,
+          "end": 241.819,
+          "score": 0.944
+        },
+        {
+          "word": "see",
+          "start": 241.859,
+          "end": 241.979,
+          "score": 0.838
+        },
+        {
+          "word": "how",
+          "start": 242.019,
+          "end": 242.099,
+          "score": 0.991
+        },
+        {
+          "word": "you",
+          "start": 242.139,
+          "end": 242.279,
+          "score": 0.997
+        },
+        {
+          "word": "do",
+          "start": 242.319,
+          "end": 242.459,
+          "score": 0.88
+        },
+        {
+          "word": "it.",
+          "start": 242.519,
+          "end": 242.579,
+          "score": 0.981
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 243.059,
+      "end": 246.84,
+      "text": "I'm just going to rub the tip and take the whole shaft.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 243.059,
+          "end": 243.219,
+          "score": 0.788
+        },
+        {
+          "word": "just",
+          "start": 243.239,
+          "end": 243.319,
+          "score": 0.768
+        },
+        {
+          "word": "going",
+          "start": 243.359,
+          "end": 243.5,
+          "score": 0.427
+        },
+        {
+          "word": "to",
+          "start": 243.52,
+          "end": 243.58,
+          "score": 0.771
+        },
+        {
+          "word": "rub",
+          "start": 243.62,
+          "end": 243.8,
+          "score": 0.749
+        },
+        {
+          "word": "the",
+          "start": 243.84,
+          "end": 243.94,
+          "score": 0.9
+        },
+        {
+          "word": "tip",
+          "start": 244.0,
+          "end": 244.3,
+          "score": 0.93
+        },
+        {
+          "word": "and",
+          "start": 245.26,
+          "end": 245.4,
+          "score": 0.556
+        },
+        {
+          "word": "take",
+          "start": 245.56,
+          "end": 245.76,
+          "score": 0.475
+        },
+        {
+          "word": "the",
+          "start": 245.82,
+          "end": 245.9,
+          "score": 0.293
+        },
+        {
+          "word": "whole",
+          "start": 245.98,
+          "end": 246.26,
+          "score": 0.375
+        },
+        {
+          "word": "shaft.",
+          "start": 246.34,
+          "end": 246.84,
+          "score": 0.924
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 249.081,
+      "end": 250.281,
+      "text": "Oh, I work the balls.",
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 249.081,
+          "end": 249.381,
+          "score": 0.666
+        },
+        {
+          "word": "I",
+          "start": 249.401,
+          "end": 249.421,
+          "score": 0.001
+        },
+        {
+          "word": "work",
+          "start": 249.441,
+          "end": 249.621,
+          "score": 0.946
+        },
+        {
+          "word": "the",
+          "start": 249.661,
+          "end": 249.741,
+          "score": 0.913
+        },
+        {
+          "word": "balls.",
+          "start": 249.801,
+          "end": 250.281,
+          "score": 0.756
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 251.562,
+      "end": 252.602,
+      "text": "You like that, don't you?",
+      "words": [
+        {
+          "word": "You",
+          "start": 251.562,
+          "end": 251.722,
+          "score": 0.806
+        },
+        {
+          "word": "like",
+          "start": 251.762,
+          "end": 251.942,
+          "score": 0.893
+        },
+        {
+          "word": "that,",
+          "start": 251.982,
+          "end": 252.142,
+          "score": 0.957
+        },
+        {
+          "word": "don't",
+          "start": 252.182,
+          "end": 252.382,
+          "score": 0.849
+        },
+        {
+          "word": "you?",
+          "start": 252.422,
+          "end": 252.602,
+          "score": 0.854
+        }
+      ],
+      "avg_logprob": -0.15487134598550342
+    },
+    {
+      "start": 261.482,
+      "end": 262.983,
+      "text": " Just like that, I wanna see you do it.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 261.482,
+          "end": 261.622,
+          "score": 0.347
+        },
+        {
+          "word": "like",
+          "start": 261.662,
+          "end": 261.822,
+          "score": 0.8
+        },
+        {
+          "word": "that,",
+          "start": 261.882,
+          "end": 262.082,
+          "score": 0.839
+        },
+        {
+          "word": "I",
+          "start": 262.102,
+          "end": 262.162,
+          "score": 0.318
+        },
+        {
+          "word": "wanna",
+          "start": 262.202,
+          "end": 262.383,
+          "score": 0.681
+        },
+        {
+          "word": "see",
+          "start": 262.423,
+          "end": 262.563,
+          "score": 0.828
+        },
+        {
+          "word": "you",
+          "start": 262.583,
+          "end": 262.683,
+          "score": 0.734
+        },
+        {
+          "word": "do",
+          "start": 262.723,
+          "end": 262.843,
+          "score": 0.804
+        },
+        {
+          "word": "it.",
+          "start": 262.923,
+          "end": 262.983,
+          "score": 0.986
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 263.663,
+      "end": 264.444,
+      "text": "I wanna see you do it.",
+      "words": [
+        {
+          "word": "I",
+          "start": 263.663,
+          "end": 263.703,
+          "score": 0.809
+        },
+        {
+          "word": "wanna",
+          "start": 263.723,
+          "end": 263.943,
+          "score": 0.5
+        },
+        {
+          "word": "see",
+          "start": 263.983,
+          "end": 264.043,
+          "score": 0.226
+        },
+        {
+          "word": "you",
+          "start": 264.083,
+          "end": 264.204,
+          "score": 0.395
+        },
+        {
+          "word": "do",
+          "start": 264.244,
+          "end": 264.304,
+          "score": 0.306
+        },
+        {
+          "word": "it.",
+          "start": 264.364,
+          "end": 264.444,
+          "score": 0.454
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 266.825,
+      "end": 268.506,
+      "text": "I see these tits, look at my tits.",
+      "words": [
+        {
+          "word": "I",
+          "start": 266.825,
+          "end": 266.905,
+          "score": 0.934
+        },
+        {
+          "word": "see",
+          "start": 266.925,
+          "end": 267.105,
+          "score": 0.735
+        },
+        {
+          "word": "these",
+          "start": 267.145,
+          "end": 267.325,
+          "score": 0.649
+        },
+        {
+          "word": "tits,",
+          "start": 267.385,
+          "end": 267.685,
+          "score": 0.789
+        },
+        {
+          "word": "look",
+          "start": 267.705,
+          "end": 267.826,
+          "score": 0.464
+        },
+        {
+          "word": "at",
+          "start": 267.886,
+          "end": 267.986,
+          "score": 0.284
+        },
+        {
+          "word": "my",
+          "start": 268.006,
+          "end": 268.126,
+          "score": 0.846
+        },
+        {
+          "word": "tits.",
+          "start": 268.186,
+          "end": 268.506,
+          "score": 0.857
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 269.266,
+      "end": 270.627,
+      "text": "Look at my tits while I do this.",
+      "words": [
+        {
+          "word": "Look",
+          "start": 269.266,
+          "end": 269.386,
+          "score": 0.313
+        },
+        {
+          "word": "at",
+          "start": 269.406,
+          "end": 269.466,
+          "score": 0.215
+        },
+        {
+          "word": "my",
+          "start": 269.486,
+          "end": 269.606,
+          "score": 0.894
+        },
+        {
+          "word": "tits",
+          "start": 269.687,
+          "end": 269.907,
+          "score": 0.652
+        },
+        {
+          "word": "while",
+          "start": 269.927,
+          "end": 270.067,
+          "score": 0.222
+        },
+        {
+          "word": "I",
+          "start": 270.087,
+          "end": 270.207,
+          "score": 0.573
+        },
+        {
+          "word": "do",
+          "start": 270.227,
+          "end": 270.387,
+          "score": 0.638
+        },
+        {
+          "word": "this.",
+          "start": 270.407,
+          "end": 270.627,
+          "score": 0.821
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 271.347,
+      "end": 272.348,
+      "text": "While I rub your balls.",
+      "words": [
+        {
+          "word": "While",
+          "start": 271.347,
+          "end": 271.508,
+          "score": 0.412
+        },
+        {
+          "word": "I",
+          "start": 271.528,
+          "end": 271.588,
+          "score": 0.602
+        },
+        {
+          "word": "rub",
+          "start": 271.648,
+          "end": 271.788,
+          "score": 0.634
+        },
+        {
+          "word": "your",
+          "start": 271.828,
+          "end": 271.968,
+          "score": 0.912
+        },
+        {
+          "word": "balls.",
+          "start": 271.988,
+          "end": 272.348,
+          "score": 0.81
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 276.11,
+      "end": 278.371,
+      "text": "That's right.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 276.11,
+          "end": 276.47,
+          "score": 0.813
+        },
+        {
+          "word": "right.",
+          "start": 276.57,
+          "end": 278.371,
+          "score": 0.736
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 280.092,
+      "end": 281.493,
+      "text": "You're such a bad boy.",
+      "words": [
+        {
+          "word": "You're",
+          "start": 280.092,
+          "end": 280.312,
+          "score": 0.35
+        },
+        {
+          "word": "such",
+          "start": 280.432,
+          "end": 280.693,
+          "score": 0.941
+        },
+        {
+          "word": "a",
+          "start": 280.713,
+          "end": 280.733,
+          "score": 0.789
+        },
+        {
+          "word": "bad",
+          "start": 280.813,
+          "end": 281.113,
+          "score": 0.839
+        },
+        {
+          "word": "boy.",
+          "start": 281.153,
+          "end": 281.493,
+          "score": 0.91
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 282.173,
+      "end": 283.654,
+      "text": "But you've always been my favorite.",
+      "words": [
+        {
+          "word": "But",
+          "start": 282.173,
+          "end": 282.313,
+          "score": 0.272
+        },
+        {
+          "word": "you've",
+          "start": 282.353,
+          "end": 282.514,
+          "score": 0.803
+        },
+        {
+          "word": "always",
+          "start": 282.534,
+          "end": 282.754,
+          "score": 0.826
+        },
+        {
+          "word": "been",
+          "start": 282.774,
+          "end": 282.954,
+          "score": 0.782
+        },
+        {
+          "word": "my",
+          "start": 282.994,
+          "end": 283.134,
+          "score": 0.805
+        },
+        {
+          "word": "favorite.",
+          "start": 283.214,
+          "end": 283.654,
+          "score": 0.862
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 284.535,
+      "end": 286.176,
+      "text": "Just don't tell your brother or your father.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 284.535,
+          "end": 284.695,
+          "score": 0.458
+        },
+        {
+          "word": "don't",
+          "start": 284.755,
+          "end": 284.935,
+          "score": 0.66
+        },
+        {
+          "word": "tell",
+          "start": 284.955,
+          "end": 285.095,
+          "score": 0.816
+        },
+        {
+          "word": "your",
+          "start": 285.115,
+          "end": 285.235,
+          "score": 0.865
+        },
+        {
+          "word": "brother",
+          "start": 285.275,
+          "end": 285.555,
+          "score": 0.848
+        },
+        {
+          "word": "or",
+          "start": 285.575,
+          "end": 285.615,
+          "score": 0.446
+        },
+        {
+          "word": "your",
+          "start": 285.655,
+          "end": 285.775,
+          "score": 0.866
+        },
+        {
+          "word": "father.",
+          "start": 285.815,
+          "end": 286.176,
+          "score": 0.849
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 288.257,
+      "end": 290.318,
+      "text": "I've always thought you were a very handsome young man.",
+      "words": [
+        {
+          "word": "I've",
+          "start": 288.257,
+          "end": 288.357,
+          "score": 0.783
+        },
+        {
+          "word": "always",
+          "start": 288.397,
+          "end": 288.617,
+          "score": 0.814
+        },
+        {
+          "word": "thought",
+          "start": 288.657,
+          "end": 288.837,
+          "score": 0.905
+        },
+        {
+          "word": "you",
+          "start": 288.877,
+          "end": 288.957,
+          "score": 0.902
+        },
+        {
+          "word": "were",
+          "start": 288.977,
+          "end": 289.097,
+          "score": 0.738
+        },
+        {
+          "word": "a",
+          "start": 289.117,
+          "end": 289.137,
+          "score": 0.942
+        },
+        {
+          "word": "very",
+          "start": 289.177,
+          "end": 289.377,
+          "score": 0.779
+        },
+        {
+          "word": "handsome",
+          "start": 289.457,
+          "end": 289.858,
+          "score": 0.871
+        },
+        {
+          "word": "young",
+          "start": 289.898,
+          "end": 290.078,
+          "score": 0.799
+        },
+        {
+          "word": "man.",
+          "start": 290.118,
+          "end": 290.318,
+          "score": 0.999
+        }
+      ],
+      "avg_logprob": -0.08009683349254457
+    },
+    {
+      "start": 295.173,
+      "end": 299.936,
+      "text": " I can tell the way you've been looking at my tits that you think I'm kind of hot too, don't you?",
+      "words": [
+        {
+          "word": "I",
+          "start": 295.173,
+          "end": 295.234,
+          "score": 0.708
+        },
+        {
+          "word": "can",
+          "start": 295.254,
+          "end": 295.414,
+          "score": 0.377
+        },
+        {
+          "word": "tell",
+          "start": 295.434,
+          "end": 295.594,
+          "score": 0.752
+        },
+        {
+          "word": "the",
+          "start": 295.634,
+          "end": 295.714,
+          "score": 0.843
+        },
+        {
+          "word": "way",
+          "start": 295.734,
+          "end": 295.834,
+          "score": 0.851
+        },
+        {
+          "word": "you've",
+          "start": 295.854,
+          "end": 296.034,
+          "score": 0.916
+        },
+        {
+          "word": "been",
+          "start": 296.074,
+          "end": 296.194,
+          "score": 0.997
+        },
+        {
+          "word": "looking",
+          "start": 296.214,
+          "end": 296.474,
+          "score": 0.824
+        },
+        {
+          "word": "at",
+          "start": 296.514,
+          "end": 296.574,
+          "score": 0.748
+        },
+        {
+          "word": "my",
+          "start": 296.594,
+          "end": 296.734,
+          "score": 0.873
+        },
+        {
+          "word": "tits",
+          "start": 296.774,
+          "end": 297.094,
+          "score": 0.865
+        },
+        {
+          "word": "that",
+          "start": 297.995,
+          "end": 298.175,
+          "score": 0.352
+        },
+        {
+          "word": "you",
+          "start": 298.195,
+          "end": 298.355,
+          "score": 0.712
+        },
+        {
+          "word": "think",
+          "start": 298.375,
+          "end": 298.555,
+          "score": 0.613
+        },
+        {
+          "word": "I'm",
+          "start": 298.595,
+          "end": 298.735,
+          "score": 0.843
+        },
+        {
+          "word": "kind",
+          "start": 298.775,
+          "end": 298.935,
+          "score": 0.35
+        },
+        {
+          "word": "of",
+          "start": 298.955,
+          "end": 298.995,
+          "score": 0.0
+        },
+        {
+          "word": "hot",
+          "start": 299.035,
+          "end": 299.216,
+          "score": 0.796
+        },
+        {
+          "word": "too,",
+          "start": 299.256,
+          "end": 299.476,
+          "score": 0.908
+        },
+        {
+          "word": "don't",
+          "start": 299.536,
+          "end": 299.736,
+          "score": 0.757
+        },
+        {
+          "word": "you?",
+          "start": 299.776,
+          "end": 299.936,
+          "score": 0.924
+        }
+      ],
+      "avg_logprob": -0.08932258901388748
+    },
+    {
+      "start": 302.997,
+      "end": 304.978,
+      "text": "Well, for a woman my age, that's a compliment.",
+      "words": [
+        {
+          "word": "Well,",
+          "start": 302.997,
+          "end": 303.177,
+          "score": 0.811
+        },
+        {
+          "word": "for",
+          "start": 303.218,
+          "end": 303.358,
+          "score": 0.692
+        },
+        {
+          "word": "a",
+          "start": 303.378,
+          "end": 303.398,
+          "score": 0.183
+        },
+        {
+          "word": "woman",
+          "start": 303.438,
+          "end": 303.678,
+          "score": 0.854
+        },
+        {
+          "word": "my",
+          "start": 303.738,
+          "end": 303.878,
+          "score": 0.871
+        },
+        {
+          "word": "age,",
+          "start": 303.938,
+          "end": 304.118,
+          "score": 0.828
+        },
+        {
+          "word": "that's",
+          "start": 304.138,
+          "end": 304.318,
+          "score": 0.722
+        },
+        {
+          "word": "a",
+          "start": 304.338,
+          "end": 304.358,
+          "score": 0.991
+        },
+        {
+          "word": "compliment.",
+          "start": 304.438,
+          "end": 304.978,
+          "score": 0.947
+        }
+      ],
+      "avg_logprob": -0.08932258901388748
+    },
+    {
+      "start": 304.998,
+      "end": 311.141,
+      "text": "Oh, I know you like it.",
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 304.998,
+          "end": 310.241,
+          "score": 0.819
+        },
+        {
+          "word": "I",
+          "start": 310.301,
+          "end": 310.361,
+          "score": 0.942
+        },
+        {
+          "word": "know",
+          "start": 310.401,
+          "end": 310.561,
+          "score": 0.822
+        },
+        {
+          "word": "you",
+          "start": 310.581,
+          "end": 310.761,
+          "score": 0.869
+        },
+        {
+          "word": "like",
+          "start": 310.781,
+          "end": 311.041,
+          "score": 0.79
+        },
+        {
+          "word": "it.",
+          "start": 311.081,
+          "end": 311.141,
+          "score": 0.986
+        }
+      ],
+      "avg_logprob": -0.08932258901388748
+    },
+    {
+      "start": 313.042,
+      "end": 316.124,
+      "text": "But you can't get a handjob like this from the girls at your school, could you?",
+      "words": [
+        {
+          "word": "But",
+          "start": 313.042,
+          "end": 313.163,
+          "score": 0.853
+        },
+        {
+          "word": "you",
+          "start": 313.183,
+          "end": 313.283,
+          "score": 0.841
+        },
+        {
+          "word": "can't",
+          "start": 313.303,
+          "end": 313.503,
+          "score": 0.867
+        },
+        {
+          "word": "get",
+          "start": 313.543,
+          "end": 313.683,
+          "score": 0.799
+        },
+        {
+          "word": "a",
+          "start": 313.723,
+          "end": 313.763,
+          "score": 0.5
+        },
+        {
+          "word": "handjob",
+          "start": 313.823,
+          "end": 314.203,
+          "score": 0.713
+        },
+        {
+          "word": "like",
+          "start": 314.243,
+          "end": 314.383,
+          "score": 0.827
+        },
+        {
+          "word": "this",
+          "start": 314.423,
+          "end": 314.563,
+          "score": 0.924
+        },
+        {
+          "word": "from",
+          "start": 314.583,
+          "end": 314.723,
+          "score": 0.577
+        },
+        {
+          "word": "the",
+          "start": 314.743,
+          "end": 314.803,
+          "score": 0.9
+        },
+        {
+          "word": "girls",
+          "start": 314.843,
+          "end": 315.083,
+          "score": 0.812
+        },
+        {
+          "word": "at",
+          "start": 315.123,
+          "end": 315.184,
+          "score": 0.752
+        },
+        {
+          "word": "your",
+          "start": 315.204,
+          "end": 315.344,
+          "score": 0.969
+        },
+        {
+          "word": "school,",
+          "start": 315.384,
+          "end": 315.664,
+          "score": 0.868
+        },
+        {
+          "word": "could",
+          "start": 315.704,
+          "end": 315.904,
+          "score": 0.687
+        },
+        {
+          "word": "you?",
+          "start": 315.944,
+          "end": 316.124,
+          "score": 0.901
+        }
+      ],
+      "avg_logprob": -0.08932258901388748
+    },
+    {
+      "start": 319.694,
+      "end": 323.577,
+      "text": " There's something to be said for age and experience.",
+      "words": [
+        {
+          "word": "There's",
+          "start": 319.694,
+          "end": 319.834,
+          "score": 0.016
+        },
+        {
+          "word": "something",
+          "start": 319.854,
+          "end": 320.094,
+          "score": 0.839
+        },
+        {
+          "word": "to",
+          "start": 320.114,
+          "end": 320.174,
+          "score": 0.708
+        },
+        {
+          "word": "be",
+          "start": 320.214,
+          "end": 320.295,
+          "score": 0.794
+        },
+        {
+          "word": "said",
+          "start": 320.335,
+          "end": 320.515,
+          "score": 0.882
+        },
+        {
+          "word": "for",
+          "start": 320.555,
+          "end": 320.695,
+          "score": 0.795
+        },
+        {
+          "word": "age",
+          "start": 320.895,
+          "end": 321.095,
+          "score": 0.907
+        },
+        {
+          "word": "and",
+          "start": 322.677,
+          "end": 322.777,
+          "score": 0.402
+        },
+        {
+          "word": "experience.",
+          "start": 322.817,
+          "end": 323.577,
+          "score": 0.912
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 324.638,
+      "end": 326.38,
+      "text": "At least I can pass it along to you, huh?",
+      "words": [
+        {
+          "word": "At",
+          "start": 324.638,
+          "end": 324.698,
+          "score": 0.792
+        },
+        {
+          "word": "least",
+          "start": 324.718,
+          "end": 324.878,
+          "score": 0.766
+        },
+        {
+          "word": "I",
+          "start": 324.938,
+          "end": 324.999,
+          "score": 0.697
+        },
+        {
+          "word": "can",
+          "start": 325.019,
+          "end": 325.139,
+          "score": 0.901
+        },
+        {
+          "word": "pass",
+          "start": 325.179,
+          "end": 325.459,
+          "score": 0.918
+        },
+        {
+          "word": "it",
+          "start": 325.499,
+          "end": 325.559,
+          "score": 0.907
+        },
+        {
+          "word": "along",
+          "start": 325.599,
+          "end": 325.879,
+          "score": 0.954
+        },
+        {
+          "word": "to",
+          "start": 325.899,
+          "end": 325.979,
+          "score": 0.724
+        },
+        {
+          "word": "you,",
+          "start": 325.999,
+          "end": 326.139,
+          "score": 0.937
+        },
+        {
+          "word": "huh?",
+          "start": 326.18,
+          "end": 326.38,
+          "score": 0.615
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 328.662,
+      "end": 329.823,
+      "text": "Oh, I know you like that.",
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 328.662,
+          "end": 328.782,
+          "score": 0.543
+        },
+        {
+          "word": "I",
+          "start": 328.922,
+          "end": 328.982,
+          "score": 0.695
+        },
+        {
+          "word": "know",
+          "start": 329.002,
+          "end": 329.142,
+          "score": 0.397
+        },
+        {
+          "word": "you",
+          "start": 329.162,
+          "end": 329.322,
+          "score": 0.828
+        },
+        {
+          "word": "like",
+          "start": 329.362,
+          "end": 329.562,
+          "score": 0.938
+        },
+        {
+          "word": "that.",
+          "start": 329.622,
+          "end": 329.823,
+          "score": 0.795
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 331.464,
+      "end": 332.625,
+      "text": "I'm gonna make you come, aren't I?",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 331.464,
+          "end": 331.524,
+          "score": 0.229
+        },
+        {
+          "word": "gonna",
+          "start": 331.544,
+          "end": 331.724,
+          "score": 0.105
+        },
+        {
+          "word": "make",
+          "start": 331.744,
+          "end": 331.864,
+          "score": 0.802
+        },
+        {
+          "word": "you",
+          "start": 331.884,
+          "end": 332.004,
+          "score": 0.966
+        },
+        {
+          "word": "come,",
+          "start": 332.065,
+          "end": 332.305,
+          "score": 0.803
+        },
+        {
+          "word": "aren't",
+          "start": 332.365,
+          "end": 332.525,
+          "score": 0.817
+        },
+        {
+          "word": "I?",
+          "start": 332.545,
+          "end": 332.625,
+          "score": 0.662
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 333.926,
+      "end": 334.607,
+      "text": "That's right.",
+      "words": [
+        {
+          "word": "That's",
+          "start": 333.926,
+          "end": 334.186,
+          "score": 0.726
+        },
+        {
+          "word": "right.",
+          "start": 334.266,
+          "end": 334.607,
+          "score": 0.556
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 335.507,
+      "end": 336.108,
+      "text": "Just like that.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 335.507,
+          "end": 335.628,
+          "score": 0.592
+        },
+        {
+          "word": "like",
+          "start": 335.668,
+          "end": 335.868,
+          "score": 0.898
+        },
+        {
+          "word": "that.",
+          "start": 335.928,
+          "end": 336.108,
+          "score": 0.445
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 336.789,
+      "end": 338.13,
+      "text": "I want you to come all over my hand.",
+      "words": [
+        {
+          "word": "I",
+          "start": 336.789,
+          "end": 336.829,
+          "score": 0.799
+        },
+        {
+          "word": "want",
+          "start": 336.869,
+          "end": 336.989,
+          "score": 0.223
+        },
+        {
+          "word": "you",
+          "start": 337.029,
+          "end": 337.089,
+          "score": 0.177
+        },
+        {
+          "word": "to",
+          "start": 337.129,
+          "end": 337.169,
+          "score": 0.148
+        },
+        {
+          "word": "come",
+          "start": 337.209,
+          "end": 337.389,
+          "score": 0.772
+        },
+        {
+          "word": "all",
+          "start": 337.409,
+          "end": 337.509,
+          "score": 0.642
+        },
+        {
+          "word": "over",
+          "start": 337.529,
+          "end": 337.669,
+          "score": 0.659
+        },
+        {
+          "word": "my",
+          "start": 337.709,
+          "end": 337.849,
+          "score": 0.732
+        },
+        {
+          "word": "hand.",
+          "start": 337.889,
+          "end": 338.13,
+          "score": 0.861
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 339.09,
+      "end": 339.671,
+      "text": "Come all over my hand.",
+      "words": [
+        {
+          "word": "Come",
+          "start": 339.09,
+          "end": 339.211,
+          "score": 0.87
+        },
+        {
+          "word": "all",
+          "start": 339.231,
+          "end": 339.291,
+          "score": 0.009
+        },
+        {
+          "word": "over",
+          "start": 339.311,
+          "end": 339.451,
+          "score": 0.557
+        },
+        {
+          "word": "my",
+          "start": 339.491,
+          "end": 339.551,
+          "score": 0.974
+        },
+        {
+          "word": "hand.",
+          "start": 339.571,
+          "end": 339.671,
+          "score": 0.026
+        }
+      ],
+      "avg_logprob": -0.09715798007908152
+    },
+    {
+      "start": 342.138,
+      "end": 343.599,
+      "text": " Not yet.",
+      "words": [
+        {
+          "word": "Not",
+          "start": 342.138,
+          "end": 343.279,
+          "score": 0.656
+        },
+        {
+          "word": "yet.",
+          "start": 343.299,
+          "end": 343.599,
+          "score": 0.888
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 344.72,
+      "end": 345.16,
+      "text": "Not yet.",
+      "words": [
+        {
+          "word": "Not",
+          "start": 344.72,
+          "end": 344.98,
+          "score": 0.893
+        },
+        {
+          "word": "yet.",
+          "start": 345.0,
+          "end": 345.16,
+          "score": 0.706
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 346.52,
+      "end": 349.362,
+      "text": "I want you to be a little bit harder and a little bit more turned on.",
+      "words": [
+        {
+          "word": "I",
+          "start": 346.52,
+          "end": 346.62,
+          "score": 0.563
+        },
+        {
+          "word": "want",
+          "start": 346.64,
+          "end": 346.781,
+          "score": 0.3
+        },
+        {
+          "word": "you",
+          "start": 346.821,
+          "end": 346.921,
+          "score": 0.56
+        },
+        {
+          "word": "to",
+          "start": 346.941,
+          "end": 347.001,
+          "score": 0.21
+        },
+        {
+          "word": "be",
+          "start": 347.021,
+          "end": 347.121,
+          "score": 0.828
+        },
+        {
+          "word": "a",
+          "start": 347.141,
+          "end": 347.181,
+          "score": 0.488
+        },
+        {
+          "word": "little",
+          "start": 347.221,
+          "end": 347.481,
+          "score": 0.837
+        },
+        {
+          "word": "bit",
+          "start": 347.501,
+          "end": 347.661,
+          "score": 0.737
+        },
+        {
+          "word": "harder",
+          "start": 347.721,
+          "end": 348.041,
+          "score": 0.898
+        },
+        {
+          "word": "and",
+          "start": 348.081,
+          "end": 348.161,
+          "score": 0.807
+        },
+        {
+          "word": "a",
+          "start": 348.201,
+          "end": 348.221,
+          "score": 0.907
+        },
+        {
+          "word": "little",
+          "start": 348.261,
+          "end": 348.481,
+          "score": 0.833
+        },
+        {
+          "word": "bit",
+          "start": 348.521,
+          "end": 348.621,
+          "score": 0.481
+        },
+        {
+          "word": "more",
+          "start": 348.641,
+          "end": 348.821,
+          "score": 0.828
+        },
+        {
+          "word": "turned",
+          "start": 348.841,
+          "end": 349.102,
+          "score": 0.902
+        },
+        {
+          "word": "on.",
+          "start": 349.222,
+          "end": 349.362,
+          "score": 0.966
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 349.662,
+      "end": 351.023,
+      "text": "And I'll tell you when to come.",
+      "words": [
+        {
+          "word": "And",
+          "start": 349.662,
+          "end": 349.742,
+          "score": 0.528
+        },
+        {
+          "word": "I'll",
+          "start": 349.762,
+          "end": 349.942,
+          "score": 0.772
+        },
+        {
+          "word": "tell",
+          "start": 349.982,
+          "end": 350.182,
+          "score": 0.78
+        },
+        {
+          "word": "you",
+          "start": 350.262,
+          "end": 350.422,
+          "score": 0.909
+        },
+        {
+          "word": "when",
+          "start": 350.462,
+          "end": 350.622,
+          "score": 0.852
+        },
+        {
+          "word": "to",
+          "start": 350.662,
+          "end": 350.722,
+          "score": 0.874
+        },
+        {
+          "word": "come.",
+          "start": 350.782,
+          "end": 351.023,
+          "score": 0.853
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 352.363,
+      "end": 352.984,
+      "text": "How about that?",
+      "words": [
+        {
+          "word": "How",
+          "start": 352.363,
+          "end": 352.463,
+          "score": 0.391
+        },
+        {
+          "word": "about",
+          "start": 352.483,
+          "end": 352.703,
+          "score": 0.921
+        },
+        {
+          "word": "that?",
+          "start": 352.783,
+          "end": 352.984,
+          "score": 0.86
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 355.125,
+      "end": 355.885,
+      "text": "Help me stroke it.",
+      "words": [
+        {
+          "word": "Help",
+          "start": 355.125,
+          "end": 355.265,
+          "score": 0.891
+        },
+        {
+          "word": "me",
+          "start": 355.305,
+          "end": 355.385,
+          "score": 0.845
+        },
+        {
+          "word": "stroke",
+          "start": 355.425,
+          "end": 355.725,
+          "score": 0.87
+        },
+        {
+          "word": "it.",
+          "start": 355.785,
+          "end": 355.885,
+          "score": 0.82
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 357.146,
+      "end": 357.746,
+      "text": "Just like that.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 357.146,
+          "end": 357.326,
+          "score": 0.61
+        },
+        {
+          "word": "like",
+          "start": 357.366,
+          "end": 357.526,
+          "score": 0.872
+        },
+        {
+          "word": "that.",
+          "start": 357.606,
+          "end": 357.746,
+          "score": 0.286
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 362.248,
+      "end": 363.749,
+      "text": "It's getting me pretty hot too.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 362.248,
+          "end": 362.388,
+          "score": 0.347
+        },
+        {
+          "word": "getting",
+          "start": 362.608,
+          "end": 362.808,
+          "score": 0.354
+        },
+        {
+          "word": "me",
+          "start": 362.828,
+          "end": 362.868,
+          "score": 0.0
+        },
+        {
+          "word": "pretty",
+          "start": 362.888,
+          "end": 363.128,
+          "score": 0.82
+        },
+        {
+          "word": "hot",
+          "start": 363.148,
+          "end": 363.389,
+          "score": 0.723
+        },
+        {
+          "word": "too.",
+          "start": 363.489,
+          "end": 363.749,
+          "score": 0.962
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 365.149,
+      "end": 365.49,
+      "text": "Oh yeah.",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 365.149,
+          "end": 365.269,
+          "score": 0.871
+        },
+        {
+          "word": "yeah.",
+          "start": 365.309,
+          "end": 365.49,
+          "score": 0.567
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 366.91,
+      "end": 367.15,
+      "text": "Oh yeah.",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 366.91,
+          "end": 366.99,
+          "score": 0.344
+        },
+        {
+          "word": "yeah.",
+          "start": 367.01,
+          "end": 367.15,
+          "score": 0.264
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 367.29,
+      "end": 367.751,
+      "text": "Just like that.",
+      "words": [
+        {
+          "word": "Just",
+          "start": 367.29,
+          "end": 367.41,
+          "score": 0.789
+        },
+        {
+          "word": "like",
+          "start": 367.43,
+          "end": 367.571,
+          "score": 0.745
+        },
+        {
+          "word": "that.",
+          "start": 367.611,
+          "end": 367.751,
+          "score": 0.995
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 367.771,
+      "end": 368.431,
+      "text": "You gonna come now?",
+      "words": [
+        {
+          "word": "You",
+          "start": 367.771,
+          "end": 367.911,
+          "score": 0.557
+        },
+        {
+          "word": "gonna",
+          "start": 367.951,
+          "end": 368.051,
+          "score": 0.045
+        },
+        {
+          "word": "come",
+          "start": 368.071,
+          "end": 368.211,
+          "score": 0.895
+        },
+        {
+          "word": "now?",
+          "start": 368.251,
+          "end": 368.431,
+          "score": 0.863
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 368.451,
+      "end": 369.511,
+      "text": "I want you to come now.",
+      "words": [
+        {
+          "word": "I",
+          "start": 368.451,
+          "end": 368.471,
+          "score": 0.0
+        },
+        {
+          "word": "want",
+          "start": 368.791,
+          "end": 368.911,
+          "score": 0.408
+        },
+        {
+          "word": "you",
+          "start": 368.931,
+          "end": 369.031,
+          "score": 0.515
+        },
+        {
+          "word": "to",
+          "start": 369.051,
+          "end": 369.111,
+          "score": 0.232
+        },
+        {
+          "word": "come",
+          "start": 369.151,
+          "end": 369.311,
+          "score": 0.907
+        },
+        {
+          "word": "now.",
+          "start": 369.371,
+          "end": 369.511,
+          "score": 0.94
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 370.072,
+      "end": 370.512,
+      "text": "Get ready to come.",
+      "words": [
+        {
+          "word": "Get",
+          "start": 370.072,
+          "end": 370.212,
+          "score": 0.383
+        },
+        {
+          "word": "ready",
+          "start": 370.232,
+          "end": 370.332,
+          "score": 0.107
+        },
+        {
+          "word": "to",
+          "start": 370.352,
+          "end": 370.392,
+          "score": 0.066
+        },
+        {
+          "word": "come.",
+          "start": 370.412,
+          "end": 370.512,
+          "score": 0.308
+        }
+      ],
+      "avg_logprob": -0.12976945182423533
+    },
+    {
+      "start": 375.77,
+      "end": 376.191,
+      "text": " Wow.",
+      "words": [
+        {
+          "word": "Wow.",
+          "start": 375.77,
+          "end": 376.191,
+          "score": 0.72
+        }
+      ],
+      "avg_logprob": -0.20574539434164762
+    },
+    {
+      "start": 377.371,
+      "end": 390.555,
+      "text": "Alright.",
+      "words": [
+        {
+          "word": "Alright.",
+          "start": 377.371,
+          "end": 390.555,
+          "score": 0.423
+        }
+      ],
+      "avg_logprob": -0.20574539434164762
+    },
+    {
+      "start": 391.276,
+      "end": 391.496,
+      "text": "Now.",
+      "words": [
+        {
+          "word": "Now.",
+          "start": 391.276,
+          "end": 391.496,
+          "score": 0.948
+        }
+      ],
+      "avg_logprob": -0.20574539434164762
+    },
+    {
+      "start": 392.736,
+      "end": 393.356,
+      "text": "Be a good boy.",
+      "words": [
+        {
+          "word": "Be",
+          "start": 392.736,
+          "end": 392.856,
+          "score": 0.716
+        },
+        {
+          "word": "a",
+          "start": 392.876,
+          "end": 392.936,
+          "score": 0.677
+        },
+        {
+          "word": "good",
+          "start": 392.956,
+          "end": 393.096,
+          "score": 0.919
+        },
+        {
+          "word": "boy.",
+          "start": 393.136,
+          "end": 393.356,
+          "score": 0.982
+        }
+      ],
+      "avg_logprob": -0.20574539434164762
+    },
+    {
+      "start": 393.376,
+      "end": 395.457,
+      "text": "Go to sleep.",
+      "words": [
+        {
+          "word": "Go",
+          "start": 393.376,
+          "end": 393.416,
+          "score": 0.0
+        },
+        {
+          "word": "to",
+          "start": 395.017,
+          "end": 395.177,
+          "score": 0.748
+        },
+        {
+          "word": "sleep.",
+          "start": 395.197,
+          "end": 395.457,
+          "score": 0.555
+        }
+      ],
+      "avg_logprob": -0.20574539434164762
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Okay,",
+      "start": 15.326,
+      "end": 15.546,
+      "score": 0.51
+    },
+    {
+      "word": "I'm",
+      "start": 15.566,
+      "end": 15.686,
+      "score": 0.86
+    },
+    {
+      "word": "sorry",
+      "start": 15.726,
+      "end": 15.926,
+      "score": 0.919
+    },
+    {
+      "word": "to",
+      "start": 15.966,
+      "end": 16.046,
+      "score": 0.784
+    },
+    {
+      "word": "bother",
+      "start": 16.066,
+      "end": 16.387,
+      "score": 0.902
+    },
+    {
+      "word": "you,",
+      "start": 16.407,
+      "end": 16.647,
+      "score": 0.932
+    },
+    {
+      "word": "but",
+      "start": 17.387,
+      "end": 17.547,
+      "score": 0.839
+    },
+    {
+      "word": "your",
+      "start": 17.567,
+      "end": 17.707,
+      "score": 0.685
+    },
+    {
+      "word": "father",
+      "start": 17.727,
+      "end": 17.947,
+      "score": 0.943
+    },
+    {
+      "word": "and",
+      "start": 17.967,
+      "end": 18.047,
+      "score": 0.796
+    },
+    {
+      "word": "I",
+      "start": 18.087,
+      "end": 18.167,
+      "score": 0.783
+    },
+    {
+      "word": "just",
+      "start": 18.187,
+      "end": 18.307,
+      "score": 0.747
+    },
+    {
+      "word": "had",
+      "start": 18.327,
+      "end": 18.387,
+      "score": 0.023
+    },
+    {
+      "word": "a",
+      "start": 18.407,
+      "end": 18.427,
+      "score": 0.785
+    },
+    {
+      "word": "huge",
+      "start": 18.528,
+      "end": 18.788,
+      "score": 0.852
+    },
+    {
+      "word": "fight.",
+      "start": 18.868,
+      "end": 19.168,
+      "score": 0.887
+    },
+    {
+      "word": "That",
+      "start": 20.088,
+      "end": 20.629,
+      "score": 0.608
+    },
+    {
+      "word": "man.",
+      "start": 20.649,
+      "end": 20.729,
+      "score": 0.255
+    },
+    {
+      "word": "Anyway,",
+      "start": 21.849,
+      "end": 22.149,
+      "score": 0.901
+    },
+    {
+      "word": "you",
+      "start": 22.249,
+      "end": 22.369,
+      "score": 0.731
+    },
+    {
+      "word": "know",
+      "start": 22.409,
+      "end": 22.509,
+      "score": 0.918
+    },
+    {
+      "word": "how",
+      "start": 22.569,
+      "end": 22.67,
+      "score": 0.811
+    },
+    {
+      "word": "your",
+      "start": 22.71,
+      "end": 22.83,
+      "score": 0.869
+    },
+    {
+      "word": "dad",
+      "start": 22.87,
+      "end": 23.07,
+      "score": 0.649
+    },
+    {
+      "word": "is.",
+      "start": 23.17,
+      "end": 23.29,
+      "score": 0.73
+    },
+    {
+      "word": "I'm",
+      "start": 24.13,
+      "end": 24.25,
+      "score": 0.836
+    },
+    {
+      "word": "really",
+      "start": 24.41,
+      "end": 24.67,
+      "score": 0.898
+    },
+    {
+      "word": "sorry",
+      "start": 24.731,
+      "end": 24.991,
+      "score": 0.719
+    },
+    {
+      "word": "to",
+      "start": 25.011,
+      "end": 25.111,
+      "score": 0.788
+    },
+    {
+      "word": "bother",
+      "start": 25.131,
+      "end": 25.411,
+      "score": 0.891
+    },
+    {
+      "word": "you.",
+      "start": 25.451,
+      "end": 25.631,
+      "score": 0.944
+    },
+    {
+      "word": "I",
+      "start": 25.771,
+      "end": 25.831,
+      "score": 0.992
+    },
+    {
+      "word": "can't",
+      "start": 25.911,
+      "end": 26.191,
+      "score": 0.743
+    },
+    {
+      "word": "sleep",
+      "start": 26.251,
+      "end": 26.451,
+      "score": 0.983
+    },
+    {
+      "word": "in",
+      "start": 26.511,
+      "end": 26.551,
+      "score": 0.969
+    },
+    {
+      "word": "there",
+      "start": 26.571,
+      "end": 26.691,
+      "score": 0.757
+    },
+    {
+      "word": "with",
+      "start": 26.711,
+      "end": 26.811,
+      "score": 0.882
+    },
+    {
+      "word": "him",
+      "start": 26.832,
+      "end": 26.932,
+      "score": 0.481
+    },
+    {
+      "word": "right",
+      "start": 26.952,
+      "end": 27.092,
+      "score": 0.627
+    },
+    {
+      "word": "now.",
+      "start": 27.112,
+      "end": 27.292,
+      "score": 0.929
+    },
+    {
+      "word": "It's",
+      "start": 27.652,
+      "end": 27.792,
+      "score": 0.85
+    },
+    {
+      "word": "just,",
+      "start": 27.872,
+      "end": 28.092,
+      "score": 0.834
+    },
+    {
+      "word": "it's",
+      "start": 28.272,
+      "end": 28.432,
+      "score": 0.767
+    },
+    {
+      "word": "too",
+      "start": 28.472,
+      "end": 28.632,
+      "score": 0.961
+    },
+    {
+      "word": "much.",
+      "start": 28.692,
+      "end": 28.973,
+      "score": 0.948
+    },
+    {
+      "word": "Your",
+      "start": 30.773,
+      "end": 30.913,
+      "score": 0.771
+    },
+    {
+      "word": "brother",
+      "start": 30.933,
+      "end": 31.154,
+      "score": 0.876
+    },
+    {
+      "word": "moved",
+      "start": 31.174,
+      "end": 31.334,
+      "score": 0.474
+    },
+    {
+      "word": "out.",
+      "start": 31.394,
+      "end": 31.554,
+      "score": 0.768
+    },
+    {
+      "word": "I",
+      "start": 31.894,
+      "end": 31.954,
+      "score": 0.678
+    },
+    {
+      "word": "know",
+      "start": 31.974,
+      "end": 32.094,
+      "score": 0.872
+    },
+    {
+      "word": "you",
+      "start": 32.114,
+      "end": 32.234,
+      "score": 0.981
+    },
+    {
+      "word": "have",
+      "start": 32.254,
+      "end": 32.374,
+      "score": 0.806
+    },
+    {
+      "word": "an",
+      "start": 32.394,
+      "end": 32.454,
+      "score": 0.726
+    },
+    {
+      "word": "extra",
+      "start": 32.494,
+      "end": 32.734,
+      "score": 0.92
+    },
+    {
+      "word": "bunk.",
+      "start": 32.754,
+      "end": 33.014,
+      "score": 0.782
+    },
+    {
+      "word": "I",
+      "start": 33.515,
+      "end": 33.595,
+      "score": 0.83
+    },
+    {
+      "word": "promise",
+      "start": 33.635,
+      "end": 33.915,
+      "score": 0.777
+    },
+    {
+      "word": "I",
+      "start": 33.955,
+      "end": 33.995,
+      "score": 0.637
+    },
+    {
+      "word": "won't",
+      "start": 34.035,
+      "end": 34.175,
+      "score": 0.92
+    },
+    {
+      "word": "bother",
+      "start": 34.215,
+      "end": 34.435,
+      "score": 0.944
+    },
+    {
+      "word": "you.",
+      "start": 34.455,
+      "end": 34.575,
+      "score": 0.884
+    },
+    {
+      "word": "I",
+      "start": 34.595,
+      "end": 34.695,
+      "score": 0.643
+    },
+    {
+      "word": "just",
+      "start": 34.715,
+      "end": 34.835,
+      "score": 0.758
+    },
+    {
+      "word": "need",
+      "start": 34.875,
+      "end": 35.015,
+      "score": 0.885
+    },
+    {
+      "word": "to",
+      "start": 35.035,
+      "end": 35.075,
+      "score": 0.974
+    },
+    {
+      "word": "sleep",
+      "start": 35.115,
+      "end": 35.296,
+      "score": 0.949
+    },
+    {
+      "word": "in",
+      "start": 35.336,
+      "end": 35.396,
+      "score": 0.801
+    },
+    {
+      "word": "here",
+      "start": 35.416,
+      "end": 35.536,
+      "score": 0.743
+    },
+    {
+      "word": "tonight.",
+      "start": 35.556,
+      "end": 35.776,
+      "score": 0.804
+    },
+    {
+      "word": "Is",
+      "start": 35.816,
+      "end": 35.856,
+      "score": 0.832
+    },
+    {
+      "word": "that",
+      "start": 35.876,
+      "end": 35.956,
+      "score": 0.647
+    },
+    {
+      "word": "okay?",
+      "start": 36.016,
+      "end": 36.316,
+      "score": 0.755
+    },
+    {
+      "word": "Alright.",
+      "start": 38.037,
+      "end": 38.277,
+      "score": 0.377
+    },
+    {
+      "word": "Okay.",
+      "start": 38.857,
+      "end": 39.057,
+      "score": 0.494
+    },
+    {
+      "word": "Thanks.",
+      "start": 39.558,
+      "end": 39.818,
+      "score": 0.948
+    },
+    {
+      "word": "Now,",
+      "start": 39.878,
+      "end": 40.058,
+      "score": 0.831
+    },
+    {
+      "word": "I",
+      "start": 40.238,
+      "end": 40.318,
+      "score": 0.914
+    },
+    {
+      "word": "need",
+      "start": 40.398,
+      "end": 40.598,
+      "score": 0.851
+    },
+    {
+      "word": "to",
+      "start": 40.618,
+      "end": 40.678,
+      "score": 0.745
+    },
+    {
+      "word": "get",
+      "start": 40.718,
+      "end": 40.838,
+      "score": 0.949
+    },
+    {
+      "word": "some",
+      "start": 40.878,
+      "end": 41.078,
+      "score": 0.671
+    },
+    {
+      "word": "sleep.",
+      "start": 41.138,
+      "end": 41.398,
+      "score": 0.917
+    },
+    {
+      "word": "I",
+      "start": 41.438,
+      "end": 41.499,
+      "score": 0.653
+    },
+    {
+      "word": "have",
+      "start": 41.519,
+      "end": 41.639,
+      "score": 0.741
+    },
+    {
+      "word": "a",
+      "start": 41.659,
+      "end": 41.699,
+      "score": 0.499
+    },
+    {
+      "word": "big",
+      "start": 41.759,
+      "end": 41.919,
+      "score": 0.937
+    },
+    {
+      "word": "day",
+      "start": 41.939,
+      "end": 42.079,
+      "score": 0.745
+    },
+    {
+      "word": "tomorrow.",
+      "start": 42.119,
+      "end": 42.479,
+      "score": 0.913
+    },
+    {
+      "word": "doing",
+      "start": 61.648,
+      "end": 61.928,
+      "score": 0.873
+    },
+    {
+      "word": "go",
+      "start": 63.97,
+      "end": 64.05,
+      "score": 0.996
+    },
+    {
+      "word": "to",
+      "start": 64.09,
+      "end": 64.17,
+      "score": 0.673
+    },
+    {
+      "word": "sleep",
+      "start": 64.21,
+      "end": 64.55,
+      "score": 0.666
+    },
+    {
+      "word": "oh",
+      "start": 72.196,
+      "end": 72.256,
+      "score": 0.494
+    },
+    {
+      "word": "my",
+      "start": 72.276,
+      "end": 72.376,
+      "score": 0.521
+    },
+    {
+      "word": "god",
+      "start": 72.396,
+      "end": 72.617,
+      "score": 0.507
+    },
+    {
+      "word": "are",
+      "start": 72.737,
+      "end": 72.817,
+      "score": 0.87
+    },
+    {
+      "word": "you",
+      "start": 72.857,
+      "end": 72.977,
+      "score": 0.998
+    },
+    {
+      "word": "doing",
+      "start": 73.017,
+      "end": 73.197,
+      "score": 0.807
+    },
+    {
+      "word": "what",
+      "start": 73.217,
+      "end": 73.317,
+      "score": 0.93
+    },
+    {
+      "word": "I",
+      "start": 73.357,
+      "end": 73.437,
+      "score": 0.747
+    },
+    {
+      "word": "think",
+      "start": 73.457,
+      "end": 73.617,
+      "score": 0.769
+    },
+    {
+      "word": "you're",
+      "start": 73.637,
+      "end": 73.797,
+      "score": 0.914
+    },
+    {
+      "word": "doing",
+      "start": 73.817,
+      "end": 74.058,
+      "score": 0.792
+    },
+    {
+      "word": "okay",
+      "start": 74.078,
+      "end": 77.901,
+      "score": 0.761
+    },
+    {
+      "word": "you",
+      "start": 78.241,
+      "end": 78.441,
+      "score": 0.68
+    },
+    {
+      "word": "need",
+      "start": 78.481,
+      "end": 78.641,
+      "score": 0.885
+    },
+    {
+      "word": "to",
+      "start": 78.681,
+      "end": 78.721,
+      "score": 0.985
+    },
+    {
+      "word": "sleep",
+      "start": 78.781,
+      "end": 79.102,
+      "score": 0.839
+    },
+    {
+      "word": "because",
+      "start": 79.522,
+      "end": 79.742,
+      "score": 0.826
+    },
+    {
+      "word": "I",
+      "start": 79.982,
+      "end": 80.062,
+      "score": 0.892
+    },
+    {
+      "word": "need",
+      "start": 80.102,
+      "end": 80.262,
+      "score": 0.856
+    },
+    {
+      "word": "to",
+      "start": 80.302,
+      "end": 80.363,
+      "score": 0.754
+    },
+    {
+      "word": "sleep",
+      "start": 80.423,
+      "end": 80.703,
+      "score": 0.831
+    },
+    {
+      "word": "all",
+      "start": 80.823,
+      "end": 80.923,
+      "score": 0.975
+    },
+    {
+      "word": "right",
+      "start": 80.963,
+      "end": 81.203,
+      "score": 0.723
+    },
+    {
+      "word": "like",
+      "start": 81.263,
+      "end": 81.403,
+      "score": 0.658
+    },
+    {
+      "word": "I",
+      "start": 81.483,
+      "end": 81.543,
+      "score": 0.94
+    },
+    {
+      "word": "know",
+      "start": 81.603,
+      "end": 81.764,
+      "score": 0.866
+    },
+    {
+      "word": "you're",
+      "start": 81.804,
+      "end": 81.984,
+      "score": 0.83
+    },
+    {
+      "word": "a",
+      "start": 82.004,
+      "end": 82.044,
+      "score": 0.497
+    },
+    {
+      "word": "horny",
+      "start": 82.084,
+      "end": 82.404,
+      "score": 0.823
+    },
+    {
+      "word": "young",
+      "start": 82.424,
+      "end": 82.604,
+      "score": 0.79
+    },
+    {
+      "word": "man",
+      "start": 82.624,
+      "end": 82.884,
+      "score": 0.764
+    },
+    {
+      "word": "but",
+      "start": 83.605,
+      "end": 83.825,
+      "score": 0.871
+    },
+    {
+      "word": "this",
+      "start": 83.905,
+      "end": 84.045,
+      "score": 0.988
+    },
+    {
+      "word": "is",
+      "start": 84.105,
+      "end": 84.206,
+      "score": 0.662
+    },
+    {
+      "word": "not",
+      "start": 84.246,
+      "end": 84.386,
+      "score": 0.785
+    },
+    {
+      "word": "the",
+      "start": 84.426,
+      "end": 84.506,
+      "score": 0.938
+    },
+    {
+      "word": "time",
+      "start": 84.546,
+      "end": 84.786,
+      "score": 0.826
+    },
+    {
+      "word": "it's",
+      "start": 84.846,
+      "end": 84.986,
+      "score": 0.748
+    },
+    {
+      "word": "highly",
+      "start": 85.066,
+      "end": 85.366,
+      "score": 0.925
+    },
+    {
+      "word": "inappropriate",
+      "start": 85.406,
+      "end": 85.967,
+      "score": 0.922
+    },
+    {
+      "word": "Oh",
+      "start": 93.149,
+      "end": 93.229,
+      "score": 0.874
+    },
+    {
+      "word": "my",
+      "start": 93.269,
+      "end": 93.409,
+      "score": 0.878
+    },
+    {
+      "word": "god.",
+      "start": 93.429,
+      "end": 93.769,
+      "score": 0.872
+    },
+    {
+      "word": "Alright,",
+      "start": 93.789,
+      "end": 95.87,
+      "score": 0.664
+    },
+    {
+      "word": "look.",
+      "start": 96.45,
+      "end": 96.67,
+      "score": 0.9
+    },
+    {
+      "word": "Look,",
+      "start": 104.432,
+      "end": 104.612,
+      "score": 0.431
+    },
+    {
+      "word": "I",
+      "start": 104.792,
+      "end": 104.852,
+      "score": 0.682
+    },
+    {
+      "word": "know",
+      "start": 104.892,
+      "end": 105.012,
+      "score": 0.866
+    },
+    {
+      "word": "I'm",
+      "start": 105.032,
+      "end": 105.152,
+      "score": 0.711
+    },
+    {
+      "word": "just",
+      "start": 105.192,
+      "end": 105.352,
+      "score": 0.892
+    },
+    {
+      "word": "your",
+      "start": 105.392,
+      "end": 105.532,
+      "score": 0.917
+    },
+    {
+      "word": "stepmom,",
+      "start": 105.572,
+      "end": 106.072,
+      "score": 0.85
+    },
+    {
+      "word": "but",
+      "start": 107.493,
+      "end": 107.713,
+      "score": 0.85
+    },
+    {
+      "word": "I",
+      "start": 108.593,
+      "end": 108.673,
+      "score": 0.752
+    },
+    {
+      "word": "need",
+      "start": 108.733,
+      "end": 108.953,
+      "score": 0.817
+    },
+    {
+      "word": "you",
+      "start": 108.973,
+      "end": 109.173,
+      "score": 0.791
+    },
+    {
+      "word": "to",
+      "start": 109.193,
+      "end": 109.233,
+      "score": 0.0
+    },
+    {
+      "word": "behave",
+      "start": 109.553,
+      "end": 109.853,
+      "score": 0.834
+    },
+    {
+      "word": "yourself",
+      "start": 109.873,
+      "end": 110.253,
+      "score": 0.863
+    },
+    {
+      "word": "right",
+      "start": 110.293,
+      "end": 110.453,
+      "score": 0.872
+    },
+    {
+      "word": "now.",
+      "start": 110.493,
+      "end": 110.673,
+      "score": 0.915
+    },
+    {
+      "word": "This",
+      "start": 110.693,
+      "end": 110.954,
+      "score": 0.714
+    },
+    {
+      "word": "is",
+      "start": 111.034,
+      "end": 111.114,
+      "score": 0.849
+    },
+    {
+      "word": "so",
+      "start": 111.234,
+      "end": 111.414,
+      "score": 0.91
+    },
+    {
+      "word": "inappropriate,",
+      "start": 111.474,
+      "end": 112.114,
+      "score": 0.905
+    },
+    {
+      "word": "alright?",
+      "start": 112.214,
+      "end": 112.594,
+      "score": 0.441
+    },
+    {
+      "word": "Okay,",
+      "start": 115.567,
+      "end": 115.787,
+      "score": 0.558
+    },
+    {
+      "word": "look,",
+      "start": 115.807,
+      "end": 115.987,
+      "score": 0.624
+    },
+    {
+      "word": "I",
+      "start": 116.168,
+      "end": 116.208,
+      "score": 0.998
+    },
+    {
+      "word": "know",
+      "start": 116.248,
+      "end": 116.348,
+      "score": 0.836
+    },
+    {
+      "word": "what",
+      "start": 116.368,
+      "end": 116.448,
+      "score": 0.862
+    },
+    {
+      "word": "it's",
+      "start": 116.468,
+      "end": 116.568,
+      "score": 0.805
+    },
+    {
+      "word": "like",
+      "start": 116.588,
+      "end": 116.748,
+      "score": 0.86
+    },
+    {
+      "word": "to",
+      "start": 116.768,
+      "end": 116.808,
+      "score": 0.976
+    },
+    {
+      "word": "be",
+      "start": 116.848,
+      "end": 116.928,
+      "score": 0.909
+    },
+    {
+      "word": "your",
+      "start": 116.948,
+      "end": 117.088,
+      "score": 0.737
+    },
+    {
+      "word": "age.",
+      "start": 117.168,
+      "end": 117.349,
+      "score": 0.945
+    },
+    {
+      "word": "I",
+      "start": 117.989,
+      "end": 118.049,
+      "score": 0.705
+    },
+    {
+      "word": "know",
+      "start": 118.089,
+      "end": 118.189,
+      "score": 0.872
+    },
+    {
+      "word": "you're",
+      "start": 118.229,
+      "end": 118.369,
+      "score": 0.985
+    },
+    {
+      "word": "just",
+      "start": 118.409,
+      "end": 118.51,
+      "score": 0.881
+    },
+    {
+      "word": "going",
+      "start": 118.53,
+      "end": 118.65,
+      "score": 0.866
+    },
+    {
+      "word": "to",
+      "start": 118.69,
+      "end": 118.73,
+      "score": 0.995
+    },
+    {
+      "word": "jerk",
+      "start": 118.77,
+      "end": 119.01,
+      "score": 0.909
+    },
+    {
+      "word": "off.",
+      "start": 119.13,
+      "end": 119.25,
+      "score": 0.843
+    },
+    {
+      "word": "I",
+      "start": 119.57,
+      "end": 119.671,
+      "score": 0.815
+    },
+    {
+      "word": "can't",
+      "start": 121.072,
+      "end": 121.192,
+      "score": 0.181
+    },
+    {
+      "word": "believe",
+      "start": 121.212,
+      "end": 121.352,
+      "score": 0.136
+    },
+    {
+      "word": "I'm",
+      "start": 121.372,
+      "end": 121.492,
+      "score": 0.249
+    },
+    {
+      "word": "saying",
+      "start": 121.532,
+      "end": 121.732,
+      "score": 0.949
+    },
+    {
+      "word": "this.",
+      "start": 121.772,
+      "end": 122.773,
+      "score": 0.707
+    },
+    {
+      "word": "I",
+      "start": 124.715,
+      "end": 124.755,
+      "score": 0.998
+    },
+    {
+      "word": "will",
+      "start": 124.795,
+      "end": 124.955,
+      "score": 0.808
+    },
+    {
+      "word": "help",
+      "start": 125.015,
+      "end": 125.255,
+      "score": 0.734
+    },
+    {
+      "word": "you",
+      "start": 125.335,
+      "end": 125.556,
+      "score": 0.86
+    },
+    {
+      "word": "if",
+      "start": 126.116,
+      "end": 126.176,
+      "score": 0.999
+    },
+    {
+      "word": "you",
+      "start": 126.216,
+      "end": 126.316,
+      "score": 0.828
+    },
+    {
+      "word": "will",
+      "start": 126.336,
+      "end": 126.496,
+      "score": 0.867
+    },
+    {
+      "word": "just",
+      "start": 126.516,
+      "end": 126.636,
+      "score": 0.79
+    },
+    {
+      "word": "go",
+      "start": 126.697,
+      "end": 126.797,
+      "score": 0.868
+    },
+    {
+      "word": "to",
+      "start": 126.837,
+      "end": 126.917,
+      "score": 0.553
+    },
+    {
+      "word": "sleep.",
+      "start": 126.997,
+      "end": 127.277,
+      "score": 0.887
+    },
+    {
+      "word": "How's",
+      "start": 128.258,
+      "end": 128.398,
+      "score": 0.82
+    },
+    {
+      "word": "that",
+      "start": 128.438,
+      "end": 128.558,
+      "score": 0.983
+    },
+    {
+      "word": "sound?",
+      "start": 128.598,
+      "end": 128.798,
+      "score": 0.872
+    },
+    {
+      "word": "Deal?",
+      "start": 128.958,
+      "end": 129.199,
+      "score": 0.887
+    },
+    {
+      "word": "You",
+      "start": 130.019,
+      "end": 130.159,
+      "score": 0.625
+    },
+    {
+      "word": "can't",
+      "start": 130.22,
+      "end": 130.44,
+      "score": 0.801
+    },
+    {
+      "word": "tell",
+      "start": 130.48,
+      "end": 130.64,
+      "score": 0.859
+    },
+    {
+      "word": "your",
+      "start": 130.68,
+      "end": 130.82,
+      "score": 0.759
+    },
+    {
+      "word": "father,",
+      "start": 130.86,
+      "end": 131.16,
+      "score": 0.856
+    },
+    {
+      "word": "though.",
+      "start": 131.18,
+      "end": 131.401,
+      "score": 0.865
+    },
+    {
+      "word": "Do",
+      "start": 131.701,
+      "end": 131.761,
+      "score": 0.844
+    },
+    {
+      "word": "you",
+      "start": 131.781,
+      "end": 131.841,
+      "score": 0.93
+    },
+    {
+      "word": "understand?",
+      "start": 131.861,
+      "end": 132.341,
+      "score": 0.804
+    },
+    {
+      "word": "All",
+      "start": 134.623,
+      "end": 134.743,
+      "score": 0.846
+    },
+    {
+      "word": "right.",
+      "start": 134.783,
+      "end": 134.924,
+      "score": 0.93
+    },
+    {
+      "word": "All",
+      "start": 136.145,
+      "end": 136.245,
+      "score": 0.833
+    },
+    {
+      "word": "right.",
+      "start": 136.285,
+      "end": 136.425,
+      "score": 0.926
+    },
+    {
+      "word": "So",
+      "start": 136.885,
+      "end": 136.985,
+      "score": 0.968
+    },
+    {
+      "word": "you",
+      "start": 137.025,
+      "end": 137.085,
+      "score": 0.991
+    },
+    {
+      "word": "want",
+      "start": 137.105,
+      "end": 137.205,
+      "score": 0.844
+    },
+    {
+      "word": "to",
+      "start": 137.226,
+      "end": 137.286,
+      "score": 0.356
+    },
+    {
+      "word": "jerk",
+      "start": 137.306,
+      "end": 137.486,
+      "score": 0.993
+    },
+    {
+      "word": "off?",
+      "start": 137.566,
+      "end": 137.686,
+      "score": 0.961
+    },
+    {
+      "word": "Then",
+      "start": 138.667,
+      "end": 138.827,
+      "score": 0.932
+    },
+    {
+      "word": "show",
+      "start": 138.867,
+      "end": 139.027,
+      "score": 0.808
+    },
+    {
+      "word": "me",
+      "start": 139.067,
+      "end": 139.147,
+      "score": 0.687
+    },
+    {
+      "word": "how",
+      "start": 139.187,
+      "end": 139.267,
+      "score": 0.833
+    },
+    {
+      "word": "you",
+      "start": 139.307,
+      "end": 139.407,
+      "score": 0.866
+    },
+    {
+      "word": "jerk",
+      "start": 139.427,
+      "end": 139.668,
+      "score": 0.924
+    },
+    {
+      "word": "off.",
+      "start": 139.768,
+      "end": 139.908,
+      "score": 0.978
+    },
+    {
+      "word": "Pull",
+      "start": 142.01,
+      "end": 142.17,
+      "score": 0.586
+    },
+    {
+      "word": "it",
+      "start": 142.21,
+      "end": 142.27,
+      "score": 0.35
+    },
+    {
+      "word": "out.",
+      "start": 142.31,
+      "end": 142.43,
+      "score": 0.966
+    },
+    {
+      "word": "That's",
+      "start": 145.122,
+      "end": 145.322,
+      "score": 0.159
+    },
+    {
+      "word": "what",
+      "start": 145.342,
+      "end": 145.422,
+      "score": 0.0
+    },
+    {
+      "word": "I",
+      "start": 145.442,
+      "end": 145.462,
+      "score": 0.0
+    },
+    {
+      "word": "thought.",
+      "start": 145.482,
+      "end": 145.822,
+      "score": 0.827
+    },
+    {
+      "word": "You",
+      "start": 145.842,
+      "end": 146.883,
+      "score": 0.564
+    },
+    {
+      "word": "have",
+      "start": 146.923,
+      "end": 147.043,
+      "score": 0.839
+    },
+    {
+      "word": "a",
+      "start": 147.063,
+      "end": 147.103,
+      "score": 0.495
+    },
+    {
+      "word": "pretty",
+      "start": 147.143,
+      "end": 147.323,
+      "score": 0.91
+    },
+    {
+      "word": "big",
+      "start": 147.363,
+      "end": 147.503,
+      "score": 0.686
+    },
+    {
+      "word": "cock,",
+      "start": 147.543,
+      "end": 147.823,
+      "score": 0.98
+    },
+    {
+      "word": "actually,",
+      "start": 147.883,
+      "end": 148.204,
+      "score": 0.9
+    },
+    {
+      "word": "don't",
+      "start": 148.244,
+      "end": 148.424,
+      "score": 0.718
+    },
+    {
+      "word": "you?",
+      "start": 148.444,
+      "end": 148.604,
+      "score": 0.831
+    },
+    {
+      "word": "Alright.",
+      "start": 150.445,
+      "end": 150.825,
+      "score": 0.746
+    },
+    {
+      "word": "Stroke",
+      "start": 152.126,
+      "end": 152.406,
+      "score": 0.848
+    },
+    {
+      "word": "it.",
+      "start": 152.446,
+      "end": 152.526,
+      "score": 0.83
+    },
+    {
+      "word": "Okay,",
+      "start": 154.407,
+      "end": 154.727,
+      "score": 0.559
+    },
+    {
+      "word": "I",
+      "start": 154.767,
+      "end": 154.827,
+      "score": 0.972
+    },
+    {
+      "word": "know",
+      "start": 154.887,
+      "end": 155.007,
+      "score": 0.963
+    },
+    {
+      "word": "you",
+      "start": 155.047,
+      "end": 155.147,
+      "score": 0.875
+    },
+    {
+      "word": "were",
+      "start": 155.187,
+      "end": 155.307,
+      "score": 0.726
+    },
+    {
+      "word": "stroking",
+      "start": 155.347,
+      "end": 155.648,
+      "score": 0.925
+    },
+    {
+      "word": "it",
+      "start": 155.688,
+      "end": 155.748,
+      "score": 0.74
+    },
+    {
+      "word": "harder",
+      "start": 155.788,
+      "end": 156.008,
+      "score": 0.872
+    },
+    {
+      "word": "than",
+      "start": 156.048,
+      "end": 156.148,
+      "score": 0.979
+    },
+    {
+      "word": "that.",
+      "start": 156.188,
+      "end": 156.348,
+      "score": 0.93
+    },
+    {
+      "word": "I",
+      "start": 156.368,
+      "end": 156.408,
+      "score": 0.507
+    },
+    {
+      "word": "could",
+      "start": 156.448,
+      "end": 156.608,
+      "score": 0.816
+    },
+    {
+      "word": "hear",
+      "start": 156.648,
+      "end": 156.828,
+      "score": 0.817
+    },
+    {
+      "word": "you.",
+      "start": 156.868,
+      "end": 157.028,
+      "score": 0.911
+    },
+    {
+      "word": "Do",
+      "start": 158.369,
+      "end": 158.489,
+      "score": 0.994
+    },
+    {
+      "word": "it",
+      "start": 158.529,
+      "end": 158.589,
+      "score": 0.728
+    },
+    {
+      "word": "the",
+      "start": 158.629,
+      "end": 158.709,
+      "score": 0.984
+    },
+    {
+      "word": "way",
+      "start": 158.749,
+      "end": 158.869,
+      "score": 0.915
+    },
+    {
+      "word": "you",
+      "start": 158.889,
+      "end": 158.949,
+      "score": 0.319
+    },
+    {
+      "word": "usually",
+      "start": 159.029,
+      "end": 159.31,
+      "score": 0.838
+    },
+    {
+      "word": "do",
+      "start": 159.35,
+      "end": 159.47,
+      "score": 0.772
+    },
+    {
+      "word": "it.",
+      "start": 159.51,
+      "end": 159.59,
+      "score": 0.828
+    },
+    {
+      "word": "Show",
+      "start": 159.65,
+      "end": 159.83,
+      "score": 0.938
+    },
+    {
+      "word": "me.",
+      "start": 159.85,
+      "end": 159.97,
+      "score": 0.762
+    },
+    {
+      "word": "Okay,",
+      "start": 163.692,
+      "end": 164.292,
+      "score": 0.556
+    },
+    {
+      "word": "you",
+      "start": 164.332,
+      "end": 164.432,
+      "score": 0.865
+    },
+    {
+      "word": "want",
+      "start": 164.452,
+      "end": 164.552,
+      "score": 0.556
+    },
+    {
+      "word": "me",
+      "start": 164.572,
+      "end": 164.632,
+      "score": 0.65
+    },
+    {
+      "word": "to",
+      "start": 164.652,
+      "end": 164.692,
+      "score": 0.978
+    },
+    {
+      "word": "do",
+      "start": 164.732,
+      "end": 164.813,
+      "score": 0.93
+    },
+    {
+      "word": "it",
+      "start": 164.833,
+      "end": 164.873,
+      "score": 0.987
+    },
+    {
+      "word": "for",
+      "start": 164.933,
+      "end": 165.073,
+      "score": 0.849
+    },
+    {
+      "word": "you?",
+      "start": 165.113,
+      "end": 165.233,
+      "score": 0.977
+    },
+    {
+      "word": "Alright.",
+      "start": 166.734,
+      "end": 167.034,
+      "score": 0.818
+    },
+    {
+      "word": "Fine.",
+      "start": 167.894,
+      "end": 168.214,
+      "score": 0.913
+    },
+    {
+      "word": "You",
+      "start": 171.976,
+      "end": 172.096,
+      "score": 0.896
+    },
+    {
+      "word": "like",
+      "start": 172.136,
+      "end": 172.257,
+      "score": 0.864
+    },
+    {
+      "word": "that,",
+      "start": 172.297,
+      "end": 172.457,
+      "score": 0.992
+    },
+    {
+      "word": "don't",
+      "start": 172.497,
+      "end": 172.697,
+      "score": 0.669
+    },
+    {
+      "word": "you?",
+      "start": 172.737,
+      "end": 172.897,
+      "score": 0.861
+    },
+    {
+      "word": "Just",
+      "start": 173.837,
+      "end": 173.997,
+      "score": 0.341
+    },
+    {
+      "word": "a",
+      "start": 174.017,
+      "end": 174.057,
+      "score": 0.504
+    },
+    {
+      "word": "horny",
+      "start": 174.117,
+      "end": 174.418,
+      "score": 0.778
+    },
+    {
+      "word": "young",
+      "start": 174.458,
+      "end": 174.638,
+      "score": 0.798
+    },
+    {
+      "word": "man.",
+      "start": 174.678,
+      "end": 174.858,
+      "score": 0.976
+    },
+    {
+      "word": "I",
+      "start": 177.343,
+      "end": 177.443,
+      "score": 0.436
+    },
+    {
+      "word": "have",
+      "start": 177.463,
+      "end": 177.563,
+      "score": 0.435
+    },
+    {
+      "word": "to",
+      "start": 177.603,
+      "end": 177.683,
+      "score": 0.714
+    },
+    {
+      "word": "say,",
+      "start": 177.723,
+      "end": 178.024,
+      "score": 0.888
+    },
+    {
+      "word": "it's",
+      "start": 178.985,
+      "end": 179.105,
+      "score": 0.406
+    },
+    {
+      "word": "kind",
+      "start": 179.145,
+      "end": 179.305,
+      "score": 0.374
+    },
+    {
+      "word": "of",
+      "start": 179.325,
+      "end": 179.365,
+      "score": 0.008
+    },
+    {
+      "word": "hot.",
+      "start": 179.425,
+      "end": 179.705,
+      "score": 0.87
+    },
+    {
+      "word": "It's",
+      "start": 179.725,
+      "end": 181.307,
+      "score": 0.494
+    },
+    {
+      "word": "been",
+      "start": 181.367,
+      "end": 181.507,
+      "score": 0.334
+    },
+    {
+      "word": "a",
+      "start": 181.547,
+      "end": 181.587,
+      "score": 0.754
+    },
+    {
+      "word": "while",
+      "start": 181.607,
+      "end": 181.807,
+      "score": 0.863
+    },
+    {
+      "word": "since",
+      "start": 181.827,
+      "end": 181.967,
+      "score": 0.447
+    },
+    {
+      "word": "I've",
+      "start": 181.987,
+      "end": 182.088,
+      "score": 0.192
+    },
+    {
+      "word": "been",
+      "start": 182.108,
+      "end": 182.228,
+      "score": 0.147
+    },
+    {
+      "word": "with",
+      "start": 182.248,
+      "end": 182.388,
+      "score": 0.812
+    },
+    {
+      "word": "such",
+      "start": 182.428,
+      "end": 182.568,
+      "score": 0.822
+    },
+    {
+      "word": "a",
+      "start": 182.608,
+      "end": 182.628,
+      "score": 0.877
+    },
+    {
+      "word": "young",
+      "start": 182.668,
+      "end": 182.828,
+      "score": 0.844
+    },
+    {
+      "word": "man.",
+      "start": 182.868,
+      "end": 183.088,
+      "score": 0.961
+    },
+    {
+      "word": "And",
+      "start": 183.108,
+      "end": 183.169,
+      "score": 0.0
+    },
+    {
+      "word": "your",
+      "start": 185.231,
+      "end": 185.371,
+      "score": 0.393
+    },
+    {
+      "word": "father's",
+      "start": 185.411,
+      "end": 185.731,
+      "score": 0.768
+    },
+    {
+      "word": "so",
+      "start": 185.771,
+      "end": 185.931,
+      "score": 0.928
+    },
+    {
+      "word": "old.",
+      "start": 186.091,
+      "end": 186.251,
+      "score": 0.846
+    },
+    {
+      "word": "I",
+      "start": 186.732,
+      "end": 186.792,
+      "score": 0.665
+    },
+    {
+      "word": "could",
+      "start": 186.812,
+      "end": 186.952,
+      "score": 0.745
+    },
+    {
+      "word": "be",
+      "start": 186.972,
+      "end": 187.072,
+      "score": 0.941
+    },
+    {
+      "word": "such",
+      "start": 187.132,
+      "end": 187.353,
+      "score": 0.788
+    },
+    {
+      "word": "a",
+      "start": 187.373,
+      "end": 187.433,
+      "score": 0.322
+    },
+    {
+      "word": "grump",
+      "start": 187.853,
+      "end": 188.173,
+      "score": 0.898
+    },
+    {
+      "word": "about",
+      "start": 188.233,
+      "end": 188.414,
+      "score": 0.885
+    },
+    {
+      "word": "everything.",
+      "start": 188.434,
+      "end": 188.834,
+      "score": 0.888
+    },
+    {
+      "word": "You",
+      "start": 190.475,
+      "end": 190.576,
+      "score": 0.625
+    },
+    {
+      "word": "want",
+      "start": 190.596,
+      "end": 190.676,
+      "score": 0.978
+    },
+    {
+      "word": "to",
+      "start": 190.696,
+      "end": 190.756,
+      "score": 0.656
+    },
+    {
+      "word": "see",
+      "start": 190.776,
+      "end": 190.896,
+      "score": 0.766
+    },
+    {
+      "word": "my",
+      "start": 190.936,
+      "end": 191.016,
+      "score": 0.768
+    },
+    {
+      "word": "tits?",
+      "start": 191.056,
+      "end": 191.276,
+      "score": 0.836
+    },
+    {
+      "word": "Is",
+      "start": 191.316,
+      "end": 191.356,
+      "score": 0.495
+    },
+    {
+      "word": "that",
+      "start": 191.376,
+      "end": 191.476,
+      "score": 0.164
+    },
+    {
+      "word": "what",
+      "start": 191.496,
+      "end": 191.597,
+      "score": 0.523
+    },
+    {
+      "word": "you",
+      "start": 191.617,
+      "end": 191.697,
+      "score": 0.497
+    },
+    {
+      "word": "want",
+      "start": 191.717,
+      "end": 191.797,
+      "score": 0.883
+    },
+    {
+      "word": "to",
+      "start": 191.837,
+      "end": 191.897,
+      "score": 0.54
+    },
+    {
+      "word": "see?",
+      "start": 191.917,
+      "end": 192.057,
+      "score": 0.722
+    },
+    {
+      "word": "All",
+      "start": 192.077,
+      "end": 192.137,
+      "score": 0.003
+    },
+    {
+      "word": "right.",
+      "start": 193.258,
+      "end": 193.478,
+      "score": 0.634
+    },
+    {
+      "word": "I'm",
+      "start": 194.76,
+      "end": 194.82,
+      "score": 0.102
+    },
+    {
+      "word": "going",
+      "start": 194.84,
+      "end": 195.0,
+      "score": 0.32
+    },
+    {
+      "word": "to",
+      "start": 195.02,
+      "end": 195.06,
+      "score": 0.044
+    },
+    {
+      "word": "help",
+      "start": 195.1,
+      "end": 195.3,
+      "score": 0.939
+    },
+    {
+      "word": "you.",
+      "start": 195.34,
+      "end": 195.54,
+      "score": 0.894
+    },
+    {
+      "word": "There",
+      "start": 197.102,
+      "end": 197.242,
+      "score": 0.665
+    },
+    {
+      "word": "you",
+      "start": 197.262,
+      "end": 197.382,
+      "score": 0.203
+    },
+    {
+      "word": "go.",
+      "start": 197.422,
+      "end": 197.582,
+      "score": 0.991
+    },
+    {
+      "word": "I",
+      "start": 197.602,
+      "end": 197.642,
+      "score": 0.658
+    },
+    {
+      "word": "can",
+      "start": 197.662,
+      "end": 197.802,
+      "score": 0.309
+    },
+    {
+      "word": "feel",
+      "start": 197.822,
+      "end": 197.963,
+      "score": 0.932
+    },
+    {
+      "word": "you",
+      "start": 197.983,
+      "end": 198.083,
+      "score": 0.845
+    },
+    {
+      "word": "getting",
+      "start": 198.103,
+      "end": 198.303,
+      "score": 0.875
+    },
+    {
+      "word": "harder",
+      "start": 198.363,
+      "end": 198.623,
+      "score": 0.831
+    },
+    {
+      "word": "on",
+      "start": 198.643,
+      "end": 198.703,
+      "score": 0.254
+    },
+    {
+      "word": "my",
+      "start": 198.743,
+      "end": 198.843,
+      "score": 0.92
+    },
+    {
+      "word": "hand,",
+      "start": 198.883,
+      "end": 199.144,
+      "score": 0.893
+    },
+    {
+      "word": "can't",
+      "start": 199.204,
+      "end": 199.404,
+      "score": 0.736
+    },
+    {
+      "word": "you?",
+      "start": 199.444,
+      "end": 199.624,
+      "score": 0.879
+    },
+    {
+      "word": "Like",
+      "start": 200.345,
+      "end": 200.485,
+      "score": 0.83
+    },
+    {
+      "word": "the",
+      "start": 200.505,
+      "end": 200.585,
+      "score": 0.867
+    },
+    {
+      "word": "way",
+      "start": 200.605,
+      "end": 200.685,
+      "score": 0.506
+    },
+    {
+      "word": "I'm",
+      "start": 200.705,
+      "end": 200.825,
+      "score": 0.487
+    },
+    {
+      "word": "stroking",
+      "start": 200.865,
+      "end": 201.206,
+      "score": 0.895
+    },
+    {
+      "word": "it?",
+      "start": 201.266,
+      "end": 201.326,
+      "score": 0.94
+    },
+    {
+      "word": "You",
+      "start": 202.912,
+      "end": 203.072,
+      "score": 0.511
+    },
+    {
+      "word": "like",
+      "start": 203.092,
+      "end": 203.232,
+      "score": 0.801
+    },
+    {
+      "word": "it",
+      "start": 203.292,
+      "end": 203.372,
+      "score": 0.741
+    },
+    {
+      "word": "more",
+      "start": 203.412,
+      "end": 203.532,
+      "score": 0.932
+    },
+    {
+      "word": "on",
+      "start": 203.592,
+      "end": 203.672,
+      "score": 0.698
+    },
+    {
+      "word": "the",
+      "start": 203.692,
+      "end": 203.772,
+      "score": 0.797
+    },
+    {
+      "word": "tip?",
+      "start": 203.832,
+      "end": 204.112,
+      "score": 0.86
+    },
+    {
+      "word": "Or",
+      "start": 204.973,
+      "end": 205.013,
+      "score": 0.001
+    },
+    {
+      "word": "you",
+      "start": 205.033,
+      "end": 205.153,
+      "score": 0.43
+    },
+    {
+      "word": "like",
+      "start": 205.173,
+      "end": 205.293,
+      "score": 0.837
+    },
+    {
+      "word": "it",
+      "start": 205.333,
+      "end": 205.373,
+      "score": 0.306
+    },
+    {
+      "word": "when",
+      "start": 205.393,
+      "end": 205.493,
+      "score": 0.174
+    },
+    {
+      "word": "I",
+      "start": 205.513,
+      "end": 205.573,
+      "score": 0.523
+    },
+    {
+      "word": "do",
+      "start": 205.593,
+      "end": 205.713,
+      "score": 0.508
+    },
+    {
+      "word": "the",
+      "start": 205.733,
+      "end": 205.813,
+      "score": 0.616
+    },
+    {
+      "word": "whole",
+      "start": 205.893,
+      "end": 206.133,
+      "score": 0.867
+    },
+    {
+      "word": "shaft",
+      "start": 206.193,
+      "end": 206.533,
+      "score": 0.843
+    },
+    {
+      "word": "like",
+      "start": 206.573,
+      "end": 206.733,
+      "score": 0.799
+    },
+    {
+      "word": "this?",
+      "start": 206.773,
+      "end": 207.053,
+      "score": 0.831
+    },
+    {
+      "word": "You",
+      "start": 208.614,
+      "end": 208.714,
+      "score": 0.754
+    },
+    {
+      "word": "like",
+      "start": 208.734,
+      "end": 208.894,
+      "score": 0.753
+    },
+    {
+      "word": "the",
+      "start": 208.914,
+      "end": 208.994,
+      "score": 0.773
+    },
+    {
+      "word": "tip,",
+      "start": 209.054,
+      "end": 209.314,
+      "score": 0.969
+    },
+    {
+      "word": "don't",
+      "start": 209.334,
+      "end": 209.534,
+      "score": 0.752
+    },
+    {
+      "word": "you?",
+      "start": 209.594,
+      "end": 209.734,
+      "score": 0.963
+    },
+    {
+      "word": "That's",
+      "start": 212.275,
+      "end": 212.535,
+      "score": 0.73
+    },
+    {
+      "word": "right.",
+      "start": 212.595,
+      "end": 212.855,
+      "score": 0.872
+    },
+    {
+      "word": "I",
+      "start": 212.875,
+      "end": 212.895,
+      "score": 0.0
+    },
+    {
+      "word": "can",
+      "start": 213.815,
+      "end": 213.995,
+      "score": 0.872
+    },
+    {
+      "word": "feel",
+      "start": 214.035,
+      "end": 214.275,
+      "score": 0.822
+    },
+    {
+      "word": "you",
+      "start": 214.295,
+      "end": 214.415,
+      "score": 0.909
+    },
+    {
+      "word": "getting",
+      "start": 214.435,
+      "end": 214.695,
+      "score": 0.864
+    },
+    {
+      "word": "harder.",
+      "start": 214.715,
+      "end": 214.935,
+      "score": 0.37
+    },
+    {
+      "word": "Hey,",
+      "start": 216.156,
+      "end": 217.176,
+      "score": 0.508
+    },
+    {
+      "word": "no",
+      "start": 217.296,
+      "end": 217.456,
+      "score": 0.916
+    },
+    {
+      "word": "touching.",
+      "start": 217.496,
+      "end": 217.856,
+      "score": 0.823
+    },
+    {
+      "word": "You",
+      "start": 217.996,
+      "end": 218.116,
+      "score": 0.945
+    },
+    {
+      "word": "can",
+      "start": 218.136,
+      "end": 218.276,
+      "score": 0.956
+    },
+    {
+      "word": "look,",
+      "start": 218.316,
+      "end": 218.516,
+      "score": 0.908
+    },
+    {
+      "word": "but",
+      "start": 218.556,
+      "end": 218.677,
+      "score": 0.876
+    },
+    {
+      "word": "you",
+      "start": 218.717,
+      "end": 218.837,
+      "score": 0.888
+    },
+    {
+      "word": "can't",
+      "start": 218.857,
+      "end": 219.077,
+      "score": 0.713
+    },
+    {
+      "word": "touch.",
+      "start": 219.117,
+      "end": 219.397,
+      "score": 0.826
+    },
+    {
+      "word": "Understand?",
+      "start": 220.997,
+      "end": 221.557,
+      "score": 0.795
+    },
+    {
+      "word": "I",
+      "start": 221.577,
+      "end": 221.597,
+      "score": 0.001
+    },
+    {
+      "word": "don't",
+      "start": 224.098,
+      "end": 224.238,
+      "score": 0.668
+    },
+    {
+      "word": "think",
+      "start": 224.258,
+      "end": 224.358,
+      "score": 0.996
+    },
+    {
+      "word": "you",
+      "start": 224.378,
+      "end": 224.478,
+      "score": 0.922
+    },
+    {
+      "word": "need",
+      "start": 224.498,
+      "end": 224.638,
+      "score": 0.806
+    },
+    {
+      "word": "to",
+      "start": 224.658,
+      "end": 224.718,
+      "score": 0.724
+    },
+    {
+      "word": "touch",
+      "start": 224.778,
+      "end": 224.998,
+      "score": 0.833
+    },
+    {
+      "word": "anyway,",
+      "start": 225.078,
+      "end": 225.398,
+      "score": 0.857
+    },
+    {
+      "word": "do",
+      "start": 225.438,
+      "end": 225.538,
+      "score": 0.988
+    },
+    {
+      "word": "you?",
+      "start": 225.579,
+      "end": 225.759,
+      "score": 0.784
+    },
+    {
+      "word": "Oh,",
+      "start": 230.26,
+      "end": 230.36,
+      "score": 0.746
+    },
+    {
+      "word": "there",
+      "start": 230.4,
+      "end": 230.56,
+      "score": 0.727
+    },
+    {
+      "word": "you",
+      "start": 230.58,
+      "end": 230.64,
+      "score": 0.001
+    },
+    {
+      "word": "go.",
+      "start": 230.66,
+      "end": 230.72,
+      "score": 0.013
+    },
+    {
+      "word": "Just",
+      "start": 233.497,
+      "end": 233.657,
+      "score": 0.419
+    },
+    {
+      "word": "like",
+      "start": 233.717,
+      "end": 233.877,
+      "score": 0.968
+    },
+    {
+      "word": "that.",
+      "start": 233.977,
+      "end": 235.277,
+      "score": 0.645
+    },
+    {
+      "word": "I",
+      "start": 237.058,
+      "end": 237.118,
+      "score": 0.872
+    },
+    {
+      "word": "can",
+      "start": 237.138,
+      "end": 237.298,
+      "score": 0.469
+    },
+    {
+      "word": "feel",
+      "start": 237.338,
+      "end": 237.498,
+      "score": 0.401
+    },
+    {
+      "word": "you",
+      "start": 237.518,
+      "end": 237.618,
+      "score": 0.614
+    },
+    {
+      "word": "getting",
+      "start": 237.638,
+      "end": 237.858,
+      "score": 0.675
+    },
+    {
+      "word": "nice",
+      "start": 237.938,
+      "end": 238.218,
+      "score": 0.908
+    },
+    {
+      "word": "and",
+      "start": 238.298,
+      "end": 238.418,
+      "score": 0.351
+    },
+    {
+      "word": "hard.",
+      "start": 238.478,
+      "end": 238.798,
+      "score": 0.855
+    },
+    {
+      "word": "You",
+      "start": 238.978,
+      "end": 239.038,
+      "score": 0.417
+    },
+    {
+      "word": "want",
+      "start": 239.058,
+      "end": 239.198,
+      "score": 0.421
+    },
+    {
+      "word": "to",
+      "start": 239.218,
+      "end": 239.258,
+      "score": 0.272
+    },
+    {
+      "word": "help",
+      "start": 239.318,
+      "end": 239.459,
+      "score": 0.941
+    },
+    {
+      "word": "me",
+      "start": 239.479,
+      "end": 239.579,
+      "score": 0.878
+    },
+    {
+      "word": "stroke",
+      "start": 239.639,
+      "end": 239.959,
+      "score": 0.789
+    },
+    {
+      "word": "it?",
+      "start": 240.059,
+      "end": 240.179,
+      "score": 0.915
+    },
+    {
+      "word": "Help",
+      "start": 241.219,
+      "end": 241.379,
+      "score": 0.776
+    },
+    {
+      "word": "me.",
+      "start": 241.399,
+      "end": 241.519,
+      "score": 0.721
+    },
+    {
+      "word": "I",
+      "start": 241.539,
+      "end": 241.579,
+      "score": 0.471
+    },
+    {
+      "word": "want",
+      "start": 241.619,
+      "end": 241.719,
+      "score": 0.713
+    },
+    {
+      "word": "to",
+      "start": 241.759,
+      "end": 241.819,
+      "score": 0.944
+    },
+    {
+      "word": "see",
+      "start": 241.859,
+      "end": 241.979,
+      "score": 0.838
+    },
+    {
+      "word": "how",
+      "start": 242.019,
+      "end": 242.099,
+      "score": 0.991
+    },
+    {
+      "word": "you",
+      "start": 242.139,
+      "end": 242.279,
+      "score": 0.997
+    },
+    {
+      "word": "do",
+      "start": 242.319,
+      "end": 242.459,
+      "score": 0.88
+    },
+    {
+      "word": "it.",
+      "start": 242.519,
+      "end": 242.579,
+      "score": 0.981
+    },
+    {
+      "word": "I'm",
+      "start": 243.059,
+      "end": 243.219,
+      "score": 0.788
+    },
+    {
+      "word": "just",
+      "start": 243.239,
+      "end": 243.319,
+      "score": 0.768
+    },
+    {
+      "word": "going",
+      "start": 243.359,
+      "end": 243.5,
+      "score": 0.427
+    },
+    {
+      "word": "to",
+      "start": 243.52,
+      "end": 243.58,
+      "score": 0.771
+    },
+    {
+      "word": "rub",
+      "start": 243.62,
+      "end": 243.8,
+      "score": 0.749
+    },
+    {
+      "word": "the",
+      "start": 243.84,
+      "end": 243.94,
+      "score": 0.9
+    },
+    {
+      "word": "tip",
+      "start": 244.0,
+      "end": 244.3,
+      "score": 0.93
+    },
+    {
+      "word": "and",
+      "start": 245.26,
+      "end": 245.4,
+      "score": 0.556
+    },
+    {
+      "word": "take",
+      "start": 245.56,
+      "end": 245.76,
+      "score": 0.475
+    },
+    {
+      "word": "the",
+      "start": 245.82,
+      "end": 245.9,
+      "score": 0.293
+    },
+    {
+      "word": "whole",
+      "start": 245.98,
+      "end": 246.26,
+      "score": 0.375
+    },
+    {
+      "word": "shaft.",
+      "start": 246.34,
+      "end": 246.84,
+      "score": 0.924
+    },
+    {
+      "word": "Oh,",
+      "start": 249.081,
+      "end": 249.381,
+      "score": 0.666
+    },
+    {
+      "word": "I",
+      "start": 249.401,
+      "end": 249.421,
+      "score": 0.001
+    },
+    {
+      "word": "work",
+      "start": 249.441,
+      "end": 249.621,
+      "score": 0.946
+    },
+    {
+      "word": "the",
+      "start": 249.661,
+      "end": 249.741,
+      "score": 0.913
+    },
+    {
+      "word": "balls.",
+      "start": 249.801,
+      "end": 250.281,
+      "score": 0.756
+    },
+    {
+      "word": "You",
+      "start": 251.562,
+      "end": 251.722,
+      "score": 0.806
+    },
+    {
+      "word": "like",
+      "start": 251.762,
+      "end": 251.942,
+      "score": 0.893
+    },
+    {
+      "word": "that,",
+      "start": 251.982,
+      "end": 252.142,
+      "score": 0.957
+    },
+    {
+      "word": "don't",
+      "start": 252.182,
+      "end": 252.382,
+      "score": 0.849
+    },
+    {
+      "word": "you?",
+      "start": 252.422,
+      "end": 252.602,
+      "score": 0.854
+    },
+    {
+      "word": "Just",
+      "start": 261.482,
+      "end": 261.622,
+      "score": 0.347
+    },
+    {
+      "word": "like",
+      "start": 261.662,
+      "end": 261.822,
+      "score": 0.8
+    },
+    {
+      "word": "that,",
+      "start": 261.882,
+      "end": 262.082,
+      "score": 0.839
+    },
+    {
+      "word": "I",
+      "start": 262.102,
+      "end": 262.162,
+      "score": 0.318
+    },
+    {
+      "word": "wanna",
+      "start": 262.202,
+      "end": 262.383,
+      "score": 0.681
+    },
+    {
+      "word": "see",
+      "start": 262.423,
+      "end": 262.563,
+      "score": 0.828
+    },
+    {
+      "word": "you",
+      "start": 262.583,
+      "end": 262.683,
+      "score": 0.734
+    },
+    {
+      "word": "do",
+      "start": 262.723,
+      "end": 262.843,
+      "score": 0.804
+    },
+    {
+      "word": "it.",
+      "start": 262.923,
+      "end": 262.983,
+      "score": 0.986
+    },
+    {
+      "word": "I",
+      "start": 263.663,
+      "end": 263.703,
+      "score": 0.809
+    },
+    {
+      "word": "wanna",
+      "start": 263.723,
+      "end": 263.943,
+      "score": 0.5
+    },
+    {
+      "word": "see",
+      "start": 263.983,
+      "end": 264.043,
+      "score": 0.226
+    },
+    {
+      "word": "you",
+      "start": 264.083,
+      "end": 264.204,
+      "score": 0.395
+    },
+    {
+      "word": "do",
+      "start": 264.244,
+      "end": 264.304,
+      "score": 0.306
+    },
+    {
+      "word": "it.",
+      "start": 264.364,
+      "end": 264.444,
+      "score": 0.454
+    },
+    {
+      "word": "I",
+      "start": 266.825,
+      "end": 266.905,
+      "score": 0.934
+    },
+    {
+      "word": "see",
+      "start": 266.925,
+      "end": 267.105,
+      "score": 0.735
+    },
+    {
+      "word": "these",
+      "start": 267.145,
+      "end": 267.325,
+      "score": 0.649
+    },
+    {
+      "word": "tits,",
+      "start": 267.385,
+      "end": 267.685,
+      "score": 0.789
+    },
+    {
+      "word": "look",
+      "start": 267.705,
+      "end": 267.826,
+      "score": 0.464
+    },
+    {
+      "word": "at",
+      "start": 267.886,
+      "end": 267.986,
+      "score": 0.284
+    },
+    {
+      "word": "my",
+      "start": 268.006,
+      "end": 268.126,
+      "score": 0.846
+    },
+    {
+      "word": "tits.",
+      "start": 268.186,
+      "end": 268.506,
+      "score": 0.857
+    },
+    {
+      "word": "Look",
+      "start": 269.266,
+      "end": 269.386,
+      "score": 0.313
+    },
+    {
+      "word": "at",
+      "start": 269.406,
+      "end": 269.466,
+      "score": 0.215
+    },
+    {
+      "word": "my",
+      "start": 269.486,
+      "end": 269.606,
+      "score": 0.894
+    },
+    {
+      "word": "tits",
+      "start": 269.687,
+      "end": 269.907,
+      "score": 0.652
+    },
+    {
+      "word": "while",
+      "start": 269.927,
+      "end": 270.067,
+      "score": 0.222
+    },
+    {
+      "word": "I",
+      "start": 270.087,
+      "end": 270.207,
+      "score": 0.573
+    },
+    {
+      "word": "do",
+      "start": 270.227,
+      "end": 270.387,
+      "score": 0.638
+    },
+    {
+      "word": "this.",
+      "start": 270.407,
+      "end": 270.627,
+      "score": 0.821
+    },
+    {
+      "word": "While",
+      "start": 271.347,
+      "end": 271.508,
+      "score": 0.412
+    },
+    {
+      "word": "I",
+      "start": 271.528,
+      "end": 271.588,
+      "score": 0.602
+    },
+    {
+      "word": "rub",
+      "start": 271.648,
+      "end": 271.788,
+      "score": 0.634
+    },
+    {
+      "word": "your",
+      "start": 271.828,
+      "end": 271.968,
+      "score": 0.912
+    },
+    {
+      "word": "balls.",
+      "start": 271.988,
+      "end": 272.348,
+      "score": 0.81
+    },
+    {
+      "word": "That's",
+      "start": 276.11,
+      "end": 276.47,
+      "score": 0.813
+    },
+    {
+      "word": "right.",
+      "start": 276.57,
+      "end": 278.371,
+      "score": 0.736
+    },
+    {
+      "word": "You're",
+      "start": 280.092,
+      "end": 280.312,
+      "score": 0.35
+    },
+    {
+      "word": "such",
+      "start": 280.432,
+      "end": 280.693,
+      "score": 0.941
+    },
+    {
+      "word": "a",
+      "start": 280.713,
+      "end": 280.733,
+      "score": 0.789
+    },
+    {
+      "word": "bad",
+      "start": 280.813,
+      "end": 281.113,
+      "score": 0.839
+    },
+    {
+      "word": "boy.",
+      "start": 281.153,
+      "end": 281.493,
+      "score": 0.91
+    },
+    {
+      "word": "But",
+      "start": 282.173,
+      "end": 282.313,
+      "score": 0.272
+    },
+    {
+      "word": "you've",
+      "start": 282.353,
+      "end": 282.514,
+      "score": 0.803
+    },
+    {
+      "word": "always",
+      "start": 282.534,
+      "end": 282.754,
+      "score": 0.826
+    },
+    {
+      "word": "been",
+      "start": 282.774,
+      "end": 282.954,
+      "score": 0.782
+    },
+    {
+      "word": "my",
+      "start": 282.994,
+      "end": 283.134,
+      "score": 0.805
+    },
+    {
+      "word": "favorite.",
+      "start": 283.214,
+      "end": 283.654,
+      "score": 0.862
+    },
+    {
+      "word": "Just",
+      "start": 284.535,
+      "end": 284.695,
+      "score": 0.458
+    },
+    {
+      "word": "don't",
+      "start": 284.755,
+      "end": 284.935,
+      "score": 0.66
+    },
+    {
+      "word": "tell",
+      "start": 284.955,
+      "end": 285.095,
+      "score": 0.816
+    },
+    {
+      "word": "your",
+      "start": 285.115,
+      "end": 285.235,
+      "score": 0.865
+    },
+    {
+      "word": "brother",
+      "start": 285.275,
+      "end": 285.555,
+      "score": 0.848
+    },
+    {
+      "word": "or",
+      "start": 285.575,
+      "end": 285.615,
+      "score": 0.446
+    },
+    {
+      "word": "your",
+      "start": 285.655,
+      "end": 285.775,
+      "score": 0.866
+    },
+    {
+      "word": "father.",
+      "start": 285.815,
+      "end": 286.176,
+      "score": 0.849
+    },
+    {
+      "word": "I've",
+      "start": 288.257,
+      "end": 288.357,
+      "score": 0.783
+    },
+    {
+      "word": "always",
+      "start": 288.397,
+      "end": 288.617,
+      "score": 0.814
+    },
+    {
+      "word": "thought",
+      "start": 288.657,
+      "end": 288.837,
+      "score": 0.905
+    },
+    {
+      "word": "you",
+      "start": 288.877,
+      "end": 288.957,
+      "score": 0.902
+    },
+    {
+      "word": "were",
+      "start": 288.977,
+      "end": 289.097,
+      "score": 0.738
+    },
+    {
+      "word": "a",
+      "start": 289.117,
+      "end": 289.137,
+      "score": 0.942
+    },
+    {
+      "word": "very",
+      "start": 289.177,
+      "end": 289.377,
+      "score": 0.779
+    },
+    {
+      "word": "handsome",
+      "start": 289.457,
+      "end": 289.858,
+      "score": 0.871
+    },
+    {
+      "word": "young",
+      "start": 289.898,
+      "end": 290.078,
+      "score": 0.799
+    },
+    {
+      "word": "man.",
+      "start": 290.118,
+      "end": 290.318,
+      "score": 0.999
+    },
+    {
+      "word": "I",
+      "start": 295.173,
+      "end": 295.234,
+      "score": 0.708
+    },
+    {
+      "word": "can",
+      "start": 295.254,
+      "end": 295.414,
+      "score": 0.377
+    },
+    {
+      "word": "tell",
+      "start": 295.434,
+      "end": 295.594,
+      "score": 0.752
+    },
+    {
+      "word": "the",
+      "start": 295.634,
+      "end": 295.714,
+      "score": 0.843
+    },
+    {
+      "word": "way",
+      "start": 295.734,
+      "end": 295.834,
+      "score": 0.851
+    },
+    {
+      "word": "you've",
+      "start": 295.854,
+      "end": 296.034,
+      "score": 0.916
+    },
+    {
+      "word": "been",
+      "start": 296.074,
+      "end": 296.194,
+      "score": 0.997
+    },
+    {
+      "word": "looking",
+      "start": 296.214,
+      "end": 296.474,
+      "score": 0.824
+    },
+    {
+      "word": "at",
+      "start": 296.514,
+      "end": 296.574,
+      "score": 0.748
+    },
+    {
+      "word": "my",
+      "start": 296.594,
+      "end": 296.734,
+      "score": 0.873
+    },
+    {
+      "word": "tits",
+      "start": 296.774,
+      "end": 297.094,
+      "score": 0.865
+    },
+    {
+      "word": "that",
+      "start": 297.995,
+      "end": 298.175,
+      "score": 0.352
+    },
+    {
+      "word": "you",
+      "start": 298.195,
+      "end": 298.355,
+      "score": 0.712
+    },
+    {
+      "word": "think",
+      "start": 298.375,
+      "end": 298.555,
+      "score": 0.613
+    },
+    {
+      "word": "I'm",
+      "start": 298.595,
+      "end": 298.735,
+      "score": 0.843
+    },
+    {
+      "word": "kind",
+      "start": 298.775,
+      "end": 298.935,
+      "score": 0.35
+    },
+    {
+      "word": "of",
+      "start": 298.955,
+      "end": 298.995,
+      "score": 0.0
+    },
+    {
+      "word": "hot",
+      "start": 299.035,
+      "end": 299.216,
+      "score": 0.796
+    },
+    {
+      "word": "too,",
+      "start": 299.256,
+      "end": 299.476,
+      "score": 0.908
+    },
+    {
+      "word": "don't",
+      "start": 299.536,
+      "end": 299.736,
+      "score": 0.757
+    },
+    {
+      "word": "you?",
+      "start": 299.776,
+      "end": 299.936,
+      "score": 0.924
+    },
+    {
+      "word": "Well,",
+      "start": 302.997,
+      "end": 303.177,
+      "score": 0.811
+    },
+    {
+      "word": "for",
+      "start": 303.218,
+      "end": 303.358,
+      "score": 0.692
+    },
+    {
+      "word": "a",
+      "start": 303.378,
+      "end": 303.398,
+      "score": 0.183
+    },
+    {
+      "word": "woman",
+      "start": 303.438,
+      "end": 303.678,
+      "score": 0.854
+    },
+    {
+      "word": "my",
+      "start": 303.738,
+      "end": 303.878,
+      "score": 0.871
+    },
+    {
+      "word": "age,",
+      "start": 303.938,
+      "end": 304.118,
+      "score": 0.828
+    },
+    {
+      "word": "that's",
+      "start": 304.138,
+      "end": 304.318,
+      "score": 0.722
+    },
+    {
+      "word": "a",
+      "start": 304.338,
+      "end": 304.358,
+      "score": 0.991
+    },
+    {
+      "word": "compliment.",
+      "start": 304.438,
+      "end": 304.978,
+      "score": 0.947
+    },
+    {
+      "word": "Oh,",
+      "start": 304.998,
+      "end": 310.241,
+      "score": 0.819
+    },
+    {
+      "word": "I",
+      "start": 310.301,
+      "end": 310.361,
+      "score": 0.942
+    },
+    {
+      "word": "know",
+      "start": 310.401,
+      "end": 310.561,
+      "score": 0.822
+    },
+    {
+      "word": "you",
+      "start": 310.581,
+      "end": 310.761,
+      "score": 0.869
+    },
+    {
+      "word": "like",
+      "start": 310.781,
+      "end": 311.041,
+      "score": 0.79
+    },
+    {
+      "word": "it.",
+      "start": 311.081,
+      "end": 311.141,
+      "score": 0.986
+    },
+    {
+      "word": "But",
+      "start": 313.042,
+      "end": 313.163,
+      "score": 0.853
+    },
+    {
+      "word": "you",
+      "start": 313.183,
+      "end": 313.283,
+      "score": 0.841
+    },
+    {
+      "word": "can't",
+      "start": 313.303,
+      "end": 313.503,
+      "score": 0.867
+    },
+    {
+      "word": "get",
+      "start": 313.543,
+      "end": 313.683,
+      "score": 0.799
+    },
+    {
+      "word": "a",
+      "start": 313.723,
+      "end": 313.763,
+      "score": 0.5
+    },
+    {
+      "word": "handjob",
+      "start": 313.823,
+      "end": 314.203,
+      "score": 0.713
+    },
+    {
+      "word": "like",
+      "start": 314.243,
+      "end": 314.383,
+      "score": 0.827
+    },
+    {
+      "word": "this",
+      "start": 314.423,
+      "end": 314.563,
+      "score": 0.924
+    },
+    {
+      "word": "from",
+      "start": 314.583,
+      "end": 314.723,
+      "score": 0.577
+    },
+    {
+      "word": "the",
+      "start": 314.743,
+      "end": 314.803,
+      "score": 0.9
+    },
+    {
+      "word": "girls",
+      "start": 314.843,
+      "end": 315.083,
+      "score": 0.812
+    },
+    {
+      "word": "at",
+      "start": 315.123,
+      "end": 315.184,
+      "score": 0.752
+    },
+    {
+      "word": "your",
+      "start": 315.204,
+      "end": 315.344,
+      "score": 0.969
+    },
+    {
+      "word": "school,",
+      "start": 315.384,
+      "end": 315.664,
+      "score": 0.868
+    },
+    {
+      "word": "could",
+      "start": 315.704,
+      "end": 315.904,
+      "score": 0.687
+    },
+    {
+      "word": "you?",
+      "start": 315.944,
+      "end": 316.124,
+      "score": 0.901
+    },
+    {
+      "word": "There's",
+      "start": 319.694,
+      "end": 319.834,
+      "score": 0.016
+    },
+    {
+      "word": "something",
+      "start": 319.854,
+      "end": 320.094,
+      "score": 0.839
+    },
+    {
+      "word": "to",
+      "start": 320.114,
+      "end": 320.174,
+      "score": 0.708
+    },
+    {
+      "word": "be",
+      "start": 320.214,
+      "end": 320.295,
+      "score": 0.794
+    },
+    {
+      "word": "said",
+      "start": 320.335,
+      "end": 320.515,
+      "score": 0.882
+    },
+    {
+      "word": "for",
+      "start": 320.555,
+      "end": 320.695,
+      "score": 0.795
+    },
+    {
+      "word": "age",
+      "start": 320.895,
+      "end": 321.095,
+      "score": 0.907
+    },
+    {
+      "word": "and",
+      "start": 322.677,
+      "end": 322.777,
+      "score": 0.402
+    },
+    {
+      "word": "experience.",
+      "start": 322.817,
+      "end": 323.577,
+      "score": 0.912
+    },
+    {
+      "word": "At",
+      "start": 324.638,
+      "end": 324.698,
+      "score": 0.792
+    },
+    {
+      "word": "least",
+      "start": 324.718,
+      "end": 324.878,
+      "score": 0.766
+    },
+    {
+      "word": "I",
+      "start": 324.938,
+      "end": 324.999,
+      "score": 0.697
+    },
+    {
+      "word": "can",
+      "start": 325.019,
+      "end": 325.139,
+      "score": 0.901
+    },
+    {
+      "word": "pass",
+      "start": 325.179,
+      "end": 325.459,
+      "score": 0.918
+    },
+    {
+      "word": "it",
+      "start": 325.499,
+      "end": 325.559,
+      "score": 0.907
+    },
+    {
+      "word": "along",
+      "start": 325.599,
+      "end": 325.879,
+      "score": 0.954
+    },
+    {
+      "word": "to",
+      "start": 325.899,
+      "end": 325.979,
+      "score": 0.724
+    },
+    {
+      "word": "you,",
+      "start": 325.999,
+      "end": 326.139,
+      "score": 0.937
+    },
+    {
+      "word": "huh?",
+      "start": 326.18,
+      "end": 326.38,
+      "score": 0.615
+    },
+    {
+      "word": "Oh,",
+      "start": 328.662,
+      "end": 328.782,
+      "score": 0.543
+    },
+    {
+      "word": "I",
+      "start": 328.922,
+      "end": 328.982,
+      "score": 0.695
+    },
+    {
+      "word": "know",
+      "start": 329.002,
+      "end": 329.142,
+      "score": 0.397
+    },
+    {
+      "word": "you",
+      "start": 329.162,
+      "end": 329.322,
+      "score": 0.828
+    },
+    {
+      "word": "like",
+      "start": 329.362,
+      "end": 329.562,
+      "score": 0.938
+    },
+    {
+      "word": "that.",
+      "start": 329.622,
+      "end": 329.823,
+      "score": 0.795
+    },
+    {
+      "word": "I'm",
+      "start": 331.464,
+      "end": 331.524,
+      "score": 0.229
+    },
+    {
+      "word": "gonna",
+      "start": 331.544,
+      "end": 331.724,
+      "score": 0.105
+    },
+    {
+      "word": "make",
+      "start": 331.744,
+      "end": 331.864,
+      "score": 0.802
+    },
+    {
+      "word": "you",
+      "start": 331.884,
+      "end": 332.004,
+      "score": 0.966
+    },
+    {
+      "word": "come,",
+      "start": 332.065,
+      "end": 332.305,
+      "score": 0.803
+    },
+    {
+      "word": "aren't",
+      "start": 332.365,
+      "end": 332.525,
+      "score": 0.817
+    },
+    {
+      "word": "I?",
+      "start": 332.545,
+      "end": 332.625,
+      "score": 0.662
+    },
+    {
+      "word": "That's",
+      "start": 333.926,
+      "end": 334.186,
+      "score": 0.726
+    },
+    {
+      "word": "right.",
+      "start": 334.266,
+      "end": 334.607,
+      "score": 0.556
+    },
+    {
+      "word": "Just",
+      "start": 335.507,
+      "end": 335.628,
+      "score": 0.592
+    },
+    {
+      "word": "like",
+      "start": 335.668,
+      "end": 335.868,
+      "score": 0.898
+    },
+    {
+      "word": "that.",
+      "start": 335.928,
+      "end": 336.108,
+      "score": 0.445
+    },
+    {
+      "word": "I",
+      "start": 336.789,
+      "end": 336.829,
+      "score": 0.799
+    },
+    {
+      "word": "want",
+      "start": 336.869,
+      "end": 336.989,
+      "score": 0.223
+    },
+    {
+      "word": "you",
+      "start": 337.029,
+      "end": 337.089,
+      "score": 0.177
+    },
+    {
+      "word": "to",
+      "start": 337.129,
+      "end": 337.169,
+      "score": 0.148
+    },
+    {
+      "word": "come",
+      "start": 337.209,
+      "end": 337.389,
+      "score": 0.772
+    },
+    {
+      "word": "all",
+      "start": 337.409,
+      "end": 337.509,
+      "score": 0.642
+    },
+    {
+      "word": "over",
+      "start": 337.529,
+      "end": 337.669,
+      "score": 0.659
+    },
+    {
+      "word": "my",
+      "start": 337.709,
+      "end": 337.849,
+      "score": 0.732
+    },
+    {
+      "word": "hand.",
+      "start": 337.889,
+      "end": 338.13,
+      "score": 0.861
+    },
+    {
+      "word": "Come",
+      "start": 339.09,
+      "end": 339.211,
+      "score": 0.87
+    },
+    {
+      "word": "all",
+      "start": 339.231,
+      "end": 339.291,
+      "score": 0.009
+    },
+    {
+      "word": "over",
+      "start": 339.311,
+      "end": 339.451,
+      "score": 0.557
+    },
+    {
+      "word": "my",
+      "start": 339.491,
+      "end": 339.551,
+      "score": 0.974
+    },
+    {
+      "word": "hand.",
+      "start": 339.571,
+      "end": 339.671,
+      "score": 0.026
+    },
+    {
+      "word": "Not",
+      "start": 342.138,
+      "end": 343.279,
+      "score": 0.656
+    },
+    {
+      "word": "yet.",
+      "start": 343.299,
+      "end": 343.599,
+      "score": 0.888
+    },
+    {
+      "word": "Not",
+      "start": 344.72,
+      "end": 344.98,
+      "score": 0.893
+    },
+    {
+      "word": "yet.",
+      "start": 345.0,
+      "end": 345.16,
+      "score": 0.706
+    },
+    {
+      "word": "I",
+      "start": 346.52,
+      "end": 346.62,
+      "score": 0.563
+    },
+    {
+      "word": "want",
+      "start": 346.64,
+      "end": 346.781,
+      "score": 0.3
+    },
+    {
+      "word": "you",
+      "start": 346.821,
+      "end": 346.921,
+      "score": 0.56
+    },
+    {
+      "word": "to",
+      "start": 346.941,
+      "end": 347.001,
+      "score": 0.21
+    },
+    {
+      "word": "be",
+      "start": 347.021,
+      "end": 347.121,
+      "score": 0.828
+    },
+    {
+      "word": "a",
+      "start": 347.141,
+      "end": 347.181,
+      "score": 0.488
+    },
+    {
+      "word": "little",
+      "start": 347.221,
+      "end": 347.481,
+      "score": 0.837
+    },
+    {
+      "word": "bit",
+      "start": 347.501,
+      "end": 347.661,
+      "score": 0.737
+    },
+    {
+      "word": "harder",
+      "start": 347.721,
+      "end": 348.041,
+      "score": 0.898
+    },
+    {
+      "word": "and",
+      "start": 348.081,
+      "end": 348.161,
+      "score": 0.807
+    },
+    {
+      "word": "a",
+      "start": 348.201,
+      "end": 348.221,
+      "score": 0.907
+    },
+    {
+      "word": "little",
+      "start": 348.261,
+      "end": 348.481,
+      "score": 0.833
+    },
+    {
+      "word": "bit",
+      "start": 348.521,
+      "end": 348.621,
+      "score": 0.481
+    },
+    {
+      "word": "more",
+      "start": 348.641,
+      "end": 348.821,
+      "score": 0.828
+    },
+    {
+      "word": "turned",
+      "start": 348.841,
+      "end": 349.102,
+      "score": 0.902
+    },
+    {
+      "word": "on.",
+      "start": 349.222,
+      "end": 349.362,
+      "score": 0.966
+    },
+    {
+      "word": "And",
+      "start": 349.662,
+      "end": 349.742,
+      "score": 0.528
+    },
+    {
+      "word": "I'll",
+      "start": 349.762,
+      "end": 349.942,
+      "score": 0.772
+    },
+    {
+      "word": "tell",
+      "start": 349.982,
+      "end": 350.182,
+      "score": 0.78
+    },
+    {
+      "word": "you",
+      "start": 350.262,
+      "end": 350.422,
+      "score": 0.909
+    },
+    {
+      "word": "when",
+      "start": 350.462,
+      "end": 350.622,
+      "score": 0.852
+    },
+    {
+      "word": "to",
+      "start": 350.662,
+      "end": 350.722,
+      "score": 0.874
+    },
+    {
+      "word": "come.",
+      "start": 350.782,
+      "end": 351.023,
+      "score": 0.853
+    },
+    {
+      "word": "How",
+      "start": 352.363,
+      "end": 352.463,
+      "score": 0.391
+    },
+    {
+      "word": "about",
+      "start": 352.483,
+      "end": 352.703,
+      "score": 0.921
+    },
+    {
+      "word": "that?",
+      "start": 352.783,
+      "end": 352.984,
+      "score": 0.86
+    },
+    {
+      "word": "Help",
+      "start": 355.125,
+      "end": 355.265,
+      "score": 0.891
+    },
+    {
+      "word": "me",
+      "start": 355.305,
+      "end": 355.385,
+      "score": 0.845
+    },
+    {
+      "word": "stroke",
+      "start": 355.425,
+      "end": 355.725,
+      "score": 0.87
+    },
+    {
+      "word": "it.",
+      "start": 355.785,
+      "end": 355.885,
+      "score": 0.82
+    },
+    {
+      "word": "Just",
+      "start": 357.146,
+      "end": 357.326,
+      "score": 0.61
+    },
+    {
+      "word": "like",
+      "start": 357.366,
+      "end": 357.526,
+      "score": 0.872
+    },
+    {
+      "word": "that.",
+      "start": 357.606,
+      "end": 357.746,
+      "score": 0.286
+    },
+    {
+      "word": "It's",
+      "start": 362.248,
+      "end": 362.388,
+      "score": 0.347
+    },
+    {
+      "word": "getting",
+      "start": 362.608,
+      "end": 362.808,
+      "score": 0.354
+    },
+    {
+      "word": "me",
+      "start": 362.828,
+      "end": 362.868,
+      "score": 0.0
+    },
+    {
+      "word": "pretty",
+      "start": 362.888,
+      "end": 363.128,
+      "score": 0.82
+    },
+    {
+      "word": "hot",
+      "start": 363.148,
+      "end": 363.389,
+      "score": 0.723
+    },
+    {
+      "word": "too.",
+      "start": 363.489,
+      "end": 363.749,
+      "score": 0.962
+    },
+    {
+      "word": "Oh",
+      "start": 365.149,
+      "end": 365.269,
+      "score": 0.871
+    },
+    {
+      "word": "yeah.",
+      "start": 365.309,
+      "end": 365.49,
+      "score": 0.567
+    },
+    {
+      "word": "Oh",
+      "start": 366.91,
+      "end": 366.99,
+      "score": 0.344
+    },
+    {
+      "word": "yeah.",
+      "start": 367.01,
+      "end": 367.15,
+      "score": 0.264
+    },
+    {
+      "word": "Just",
+      "start": 367.29,
+      "end": 367.41,
+      "score": 0.789
+    },
+    {
+      "word": "like",
+      "start": 367.43,
+      "end": 367.571,
+      "score": 0.745
+    },
+    {
+      "word": "that.",
+      "start": 367.611,
+      "end": 367.751,
+      "score": 0.995
+    },
+    {
+      "word": "You",
+      "start": 367.771,
+      "end": 367.911,
+      "score": 0.557
+    },
+    {
+      "word": "gonna",
+      "start": 367.951,
+      "end": 368.051,
+      "score": 0.045
+    },
+    {
+      "word": "come",
+      "start": 368.071,
+      "end": 368.211,
+      "score": 0.895
+    },
+    {
+      "word": "now?",
+      "start": 368.251,
+      "end": 368.431,
+      "score": 0.863
+    },
+    {
+      "word": "I",
+      "start": 368.451,
+      "end": 368.471,
+      "score": 0.0
+    },
+    {
+      "word": "want",
+      "start": 368.791,
+      "end": 368.911,
+      "score": 0.408
+    },
+    {
+      "word": "you",
+      "start": 368.931,
+      "end": 369.031,
+      "score": 0.515
+    },
+    {
+      "word": "to",
+      "start": 369.051,
+      "end": 369.111,
+      "score": 0.232
+    },
+    {
+      "word": "come",
+      "start": 369.151,
+      "end": 369.311,
+      "score": 0.907
+    },
+    {
+      "word": "now.",
+      "start": 369.371,
+      "end": 369.511,
+      "score": 0.94
+    },
+    {
+      "word": "Get",
+      "start": 370.072,
+      "end": 370.212,
+      "score": 0.383
+    },
+    {
+      "word": "ready",
+      "start": 370.232,
+      "end": 370.332,
+      "score": 0.107
+    },
+    {
+      "word": "to",
+      "start": 370.352,
+      "end": 370.392,
+      "score": 0.066
+    },
+    {
+      "word": "come.",
+      "start": 370.412,
+      "end": 370.512,
+      "score": 0.308
+    },
+    {
+      "word": "Wow.",
+      "start": 375.77,
+      "end": 376.191,
+      "score": 0.72
+    },
+    {
+      "word": "Alright.",
+      "start": 377.371,
+      "end": 390.555,
+      "score": 0.423
+    },
+    {
+      "word": "Now.",
+      "start": 391.276,
+      "end": 391.496,
+      "score": 0.948
+    },
+    {
+      "word": "Be",
+      "start": 392.736,
+      "end": 392.856,
+      "score": 0.716
+    },
+    {
+      "word": "a",
+      "start": 392.876,
+      "end": 392.936,
+      "score": 0.677
+    },
+    {
+      "word": "good",
+      "start": 392.956,
+      "end": 393.096,
+      "score": 0.919
+    },
+    {
+      "word": "boy.",
+      "start": 393.136,
+      "end": 393.356,
+      "score": 0.982
+    },
+    {
+      "word": "Go",
+      "start": 393.376,
+      "end": 393.416,
+      "score": 0.0
+    },
+    {
+      "word": "to",
+      "start": 395.017,
+      "end": 395.177,
+      "score": 0.748
+    },
+    {
+      "word": "sleep.",
+      "start": 395.197,
+      "end": 395.457,
+      "score": 0.555
+    }
+  ]
+}
