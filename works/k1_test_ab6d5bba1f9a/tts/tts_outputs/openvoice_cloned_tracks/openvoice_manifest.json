@@ -1,0 +1,12 @@
+{
+  "SPEAKER_01": {
+    "source_track": "tts_outputs/tts_speaker_tracks/SPEAKER_01.wav",
+    "cloned_track": "tts_outputs/openvoice_cloned_tracks/SPEAKER_01.wav",
+    "clone_mode": "openvoice_v2_tone_color"
+  },
+  "SPEAKER_00": {
+    "source_track": "tts_outputs/tts_speaker_tracks/SPEAKER_00.wav",
+    "cloned_track": "tts_outputs/openvoice_cloned_tracks/SPEAKER_00.wav",
+    "clone_mode": "openvoice_v2_tone_color"
+  }
+}
